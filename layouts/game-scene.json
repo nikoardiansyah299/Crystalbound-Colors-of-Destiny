@@ -21,13 +21,19 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36732575450588756,
+    "zoomFactor": 0.41943397827591233,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [
+    {
+      "name": "CoinCount",
+      "persistentUuid": "7a444d57-267e-4fb4-993a-ac91f6c5751c",
+      "type": "number",
+      "value": 0
+    },
     {
       "name": "InventoryOpen",
       "persistentUuid": "a920d224-5b73-486a-afcc-3b3d5b8e747d",
@@ -453,12 +459,12 @@
       "height": 40,
       "keepRatio": true,
       "layer": "UI",
-      "name": "NewText",
+      "name": "coin_text",
       "persistentUuid": "56567e0e-d3e0-4ddb-a3df-eee8db987ae0",
-      "width": 642,
-      "x": 1239,
-      "y": 45,
-      "zOrder": 122,
+      "width": 300,
+      "x": 357,
+      "y": 687,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -912,48 +918,6 @@
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Coins",
-      "persistentUuid": "039c827f-a216-4ae1-966c-af24e56a91ca",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\StartingCoin.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "height": 64,
@@ -3871,7 +3835,13 @@
       "persistentUuid": "3ac8606f-5e64-41c1-9c46-46445f86f69e",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CoinsDropped",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -4910,7 +4880,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "coin_text",
       "persistentUuid": "20412f23-0ce3-4046-b86c-5bc8188eb708",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -4929,14 +4899,14 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "Monster tersisa: ",
+      "string": "0",
       "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 35,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -4952,13 +4922,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Monster tersisa: ",
+        "text": "0",
         "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 35,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -5318,7 +5288,14 @@
       "preScale": 0.8,
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "WasGrounded",
+          "persistentUuid": "51ef8d0c-5dff-4d35-b485-80b13a6d8038",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -5362,6 +5339,30 @@
           "PercentDamageReduction": 0
         },
         {
+          "name": "HorizontalDash",
+          "type": "AdvancedJump::HorizontalDash",
+          "PlatformerCharacter": "PlatformerObject",
+          "PlatformerConfigurationStack": "PlatformerConfigurationStack",
+          "DashInitialSpeed": 100000,
+          "DashSustainDurationMin": 0,
+          "DashSustainDurationMax": 0,
+          "DashSustainAcceleration": 3500,
+          "DashSustainSpeedMax": 750,
+          "DashSustainGravity": 0,
+          "DashDecceleration": 400,
+          "DashGravity": 1000,
+          "CoolDownDuration": 0.5,
+          "LastDirectionIsLeft": false,
+          "DashKeyIsPressed": false,
+          "IsSustainning": false,
+          "CanDash": true
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack",
+          "PlatformerCharacter": "PlatformerObject"
+        },
+        {
           "name": "PlatformerMultitouchMapper",
           "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper",
           "Property": "PlatformerObject",
@@ -5370,13 +5371,13 @@
           "JumpButton": "A"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 10000,
           "deceleration": 10000,
           "gravity": 1100,
           "jumpSpeed": 800,
           "maxSpeed": 500,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": false,
@@ -11640,6 +11641,932 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Dash_fw",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.03333333333333333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dash_fw17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump_air",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump_air8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -11828,6 +12755,176 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "2f5743e0604bd441a7870ba497288d1da62163fca32b09a05955437ad12e745b",
+      "name": "Coin",
+      "persistentUuid": "efc9a09e-49d8-484c-8f81-5fd595b64854",
+      "preScale": 3,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Spin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Coin_Spin_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Coin_Spin_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Coin_Spin_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Coin_Spin_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11850,9 +12947,6 @@
       },
       {
         "objectName": "area_1_start"
-      },
-      {
-        "objectName": "Coins"
       },
       {
         "objectName": "area_1"
@@ -11912,7 +13006,7 @@
         "objectName": "NewTileMap"
       },
       {
-        "objectName": "NewText"
+        "objectName": "coin_text"
       },
       {
         "objectName": "portal_blue"
@@ -11925,6 +13019,9 @@
       },
       {
         "objectName": "InventoryGem"
+      },
+      {
+        "objectName": "Coin"
       }
     ]
   },
@@ -11967,6 +13064,7 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M6KDMEPC97CP76HHK56BY5WH",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -11975,7 +13073,7 @@
           },
           "parameters": [
             "Player",
-            "Coins",
+            "Coin",
             "",
             "",
             ""
@@ -11988,8 +13086,18 @@
             "value": "Delete"
           },
           "parameters": [
-            "Coins",
+            "Coin",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CoinCount",
+            "+",
+            "1"
           ]
         },
         {
@@ -12020,7 +13128,38 @@
           "parameters": [
             "CoinPitch",
             "+",
-            "RandomWithStep(0.050,0.1,0.025)"
+            "RandomWithStep(0.050, 0.1, 0.025)"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M6KDMEPC97CP76HHK56BY5WH",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Coin",
+            "Platform_Ground",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetY"
+          },
+          "parameters": [
+            "Coin",
+            "+",
+            "300 * TimeDelta()"
           ]
         }
       ]
@@ -12038,7 +13177,7 @@
       "comment": "Player\n"
     },
     {
-      "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
+      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -12076,13 +13215,12 @@
         {
           "type": {
             "inverted": true,
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
+            "value": "AdvancedJump::HorizontalDash::IsDashing"
           },
           "parameters": [
             "Player",
-            "Animation",
-            "=",
-            "\"parry\""
+            "HorizontalDash",
+            ""
           ]
         }
       ],
@@ -12101,7 +13239,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
+      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -12167,13 +13305,12 @@
         {
           "type": {
             "inverted": true,
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
+            "value": "AdvancedJump::HorizontalDash::IsDashing"
           },
           "parameters": [
             "Player",
-            "Animation",
-            "=",
-            "\"parry\""
+            "HorizontalDash",
+            ""
           ]
         }
       ],
@@ -12212,7 +13349,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
+      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -12278,13 +13415,12 @@
         {
           "type": {
             "inverted": true,
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
+            "value": "AdvancedJump::HorizontalDash::IsDashing"
           },
           "parameters": [
             "Player",
-            "Animation",
-            "=",
-            "\"parry\""
+            "HorizontalDash",
+            ""
           ]
         }
       ],
@@ -12323,7 +13459,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
+      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -12376,18 +13512,6 @@
             "=",
             "\"hurt\""
           ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
-          },
-          "parameters": [
-            "Player",
-            "Animation",
-            "=",
-            "\"parry\""
-          ]
         }
       ],
       "actions": [
@@ -12400,22 +13524,73 @@
             "=",
             "0"
           ]
+        }
+      ],
+      "events": [
+        {
+          "aiGeneratedEventId": "01M6KGDKH4PTXKN9C1T67W2096",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "WasGrounded",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Jump\""
+              ]
+            }
+          ]
         },
         {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Player",
-            "Animation",
-            "=",
-            "\"Jump\""
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Jump_air\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Jump_air\""
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
+      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -12471,13 +13646,12 @@
         {
           "type": {
             "inverted": true,
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
+            "value": "AdvancedJump::HorizontalDash::IsDashing"
           },
           "parameters": [
             "Player",
-            "Animation",
-            "=",
-            "\"parry\""
+            "HorizontalDash",
+            ""
           ]
         }
       ],
@@ -12501,6 +13675,67 @@
             "Animation",
             "=",
             "\"Fall\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M6KGDKH4PTXKN9C1T67W2096",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "WasGrounded",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M6KGDKH4PTXKN9C1T67W2096",
+      "type": "BuiltinCommonInstructions::Else",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "WasGrounded",
+            "False",
+            ""
           ]
         }
       ]
@@ -12996,6 +14231,83 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AdvancedJump::HorizontalDash::IsDashing"
+          },
+          "parameters": [
+            "Player",
+            "HorizontalDash",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"Dash_fw\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "AttackStage",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"Dash_fw\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"LControl\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+          },
+          "parameters": [
+            "Player",
+            "HorizontalDash",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -13030,6 +14342,83 @@
           "parameters": [
             "",
             "\"scene 2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"hurt\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Player",
+            "-400",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"hurt\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Player",
+            "400",
+            "0",
             ""
           ]
         }
@@ -15458,6 +16847,7 @@
           ],
           "events": [
             {
+              "aiGeneratedEventId": "01M6KDSAHHC37TT6DEW5ZE08KR",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15469,9 +16859,31 @@
                     "Health",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "demon",
+                    "CoinsDropped",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "demon",
+                    "CoinsDropped",
+                    "True",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -15481,6 +16893,30 @@
                     "Animation",
                     "=",
                     "\"death\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin",
+                    "demon.CenterX() - 20",
+                    "demon.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin",
+                    "demon.CenterX() + 20",
+                    "demon.CenterY()",
+                    "\"\""
                   ]
                 },
                 {
@@ -15573,21 +17009,22 @@
             {
               "type": {
                 "inverted": true,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
                 "value": "Health::Health::IsDead"
               },
               "parameters": [
                 "Player",
                 "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AdvancedJump::HorizontalDash::IsDashing"
+              },
+              "parameters": [
+                "Player",
+                "HorizontalDash",
                 ""
               ]
             }
@@ -15921,7 +17358,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M611YNYEQFKSNA5M5TYWR3RN",
+          "aiGeneratedEventId": "01M6KDMEPC97CP76HHK56BY5WH",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -15930,10 +17367,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "NewText",
+                "coin_text",
                 "Text",
                 "=",
-                "\"Monster tersisa: \" + ToString(SceneInstancesCount(demon))"
+                "ToString(CoinCount)"
               ]
             }
           ]
@@ -16009,6 +17446,14 @@
           "parameters": [
             "inventory"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "coin_text"
+          ]
         }
       ]
     },
@@ -16081,6 +17526,15 @@
                 "value": "Show"
               },
               "parameters": [
+                "coin_text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
                 "InventoryGem",
                 ""
               ]
@@ -16105,6 +17559,14 @@
               },
               "parameters": [
                 "InventoryGem"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "coin_text"
               ]
             }
           ]
@@ -16439,12 +17901,20 @@
       "type": "Health::Health"
     },
     {
+      "name": "HorizontalDash",
+      "type": "AdvancedJump::HorizontalDash"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerConfigurationStack",
+      "type": "AdvancedJump::PlatformerConfigurationStack"
     },
     {
       "name": "PlatformerMultitouchMapper",

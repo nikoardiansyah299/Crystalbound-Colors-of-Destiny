@@ -9206,6 +9206,454 @@
         "name": "NewSprite169",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Coin_Spin_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/10fada695af0862038251b40fb46383d18fae68e691322855acf5e15531f15f2_Coin_Spin_1.png",
+          "name": "Coin_Spin_1.png"
+        }
+      },
+      {
+        "file": "assets/Coin_Spin_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/3493467ef85dbfec4b9f0e4d0ee81403e4c71b3152675ffc3b4ebe4c072783d8_Coin_Spin_2.png",
+          "name": "Coin_Spin_2.png"
+        }
+      },
+      {
+        "file": "assets/Coin_Spin_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/7a1ff0152c7987154a3b78b6bbc54dee4e388a001d6688940a9a0ac25f6d4d34_Coin_Spin_3.png",
+          "name": "Coin_Spin_3.png"
+        }
+      },
+      {
+        "file": "assets/Coin_Spin_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/2056d3977108825cc65a051a24cba4951a96e6077a0c8a24ce32b2d6b75719bf_Coin_Spin_4.png",
+          "name": "Coin_Spin_4.png"
+        }
+      },
+      {
+        "file": "assets/Player147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player147",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player148",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player149",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player150",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player151",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player152",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player153",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player154",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player155",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player156",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player157",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player158",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player159",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player160",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player161",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player162",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player163",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player164",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player165",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player166",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player167",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player168",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player169",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player171",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air8",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -9638,6 +10086,40 @@
         "await harness.takeScreenshot('bag full row wrap');",
         ""
       ]
+    },
+    {
+      "description": "Exactly 2 coins per demon",
+      "lastRunAt": 1793800868390,
+      "lastRunDurationMs": 878,
+      "lastRunFramesExecuted": 261,
+      "lastRunStatus": "passed",
+      "name": "Coin drop from demon",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(30);",
+        "const d = harness.getNearby('demon','Player', 100000)[0];",
+        "harness.assert(!!d, 'Found a demon');",
+        "const target = harness.getObjects('demon').find(o=>o.id===d.id);",
+        "const startDemons = harness.getObjects('demon').length;",
+        "harness.setObjectPosition(harness.getObjects('Player')[0].id, target.x, target.y);",
+        "await harness.stepFrames(5);",
+        "const coinsBefore = harness.getObjects('Coin').length;",
+        "for (let i=0;i<4;i++) { harness.setSceneVariable('AttackStage', 1); await harness.stepFrames(40); }",
+        "await harness.stepFrames(60);",
+        "const coinsAfter = harness.getObjects('Coin').length;",
+        "const dropped = coinsAfter - coinsBefore;",
+        "harness.assert(dropped === 2, 'Exactly 2 coins dropped, got '+dropped);",
+        "const coins = harness.getObjects('Coin');",
+        "if (coins.length>0) {",
+        "  const before = harness.getSceneVariable('CoinCount')?.value ?? 0;",
+        "  harness.setObjectPosition(harness.getObjects('Player')[0].id, coins[0].x, coins[0].y);",
+        "  await harness.stepFrames(5);",
+        "  const after = harness.getSceneVariable('CoinCount')?.value ?? 0;",
+        "  harness.assert(after === before+1, 'CoinCount +1: '+before+' -> '+after);",
+        "}",
+        ""
+      ]
     }
   ],
   "testsFolderStructure": {
@@ -9663,6 +10145,9 @@
       },
       {
         "itemName": "Gem icons fill inventory slots in a grid"
+      },
+      {
+        "itemName": "Coin drop from demon"
       }
     ]
   },
