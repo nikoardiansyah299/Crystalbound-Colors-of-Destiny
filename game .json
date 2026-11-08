@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 286,
+    "build": 287,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -9654,6 +9654,102 @@
         "name": "Jump_air8",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Slot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ui_Slot",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite171.png\"}",
+        "name": "NewSprite171",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite172",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite173",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Slot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ui_Slot2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Slot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Ui_Slot3.png\"}",
+        "name": "Ui_Slot3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite174",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite175",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite176",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -9977,8 +10073,8 @@
     },
     {
       "description": "Tab toggles the inventory; collected red gems are stored as icons inside the bag slots",
-      "lastRunAt": 1793721483914,
-      "lastRunDurationMs": 1045,
+      "lastRunAt": 1794112567438,
+      "lastRunDurationMs": 803,
       "lastRunFramesExecuted": 20,
       "lastRunStatus": "passed",
       "name": "Inventory opens with Tab and gems are stored",
@@ -10025,8 +10121,8 @@
     },
     {
       "description": "Collecting gems creates icons in the inventory slots, hidden while the bag is closed",
-      "lastRunAt": 1793721420817,
-      "lastRunDurationMs": 753,
+      "lastRunAt": 1794112570306,
+      "lastRunDurationMs": 710,
       "lastRunFramesExecuted": 19,
       "lastRunStatus": "passed",
       "name": "Gems appear as icons inside the inventory slots",
@@ -10089,8 +10185,8 @@
     },
     {
       "description": "Exactly 2 coins per demon",
-      "lastRunAt": 1793800868390,
-      "lastRunDurationMs": 878,
+      "lastRunAt": 1794112569172,
+      "lastRunDurationMs": 1137,
       "lastRunFramesExecuted": 261,
       "lastRunStatus": "passed",
       "name": "Coin drop from demon",

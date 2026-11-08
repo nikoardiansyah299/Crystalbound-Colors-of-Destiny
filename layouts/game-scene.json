@@ -21,13 +21,62 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827591233,
+    "zoomFactor": 0.7619362677197732,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [
+    {
+      "name": "PurpleCraftResult",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PurpleInDiss",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "RedDissResult",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "BlueDissResult",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "DissasembleReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "BlueInCraft",
+      "persistentUuid": "af276de5-b997-4e92-86fc-95aab18af0d1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "RedInCraft",
+      "persistentUuid": "8737aab2-4ec5-497d-8073-b29f5d5fdcf3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CraftResultReady",
+      "persistentUuid": "8bf7e66e-dc3e-4203-aedd-03a3e98595d8",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "BlueGemCount",
+      "persistentUuid": "d43c0aac-661e-45a6-976b-b4e7586350b3",
+      "type": "number",
+      "value": 0
+    },
     {
       "name": "CoinCount",
       "persistentUuid": "7a444d57-267e-4fb4-993a-ac91f6c5751c",
@@ -912,6 +961,510 @@
       "x": -557,
       "y": 785,
       "zOrder": 145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "3fb4dfcb-2b4a-4d1a-951e-3baaf066120d",
+      "width": 72,
+      "x": 442,
+      "y": 304,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "98bff6c6-31d3-4432-9cc4-796678df8160",
+      "width": 71,
+      "x": 274,
+      "y": 302,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "1ce4a78e-fffb-4919-87bb-eb100a3301b1",
+      "width": 69,
+      "x": 526,
+      "y": 304,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "7a1c0448-a6fe-45c1-995b-474ce160cc28",
+      "width": 69,
+      "x": 359,
+      "y": 303,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "dcacf037-71ce-420d-af26-03cb0e2db0b4",
+      "width": 71,
+      "x": 609,
+      "y": 304,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "ad58e6f9-842d-4054-9ddb-bd94fffce4cc",
+      "width": 71,
+      "x": 609,
+      "y": 393,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "5c2569dc-362e-4e49-a304-824f19ff769f",
+      "width": 69,
+      "x": 526,
+      "y": 393,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "35a5aef3-3845-4a05-8bc8-a3d27f8a49ae",
+      "width": 72,
+      "x": 442,
+      "y": 393,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "85dae155-9489-4e89-a36b-a04017caa1e6",
+      "width": 69,
+      "x": 359,
+      "y": 392,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "99f6394a-3f49-4fcd-bdea-801dccf412f8",
+      "width": 71,
+      "x": 274,
+      "y": 391,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "a1e1a953-2d88-4565-87d5-a4d44d422e4c",
+      "width": 71,
+      "x": 609,
+      "y": 483,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "fd602fb4-1dc6-47ce-9a20-388b0a369a0f",
+      "width": 69,
+      "x": 526,
+      "y": 483,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "e3813b6a-271f-453a-be4e-a7386109675b",
+      "width": 72,
+      "x": 442,
+      "y": 483,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "9a16d0b3-c1ee-4ed7-8d16-d58c271529bd",
+      "width": 69,
+      "x": 359,
+      "y": 482,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "11748935-e283-4522-aef4-77db57cede20",
+      "width": 71,
+      "x": 274,
+      "y": 481,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "54ff7e3e-1c16-4d1d-868d-e4e880fb4ea3",
+      "width": 71,
+      "x": 272,
+      "y": 573,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "1747610d-ba8e-42af-bbf2-4fdd0f9902b2",
+      "width": 69,
+      "x": 357,
+      "y": 574,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "e327bd74-a66c-49e0-bdff-7fd1ffe90ffc",
+      "width": 72,
+      "x": 440,
+      "y": 575,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "2036c57a-82f9-4b5f-a6d0-a7740c03b2c8",
+      "width": 69,
+      "x": 524,
+      "y": 575,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "e7be9cf4-fad9-4674-81a7-7f648a7b54bd",
+      "width": 71,
+      "x": 607,
+      "y": 575,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 590,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Craft",
+      "persistentUuid": "5210f600-b062-49a8-99fd-426888a3a424",
+      "width": 999,
+      "x": 992,
+      "y": 192,
+      "zOrder": 147,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot",
+      "persistentUuid": "9239597c-b315-41ad-a37f-a81d6226004a",
+      "width": 0,
+      "x": 1248,
+      "y": 1454,
+      "zOrder": 149,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 68,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot_Craft",
+      "persistentUuid": "ff33eb84-0919-45ae-b573-2a15cc3817e0",
+      "width": 67,
+      "x": 1370,
+      "y": 365,
+      "zOrder": 150,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 68,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot_Craft",
+      "persistentUuid": "b586a8c9-6467-4da0-88a9-73a9ba3d68ae",
+      "width": 67,
+      "x": 1213,
+      "y": 363,
+      "zOrder": 150,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot_Result",
+      "persistentUuid": "9ed92575-60e9-4f6a-9ae9-be9cfb1d92f4",
+      "width": 79,
+      "x": 1368,
+      "y": 642,
+      "zOrder": 151,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blue_gem",
+      "persistentUuid": "f661c254-ea89-443e-84b5-e9f6dc374718",
+      "width": 0,
+      "x": -721,
+      "y": 797,
+      "zOrder": 152,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blue_gem",
+      "persistentUuid": "774c787f-6800-410b-99a3-2f7f0c92afae",
+      "width": 0,
+      "x": 22,
+      "y": 782,
+      "zOrder": 153,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot_Dissasemble",
+      "persistentUuid": "38a8f1c9-50c1-43de-a2a5-c94c865eb99e",
+      "width": 0,
+      "x": 1593,
+      "y": 363,
+      "zOrder": 154,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot_Result_Dissasemble",
+      "persistentUuid": "82aee57e-24d9-4700-846d-4e8e417c43a9",
+      "width": 0,
+      "x": 1546,
+      "y": 650,
+      "zOrder": 155,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Ui_Slot_Result_Dissasemble",
+      "persistentUuid": "e3863bc4-2333-4e53-bf5a-eba061feee78",
+      "width": 0,
+      "x": 1670,
+      "y": 645,
+      "zOrder": 156,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -12701,12 +13254,31 @@
       "persistentUuid": "dc13cd4e-5681-4c61-a48a-c09f36589ab9",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "IsResult",
+          "persistentUuid": "ca645600-93fe-4e07-921c-a579c5fa0de4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "GemType",
+          "persistentUuid": "b79cd872-bf5d-4035-961c-9d5503ae43d1",
+          "type": "string",
+          "value": "red"
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "red",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -12717,6 +13289,102 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite169",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 19
+                      },
+                      {
+                        "x": 119,
+                        "y": 19
+                      },
+                      {
+                        "x": 119,
+                        "y": 135
+                      },
+                      {
+                        "x": 10,
+                        "y": 135
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blue",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "blue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 19
+                      },
+                      {
+                        "x": 119,
+                        "y": 19
+                      },
+                      {
+                        "x": 119,
+                        "y": 135
+                      },
+                      {
+                        "x": 10,
+                        "y": 135
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "purple.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12925,6 +13593,445 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ui_Slot",
+      "persistentUuid": "48e3baa3-0604-4ff9-bec3-b392964baf9d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ui_Slot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Ui_Slot3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Craft",
+      "persistentUuid": "096293a0-6021-44ad-994c-15f7f8ad0764",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite176",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 272,
+                        "y": 16
+                      },
+                      {
+                        "x": 1352,
+                        "y": 16
+                      },
+                      {
+                        "x": 1352,
+                        "y": 952
+                      },
+                      {
+                        "x": 272,
+                        "y": 952
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ui_Slot_Craft",
+      "persistentUuid": "381b5d13-6fa6-44b9-9b9c-4732c85d33fd",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ui_Slot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Ui_Slot3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ui_Slot_Result",
+      "persistentUuid": "a9324a10-a39d-408e-a61a-174e3884fd38",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ui_Slot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Ui_Slot3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "blue_gem",
+      "persistentUuid": "c2c5215b-4872-4174-be0b-9c83ed18eb5c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite174",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 13
+                      },
+                      {
+                        "x": 114,
+                        "y": 13
+                      },
+                      {
+                        "x": 114,
+                        "y": 130
+                      },
+                      {
+                        "x": 9,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "purple_gem",
+      "persistentUuid": "c2ce26ff-8a77-42fe-bd85-a47079884edf",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite175",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 115,
+                        "y": 13
+                      },
+                      {
+                        "x": 115,
+                        "y": 124
+                      },
+                      {
+                        "x": 12,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ui_Slot_Dissasemble",
+      "persistentUuid": "d2032bec-027e-4e3c-9684-a76f6c306468",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ui_Slot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Ui_Slot3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ui_Slot_Result_Dissasemble",
+      "persistentUuid": "64b93a00-4b40-460a-9ea0-4ffc6a5ce183",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ui_Slot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Ui_Slot3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13022,6 +14129,30 @@
       },
       {
         "objectName": "Coin"
+      },
+      {
+        "objectName": "Ui_Slot"
+      },
+      {
+        "objectName": "Ui_Slot_Craft"
+      },
+      {
+        "objectName": "Ui_Slot_Result"
+      },
+      {
+        "objectName": "Ui_Slot_Dissasemble"
+      },
+      {
+        "objectName": "Ui_Slot_Result_Dissasemble"
+      },
+      {
+        "objectName": "Craft"
+      },
+      {
+        "objectName": "blue_gem"
+      },
+      {
+        "objectName": "purple_gem"
       }
     ]
   },
@@ -17195,66 +18326,6 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "Player",
-                "Animation",
-                "=",
-                "\"parry\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-              },
-              "parameters": [
-                "Player",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Health::Health::IsDead"
-              },
-              "parameters": [
-                "Player",
-                "Health",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "AttackStage",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Player",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -17454,6 +18525,14 @@
           "parameters": [
             "coin_text"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Craft"
+          ]
         }
       ]
     },
@@ -17538,6 +18617,15 @@
                 "InventoryGem",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Craft",
+                ""
+              ]
             }
           ]
         },
@@ -17568,6 +18656,14 @@
               "parameters": [
                 "coin_text"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Craft"
+              ]
             }
           ]
         }
@@ -17587,7 +18683,7 @@
       "comment": "Red gems are collected on contact and stored in the inventory."
     },
     {
-      "aiGeneratedEventId": "01M6H23G901Z0N5PN103W6BP2Q",
+      "aiGeneratedEventId": "01M6WPSHPTR84P3GMJWJ8QVXVF",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -17640,9 +18736,19 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
+            "SlotIndex",
+            "=",
+            "RedGemCount + BlueGemCount - 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
             "SlotColumn",
             "=",
-            "(RedGemCount - 1) - floor((RedGemCount - 1) / 6) * 6"
+            "SlotIndex - floor(SlotIndex / 6) * 6"
           ]
         },
         {
@@ -17652,7 +18758,7 @@
           "parameters": [
             "SlotRow",
             "=",
-            "floor((RedGemCount - 1) / 6)"
+            "floor(SlotIndex / 6)"
           ]
         },
         {
@@ -17665,6 +18771,28 @@
             "0",
             "0",
             "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "InventoryGem",
+            "GemType",
+            "=",
+            "\"red\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "InventoryGem",
+            "IsResult",
+            "False",
+            ""
           ]
         },
         {
@@ -17748,8 +18876,2071 @@
           "name": "SlotRow",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "SlotIndex",
+          "type": "number",
+          "value": 0
         }
       ]
+    },
+    {
+      "aiGeneratedEventId": "01M6WPV3ZEJ9QV74S1K6QVTE9D",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "blue_gem",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "blue_gem",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "BlueGemCount",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/CoinPickUp.wav",
+            "",
+            "80",
+            "1.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SlotIndex",
+            "=",
+            "RedGemCount + BlueGemCount - 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SlotColumn",
+            "=",
+            "SlotIndex - floor(SlotIndex / 6) * 6"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SlotRow",
+            "=",
+            "floor(SlotIndex / 6)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "InventoryGem",
+            "0",
+            "0",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "InventoryGem",
+            "GemType",
+            "=",
+            "\"blue\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "InventoryGem",
+            "IsResult",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "InventoryGem",
+            "Animation",
+            "=",
+            "\"blue\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeWidth"
+          },
+          "parameters": [
+            "InventoryGem",
+            "=",
+            "54"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeHeight"
+          },
+          "parameters": [
+            "InventoryGem",
+            "=",
+            "64"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "InventoryGem",
+            "=",
+            "306 + SlotColumn * 85",
+            "=",
+            "333 + SlotRow * 75"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "InventoryGem",
+            "=",
+            "200"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "InventoryOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "InventoryGem"
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "SlotColumn",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SlotRow",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SlotIndex",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M6WPV3ZEJ9QV74S1K6QVTE9D",
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Inventory drag and drop",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "InventoryOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "=",
+                    "300"
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M6X8X8Y7KWN13BZ2QTBH5NFD",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "InventoryGem",
+                        "IsResult",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "Ui_Slot_Result",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "Ui_Slot_Result.CenterX()",
+                            "=",
+                            "Ui_Slot_Result.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "200"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "Ui_Slot_Result_Dissasemble",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Ui_Slot_Result_Dissasemble",
+                            "InventoryGem.CenterX()",
+                            "InventoryGem.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "Ui_Slot_Result_Dissasemble.CenterX()",
+                            "=",
+                            "Ui_Slot_Result_Dissasemble.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "200"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "aiGeneratedEventId": "01M6XES6JQKDNF9D19A1CGEE1T",
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "200"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "IsResult",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "InventoryGem",
+                                "Ui_Slot",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Ui_Slot",
+                                "InventoryGem.CenterX()",
+                                "InventoryGem.CenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "InventoryGem",
+                                "=",
+                                "Ui_Slot.CenterX()",
+                                "=",
+                                "Ui_Slot.CenterY()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "Ui_Slot_Craft",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Ui_Slot_Craft",
+                            "InventoryGem.CenterX()",
+                            "InventoryGem.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "Ui_Slot_Craft.CenterX()",
+                            "=",
+                            "Ui_Slot_Craft.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "200"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "Ui_Slot_Dissasemble",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Ui_Slot_Dissasemble",
+                            "InventoryGem.CenterX()",
+                            "InventoryGem.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "Ui_Slot_Dissasemble.CenterX()",
+                            "=",
+                            "Ui_Slot_Dissasemble.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "200"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Ui_Slot",
+                            "InventoryGem.CenterX()",
+                            "InventoryGem.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "Ui_Slot.CenterX()",
+                            "=",
+                            "Ui_Slot.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            "=",
+                            "200"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "InventoryOpen",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Draggable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "InventoryOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Draggable",
+                "yes"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "aiGeneratedEventId": "01M6XES6JQKDNF9D19A1CGEE1T",
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Crafting",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedInCraft",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueInCraft",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PurpleCraftResult",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "InventoryGem",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"red\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Ui_Slot_Craft",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedInCraft",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "InventoryGem",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"blue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Ui_Slot_Craft",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueInCraft",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "InventoryGem",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"purple\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Ui_Slot_Result",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PurpleCraftResult",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RedInCraft",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BlueInCraft",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "CraftResultReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"purple\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Animation",
+                "=",
+                "\"purple\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "Ui_Slot_Result.CenterX()",
+                "=",
+                "Ui_Slot_Result.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "CraftResultReady",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "InventoryOpen",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "InventoryGem"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "CraftResultReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RedInCraft",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BlueInCraft",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Result",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "CraftResultReady",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "CraftResultReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PurpleCraftResult",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "GemType",
+                    "=",
+                    "\"red\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Craft",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "GemType",
+                    "=",
+                    "\"blue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Craft",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "CraftResultReady",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "aiGeneratedEventId": "01M6X93D8NVC73VKVA3YZSHRZD",
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Disassemble",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueDissResult",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedDissResult",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PurpleInDiss",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "InventoryGem",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"blue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Ui_Slot_Result_Dissasemble",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueDissResult",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "InventoryGem",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"red\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Ui_Slot_Result_Dissasemble",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedDissResult",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "InventoryGem",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"purple\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Ui_Slot_Dissasemble",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PurpleInDiss",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PurpleInDiss",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DissasembleReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BlueDissResult",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Ui_Slot_Result_Dissasemble",
+                "1546",
+                "650"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "Ui_Slot_Result_Dissasemble.CenterX()",
+                "Ui_Slot_Result_Dissasemble.CenterY()",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"blue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Animation",
+                "=",
+                "\"blue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "Ui_Slot_Result_Dissasemble.CenterX()",
+                "=",
+                "Ui_Slot_Result_Dissasemble.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PurpleInDiss",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DissasembleReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RedDissResult",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Ui_Slot_Result_Dissasemble",
+                "1670",
+                "645"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "Ui_Slot_Result_Dissasemble.CenterX()",
+                "Ui_Slot_Result_Dissasemble.CenterY()",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"red\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Animation",
+                "=",
+                "\"red\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "Ui_Slot_Result_Dissasemble.CenterX()",
+                "=",
+                "Ui_Slot_Result_Dissasemble.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PurpleInDiss",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DissasembleReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BlueDissResult",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RedDissResult",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "DissasembleReady",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DissasembleReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BlueDissResult",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RedDissResult",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "GemType",
+                    "=",
+                    "\"purple\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Dissasemble",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Result_Dissasemble",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DissasembleReady",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DissasembleReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PurpleInDiss",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "IsResult",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Result_Dissasemble",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DissasembleReady",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
