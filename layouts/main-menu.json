@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30887412163426503,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,7 +30,7 @@
   "variables": [
     {
       "name": "MenuLocked",
-      "persistentUuid": "81f17d1a-8fc1-4aa5-b0c8-859ab8c47bcf",
+      "persistentUuid": "9d459a3e-e736-4522-8c6a-7440ee512b2c",
       "type": "boolean",
       "value": false
     }
@@ -40,12 +40,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1081,
+      "height": 1098,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "3b14ad4f-e29e-4c43-85f2-3f3eabf7df52",
-      "width": 1919,
+      "width": 1927,
       "x": -4,
       "y": -6,
       "zOrder": 1,
@@ -56,63 +56,64 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 90,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MenuPlay",
-      "persistentUuid": "0b893f12-4b1a-4128-b393-ef07e61089b0",
-      "width": 500,
-      "x": 710,
-      "y": 650,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 90,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MenuCredits",
-      "persistentUuid": "9509a12c-0dda-4d36-aec9-7102e276137e",
-      "width": 500,
-      "x": 710,
-      "y": 750,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 90,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MenuExit",
-      "persistentUuid": "7816762b-01b0-437f-b63d-3bfb24d528bb",
-      "width": 500,
-      "x": 710,
-      "y": 850,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1080,
+      "depth": 1,
+      "height": 1086,
       "keepRatio": true,
       "layer": "",
       "name": "Fade",
-      "persistentUuid": "f83b5571-23a4-41cb-8cb3-0b967420c75d",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 100,
+      "persistentUuid": "a4e7a2f5-33f1-4456-abe8-6034608481b8",
+      "width": 1930,
+      "x": -7,
+      "y": 1,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuPlay",
+      "persistentUuid": "08ed226b-019a-4c96-92a3-e1f77ceb6ecc",
+      "width": 0,
+      "x": 880,
+      "y": 688,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuCredits",
+      "persistentUuid": "3171bf34-0c6c-4bae-b7d2-c0b5530f7a27",
+      "width": 0,
+      "x": 814,
+      "y": 787,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuExit",
+      "persistentUuid": "94ad890d-8f52-4ff5-aa1d-48dbb90cdf5a",
+      "width": 0,
+      "x": 775,
+      "y": 875,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -256,7 +257,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "33454e7ebbe51f44913847d92c10e31219f1972174a74ae1d54d4662eb109d33",
       "name": "Fade",
-      "persistentUuid": "912442a5-dcf7-41fd-85a4-4b4a4fb3ba74",
+      "persistentUuid": "118353b2-b1c6-4bca-8501-871a5aa785b3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -269,16 +270,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "pixel-black",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "pixel-black.png",
+                  "image": "pixel-black",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -298,16 +300,16 @@
                         "y": 0
                       },
                       {
-                        "x": 4,
+                        "x": 400,
                         "y": 0
                       },
                       {
-                        "x": 4,
-                        "y": 4
+                        "x": 400,
+                        "y": 400
                       },
                       {
                         "x": 0,
-                        "y": 4
+                        "y": 400
                       }
                     ]
                   ]
@@ -323,7 +325,7 @@
       "bold": true,
       "italic": false,
       "name": "MenuPlay",
-      "persistentUuid": "7151d367-ac1c-437c-907e-085c402c626f",
+      "persistentUuid": "f44c5477-a6ff-434a-8e60-d5fde19dc57d",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -367,7 +369,7 @@
       "bold": true,
       "italic": false,
       "name": "MenuCredits",
-      "persistentUuid": "0f45b704-3204-47f9-99e7-c18b69c63a46",
+      "persistentUuid": "2c7ef4f6-2edd-4612-a0d1-cd94cc0182c5",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -411,7 +413,7 @@
       "bold": true,
       "italic": false,
       "name": "MenuExit",
-      "persistentUuid": "872cc1b5-c960-4387-83b7-cf44e27315fc",
+      "persistentUuid": "8e2d6002-07b3-4bb9-b407-e0dcf341e3d8",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -961,6 +963,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

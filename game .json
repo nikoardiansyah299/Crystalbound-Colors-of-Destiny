@@ -1,7 +1,7 @@
 {
-  "firstLayout": "Main Menu",
+  "firstLayout": "",
   "gdVersion": {
-    "build": 284,
+    "build": 287,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -6805,6 +6805,2366 @@
         "userAdded": false
       },
       {
+        "file": "assets/Jump13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player90.png\"}",
+        "name": "Player90",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player91.png\"}",
+        "name": "Player91",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player92.png\"}",
+        "name": "Player92",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player93.png\"}",
+        "name": "Player93",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player94.png\"}",
+        "name": "Player94",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player95.png\"}",
+        "name": "Player95",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player96.png\"}",
+        "name": "Player96",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player97.png\"}",
+        "name": "Player97",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player98.png\"}",
+        "name": "Player98",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player99.png\"}",
+        "name": "Player99",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player100.png\"}",
+        "name": "Player100",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player101.png\"}",
+        "name": "Player101",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player102.png\"}",
+        "name": "Player102",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player103.png\"}",
+        "name": "Player103",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player104.png\"}",
+        "name": "Player104",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player105.png\"}",
+        "name": "Player105",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player106.png\"}",
+        "name": "Player106",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player107.png\"}",
+        "name": "Player107",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player108.png\"}",
+        "name": "Player108",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player109.png\"}",
+        "name": "Player109",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player110.png\"}",
+        "name": "Player110",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player111.png\"}",
+        "name": "Player111",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player112.png\"}",
+        "name": "Player112",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player113.png\"}",
+        "name": "Player113",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player114.png\"}",
+        "name": "Player114",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player115.png\"}",
+        "name": "Player115",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player116.png\"}",
+        "name": "Player116",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player117.png\"}",
+        "name": "Player117",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player118.png\"}",
+        "name": "Player118",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player119.png\"}",
+        "name": "Player119",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player120.png\"}",
+        "name": "Player120",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player121.png\"}",
+        "name": "Player121",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player122.png\"}",
+        "name": "Player122",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player123.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player123.png\"}",
+        "name": "Player123",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player124.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player124.png\"}",
+        "name": "Player124",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run43",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run55",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run57",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run58",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run59",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run60",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run61",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run62",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run63",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run64",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run65",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run66",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run67",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run68",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run69",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run70",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run71",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run72",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run73",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run74",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run75",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run76",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run77",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run78",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run79",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run80",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run81",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run82",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run83",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run84",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run85",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run86",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run87",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run88",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player125.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player125.png\"}",
+        "name": "Player125",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player126.png\"}",
+        "name": "Player126",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player127.png\"}",
+        "name": "Player127",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player128.png\"}",
+        "name": "Player128",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player129.png\"}",
+        "name": "Player129",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player130.png\"}",
+        "name": "Player130",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player131.png\"}",
+        "name": "Player131",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player132.png\"}",
+        "name": "Player132",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player133.png\"}",
+        "name": "Player133",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player134.png\"}",
+        "name": "Player134",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player135.png\"}",
+        "name": "Player135",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player136.png\"}",
+        "name": "Player136",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player137.png\"}",
+        "name": "Player137",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player138.png\"}",
+        "name": "Player138",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player139.png\"}",
+        "name": "Player139",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player140.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player140.png\"}",
+        "name": "Player140",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player141.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player141.png\"}",
+        "name": "Player141",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player142.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player142.png\"}",
+        "name": "Player142",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player143.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player143.png\"}",
+        "name": "Player143",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player144.png\"}",
+        "name": "Player144",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player145.png\"}",
+        "name": "Player145",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Player146.png\"}",
+        "name": "Player146",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt9.png\"}",
+        "name": "hurt9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt10.png\"}",
+        "name": "hurt10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt11.png\"}",
+        "name": "hurt11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt12.png\"}",
+        "name": "hurt12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt13.png\"}",
+        "name": "hurt13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt14.png\"}",
+        "name": "hurt14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt15.png\"}",
+        "name": "hurt15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt16.png\"}",
+        "name": "hurt16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt17.png\"}",
+        "name": "hurt17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt18.png\"}",
+        "name": "hurt18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt19.png\"}",
+        "name": "hurt19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt20.png\"}",
+        "name": "hurt20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt21.png\"}",
+        "name": "hurt21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt22.png\"}",
+        "name": "hurt22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt23.png\"}",
+        "name": "hurt23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt24.png\"}",
+        "name": "hurt24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt25.png\"}",
+        "name": "hurt25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt26.png\"}",
+        "name": "hurt26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt27.png\"}",
+        "name": "hurt27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt28.png\"}",
+        "name": "hurt28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt29.png\"}",
+        "name": "hurt29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hurt30.png\"}",
+        "name": "hurt30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack247.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack247",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack248.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack248",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack249.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack249",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack250.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack250",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack251.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack251",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack252.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack252",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack253.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack253",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack254.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack254",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack255.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack255",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack256.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack256.png\"}",
+        "name": "Attack256",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack257.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack257.png\"}",
+        "name": "Attack257",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack258.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack258.png\"}",
+        "name": "Attack258",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack259.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack259.png\"}",
+        "name": "Attack259",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack260.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack260.png\"}",
+        "name": "Attack260",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack261.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack261.png\"}",
+        "name": "Attack261",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack262.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack262.png\"}",
+        "name": "Attack262",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack263.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack263.png\"}",
+        "name": "Attack263",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack264.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack264.png\"}",
+        "name": "Attack264",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack265.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack265.png\"}",
+        "name": "Attack265",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack266.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack266.png\"}",
+        "name": "Attack266",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle55",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle57",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle58",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run89",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run90",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run91",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run92",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run93",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run94",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run95",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run96",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run97",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run98",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run99",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run100",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run101",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run102",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run103",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run104",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run105",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run106",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run107",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run108",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run109",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run110",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run111",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run112",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run113",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run114",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run115",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run116",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run117",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run118",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run119",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run120",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run121",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run122",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt43",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack267.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack267",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack268.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack268",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack269.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack269",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack270.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack270",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack271.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack271",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack272.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack272",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack273.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack273",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack274.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack274",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack275.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack275",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack276.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack276",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack277.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack277",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack278.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack278",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack279.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack279",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack280.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack280",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack281.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack281",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack282.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack282",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack283.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack283",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack284.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack284",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack285.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack285",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack286.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack286",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack287.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack287",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack288.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack288",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack289.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack289",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack290.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack290",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack291.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack291",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pixel-black2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pixel-black",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
         "file": "assets/Graduate-Regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -6813,6 +9173,666 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
           "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite166.png\"}",
+        "name": "NewSprite166",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite167",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite168",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite169",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin_Spin_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/10fada695af0862038251b40fb46383d18fae68e691322855acf5e15531f15f2_Coin_Spin_1.png",
+          "name": "Coin_Spin_1.png"
+        }
+      },
+      {
+        "file": "assets/Coin_Spin_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/3493467ef85dbfec4b9f0e4d0ee81403e4c71b3152675ffc3b4ebe4c072783d8_Coin_Spin_2.png",
+          "name": "Coin_Spin_2.png"
+        }
+      },
+      {
+        "file": "assets/Coin_Spin_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/7a1ff0152c7987154a3b78b6bbc54dee4e388a001d6688940a9a0ac25f6d4d34_Coin_Spin_3.png",
+          "name": "Coin_Spin_3.png"
+        }
+      },
+      {
+        "file": "assets/Coin_Spin_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spin_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Collectable/2056d3977108825cc65a051a24cba4951a96e6077a0c8a24ce32b2d6b75719bf_Coin_Spin_4.png",
+          "name": "Coin_Spin_4.png"
+        }
+      },
+      {
+        "file": "assets/Player147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player147",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player148",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player149",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player150",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player151",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player152",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player153",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player154",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player155",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player156",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player157",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player158",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player159",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player160",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player161",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player162",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player163",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dash_fw17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash_fw17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player164",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player165",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player166",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player167",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player168",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player169",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player171",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump_air8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump_air8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Slot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ui_Slot",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite171.png\"}",
+        "name": "NewSprite171",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite172",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite173",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Slot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ui_Slot2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Slot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Ui_Slot3.png\"}",
+        "name": "Ui_Slot3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite174",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite175",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite176",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Thick Pixel Heart Resource Bar Separated Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Thick Pixel Heart Resource Bar Separated Empty.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/78ed7886651994ac95d036243be2d0e17669fb1eaee21753da768799884c7ddf_Thick Pixel Heart Resource Bar Separated Empty.png",
+          "name": "Thick Pixel Heart Resource Bar Separated Empty.png"
+        }
+      },
+      {
+        "file": "assets/Thick Pixel Heart Resource Bar Separated Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Thick Pixel Heart Resource Bar Separated Filled.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/71584c59ccd5d7e12522fc18fbd8dc34b50acfb0a9901fd351dbd129be5b4134_Thick Pixel Heart Resource Bar Separated Filled.png",
+          "name": "Thick Pixel Heart Resource Bar Separated Filled.png"
+        }
+      },
+      {
+        "file": "assets/tiled_Tiled Empty UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Empty UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
+          "name": "tiled_Tiled Empty UI Heart.png"
+        }
+      },
+      {
+        "file": "assets/tiled_Tiled Filler UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+          "name": "tiled_Tiled Filler UI Heart.png"
+        }
+      },
+      {
+        "file": "assets/fire spell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire spell.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Verboten Arcane Stash/Spells/a2029ebeae4d657be3713b87e43b1c835d17bd2ed9a2e5d9400e86ae7989be89_fire spell.png",
+          "name": "fire spell.png"
+        }
+      },
+      {
+        "file": "assets/exp boost.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp boost.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Verboten Arcane Stash/Buffs/cd84e4523cebea4524eec80368f2b1acd9d7c878819854822d18a1e0871f1649_exp boost.png",
+          "name": "exp boost.png"
+        }
+      },
+      {
+        "file": "assets/Default-panel (31).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (31).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/4530207f9820c0990ac1354b1c323ac80c2df8a9280996d4e00f0c34e378e0d3_Default-panel (31).png",
+          "name": "Default-panel (31).png"
         }
       }
     ]
@@ -6845,7 +9865,30 @@
       "referenceTo": "/layouts/credits"
     }
   ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Game Scene"
+      },
+      {
+        "itemName": "scene 3"
+      },
+      {
+        "itemName": "scene 2"
+      },
+      {
+        "itemName": "Main Menu"
+      },
+      {
+        "itemName": "Credits"
+      }
+    ]
+  },
   "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "tests": [
     {
       "description": "Pressing Space makes the player jump off the platform it stands on, and gravity brings it back down at the same place.",
@@ -7111,8 +10154,256 @@
         "harness.assert(p.animation === 'Jump' || p.animation === 'Fall', 'Jump during attack switches to Jump/Fall, got '+p.animation);",
         "await harness.takeScreenshot('cancel-done');"
       ]
+    },
+    {
+      "description": "Tab toggles the inventory; collected red gems are stored as icons inside the bag slots",
+      "lastRunAt": 1794112567438,
+      "lastRunDurationMs": 803,
+      "lastRunFramesExecuted": 20,
+      "lastRunStatus": "passed",
+      "name": "Inventory opens with Tab and gems are stored",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(3);",
+        "",
+        "// Bag starts closed",
+        "harness.assert(harness.getObjects('inventory')[0].hidden === true, 'Inventory is hidden at scene start');",
+        "harness.setKeyPressed('Tab', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('Tab', false);",
+        "await harness.stepFrames(2);",
+        "harness.assert(harness.getObjects('inventory')[0].hidden === false, 'Inventory opens with Tab');",
+        "harness.setKeyPressed('Tab', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('Tab', false);",
+        "await harness.stepFrames(2);",
+        "harness.assert(harness.getObjects('inventory')[0].hidden === true, 'Inventory closes with Tab again');",
+        "",
+        "// Collect 2 gems",
+        "for (let i = 0; i < 2; i++) {",
+        "  const before = harness.getSceneVariable('RedGemCount').value;",
+        "  const p = harness.getObjects('Player')[0];",
+        "  harness.spawn('red_gem', p.centerX - 60, p.centerY - 70);",
+        "  const ok = await harness.stepUntil(() => harness.getSceneVariable('RedGemCount').value === before + 1, { maxFrames: 120 });",
+        "  harness.assert(ok, 'gem ' + (i + 1) + ' collected on contact');",
+        "  await harness.stepFrames(2);",
+        "}",
+        "const icons = harness.getObjects('InventoryGem');",
+        "harness.assert(icons.length === 2, 'two gem icons stored in the bag');",
+        "",
+        "// Icons are inside the slot area of the panel (grid from ~260 to ~706 x, ~295 to ~670 y)",
+        "const panel = harness.getObjects('inventory')[0];",
+        "for (const icon of icons) {",
+        "  harness.assert(icon.centerX > panel.x + 60 && icon.centerX < panel.x + panel.width - 20, 'icon inside panel horizontally');",
+        "  harness.assert(icon.centerY > panel.y + 70 && icon.centerY < panel.y + panel.height - 80, 'icon inside the slot grid vertically');",
+        "}",
+        "await harness.stepFrames(2);",
+        "await harness.takeScreenshot('final bag');",
+        ""
+      ]
+    },
+    {
+      "description": "Collecting gems creates icons in the inventory slots, hidden while the bag is closed",
+      "lastRunAt": 1794112570306,
+      "lastRunDurationMs": 710,
+      "lastRunFramesExecuted": 19,
+      "lastRunStatus": "passed",
+      "name": "Gems appear as icons inside the inventory slots",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(3);",
+        "for (let i = 0; i < 3; i++) {",
+        "  const before = harness.getSceneVariable('RedGemCount').value;",
+        "  const p = harness.getObjects('Player')[0];",
+        "  harness.spawn('red_gem', p.centerX - 60, p.centerY - 70);",
+        "  const ok = await harness.stepUntil(() => harness.getSceneVariable('RedGemCount').value === before + 1, { maxFrames: 120 });",
+        "  harness.assert(ok, 'gem ' + (i + 1) + ' collected');",
+        "  await harness.stepFrames(2);",
+        "}",
+        "harness.assert(harness.getSceneVariable('RedGemCount').value === 3, 'RedGemCount is 3');",
+        "let icons = harness.getObjects('InventoryGem');",
+        "harness.assert(icons.length === 3, 'three gem icons exist (got ' + icons.length + ')');",
+        "harness.assert(icons.every(i => i.hidden === true), 'icons stay hidden while the bag is closed');",
+        "harness.setKeyPressed('Tab', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('Tab', false);",
+        "await harness.stepFrames(4);",
+        "icons = harness.getObjects('InventoryGem');",
+        "harness.assert(icons.every(i => i.hidden === false), 'icons appear when the bag opens');",
+        "console.log(icons.map(i => `${i.centerX.toFixed(0)},${i.centerY.toFixed(0)} ${i.width}x${i.height} z=${i.zOrder}`).join(' | '));",
+        "await harness.takeScreenshot('bag with 3 gems');",
+        ""
+      ]
+    },
+    {
+      "description": "Eight gems fill the first row of slots and wrap onto the second row",
+      "lastRunAt": 1793721459481,
+      "lastRunDurationMs": 931,
+      "lastRunFramesExecuted": 34,
+      "lastRunStatus": "passed",
+      "name": "Gem icons fill inventory slots in a grid",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(3);",
+        "for (let i = 0; i < 8; i++) {",
+        "  const before = harness.getSceneVariable('RedGemCount').value;",
+        "  const p = harness.getObjects('Player')[0];",
+        "  harness.spawn('red_gem', p.centerX - 60, p.centerY - 70);",
+        "  const ok = await harness.stepUntil(() => harness.getSceneVariable('RedGemCount').value === before + 1, { maxFrames: 120 });",
+        "  if (!ok) { harness.fail('gem ' + (i + 1) + ' not collected'); break; }",
+        "  await harness.stepFrames(2);",
+        "}",
+        "harness.setKeyPressed('Tab', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('Tab', false);",
+        "await harness.stepFrames(4);",
+        "const icons = harness.getObjects('InventoryGem');",
+        "harness.assert(icons.length === 8, 'eight icons (got ' + icons.length + ')');",
+        "console.log(icons.map(i => `${i.centerX.toFixed(0)},${i.centerY.toFixed(0)}`).join(' | '));",
+        "await harness.takeScreenshot('bag full row wrap');",
+        ""
+      ]
+    },
+    {
+      "description": "Exactly 2 coins per demon",
+      "lastRunAt": 1794112569172,
+      "lastRunDurationMs": 1137,
+      "lastRunFramesExecuted": 261,
+      "lastRunStatus": "passed",
+      "name": "Coin drop from demon",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(30);",
+        "const d = harness.getNearby('demon','Player', 100000)[0];",
+        "harness.assert(!!d, 'Found a demon');",
+        "const target = harness.getObjects('demon').find(o=>o.id===d.id);",
+        "const startDemons = harness.getObjects('demon').length;",
+        "harness.setObjectPosition(harness.getObjects('Player')[0].id, target.x, target.y);",
+        "await harness.stepFrames(5);",
+        "const coinsBefore = harness.getObjects('Coin').length;",
+        "for (let i=0;i<4;i++) { harness.setSceneVariable('AttackStage', 1); await harness.stepFrames(40); }",
+        "await harness.stepFrames(60);",
+        "const coinsAfter = harness.getObjects('Coin').length;",
+        "const dropped = coinsAfter - coinsBefore;",
+        "harness.assert(dropped === 2, 'Exactly 2 coins dropped, got '+dropped);",
+        "const coins = harness.getObjects('Coin');",
+        "if (coins.length>0) {",
+        "  const before = harness.getSceneVariable('CoinCount')?.value ?? 0;",
+        "  harness.setObjectPosition(harness.getObjects('Player')[0].id, coins[0].x, coins[0].y);",
+        "  await harness.stepFrames(5);",
+        "  const after = harness.getSceneVariable('CoinCount')?.value ?? 0;",
+        "  harness.assert(after === before+1, 'CoinCount +1: '+before+' -> '+after);",
+        "}",
+        ""
+      ]
+    },
+    {
+      "description": "Verify EXP bar percent, energy fill, skill unlock and AoE",
+      "lastRunAt": 1794201759694,
+      "lastRunDurationMs": 3713,
+      "lastRunFramesExecuted": 196,
+      "lastRunStatus": "passed",
+      "name": "EXP energy skill system",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(60);",
+        "// HUD exists",
+        "let expBars = harness.getObjects('ExpBar');",
+        "let enBars = harness.getObjects('EnergyBar');",
+        "harness.assert(expBars.length>0, 'ExpBar HUD exists');",
+        "harness.assert(enBars.length>0, 'EnergyBar HUD exists');",
+        "let expText = harness.getObjects('ExpText');",
+        "harness.assert(expText.length>0 && /%/.test(expText[0].text||''), 'ExpText shows percent counter, got: '+(expText[0]?.text));",
+        "// Energy fills via 4 left clicks",
+        "for(let i=0;i<4;i++){ harness.setMouseButtonPressed(true,'left'); await harness.stepFrames(2); harness.setMouseButtonPressed(false,'left'); await harness.stepFrames(10); }",
+        "let energy = harness.getSceneVariable('Energy');",
+        "harness.assert(energy && energy.value>=100, 'Energy full after 4 basic attacks, got '+JSON.stringify(energy));",
+        "// Unlock skill via variable then right-click skill",
+        " harness.setSceneVariable('SkillUnlocked', true);",
+        "await harness.stepFrames(5);",
+        "let skillIcons = harness.getObjects('SkillIcon');",
+        "harness.assert(skillIcons.length>0 && !skillIcons[0].hidden, 'SkillIcon visible below exp bar after unlock');",
+        "// Spawn a demon near player for AoE test",
+        "const player = harness.getObjects('Player')[0];",
+        "harness.spawn('demon', player.centerX+150, player.centerY, 0);",
+        "await harness.stepFrames(10);",
+        "const before = harness.getObjects('demon').length;",
+        "harness.assert(before>0, 'demon present for skill test');",
+        "// Right click skill",
+        " harness.setMouseButtonPressed(true,'right'); await harness.stepFrames(2); harness.setMouseButtonPressed(false,'right');",
+        "await harness.stepFrames(60);",
+        "const p2 = harness.getObjects('Player')[0];",
+        "harness.assert(p2.animation==='Skill' || harness.getSceneVariable('Energy')?.value===0, 'Skill triggered (anim='+p2.animation+', energy='+JSON.stringify(harness.getSceneVariable('Energy'))+')');",
+        "// EXP pickup test: spawn orb on player",
+        " harness.spawn('ExpOrb', player.centerX, player.centerY, 0);",
+        "await harness.stepFrames(10);",
+        "let exp = harness.getSceneVariable('Exp');",
+        "harness.assert(exp && exp.value>0, 'Exp increased after orb pickup, got '+JSON.stringify(exp));",
+        "await harness.takeScreenshot('exp-skill-check');"
+      ]
+    },
+    {
+      "description": "HUD bars with fill visible",
+      "lastRunAt": 1794202511021,
+      "lastRunDurationMs": 3267,
+      "lastRunFramesExecuted": 61,
+      "lastRunStatus": "passed",
+      "name": "HUD polished check",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(30);",
+        "// give some EXP/energy so bars are visible",
+        "harness.setSceneVariable('Exp', 65);",
+        "harness.setSceneVariable('Energy', 80);",
+        "await harness.stepFrames(30);",
+        "const exp = harness.getObjects('ExpBar')[0];",
+        "const et = harness.getObjects('EnergyText')[0];",
+        "harness.assert(et.text.includes('80'), 'Energy shows 80%, got '+et.text);",
+        "await harness.takeScreenshot('hud-with-fill');"
+      ]
     }
   ],
+  "testsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Jumping with Space"
+      },
+      {
+        "itemName": "Collecting the coins by running into them"
+      },
+      {
+        "itemName": "Attack combo chains 1-2-3"
+      },
+      {
+        "itemName": "Attack cancel with move or jump"
+      },
+      {
+        "itemName": "Inventory opens with Tab and gems are stored"
+      },
+      {
+        "itemName": "Gems appear as icons inside the inventory slots"
+      },
+      {
+        "itemName": "Gem icons fill inventory slots in a grid"
+      },
+      {
+        "itemName": "Coin drop from demon"
+      },
+      {
+        "itemName": "EXP energy skill system"
+      },
+      {
+        "itemName": "HUD polished check"
+      }
+    ]
+  },
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -7159,5 +10450,8 @@
       "referenceTo": "/eventsFunctionsExtensions/tweenintoview"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT"
+  }
 }

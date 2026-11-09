@@ -21,65 +21,58 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33005600491659237,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "CreditsBodyText",
-      "persistentUuid": "585bc15f-9ead-4e85-8191-b1aa0a7db64c",
-      "type": "string",
-      "value": "x"
-    }
-  ],
+  "variables": [],
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "height": 110,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "CreditsTitle",
-      "persistentUuid": "e9a4f46b-276c-4853-8b16-59756d179aeb",
-      "width": 700,
-      "x": 605,
-      "y": 89,
-      "zOrder": 0,
+      "persistentUuid": "0a92daf9-78af-4e7e-8124-296b86d611fe",
+      "width": 0,
+      "x": 751,
+      "y": 61,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 300,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "CreditsBody",
-      "persistentUuid": "2f9cd014-31bc-4205-86d4-40d58e8bf357",
-      "width": 1000,
-      "x": 457,
-      "y": 212,
-      "zOrder": 0,
+      "persistentUuid": "e97d80de-8206-4e63-82d3-0dd805ef2ea3",
+      "width": 0,
+      "x": 542,
+      "y": 197,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 70,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "CreditsBack",
-      "persistentUuid": "7d2c99f2-d05d-42e2-9a82-3b4145d27bcd",
-      "width": 300,
-      "x": 807,
-      "y": 860,
-      "zOrder": 0,
+      "persistentUuid": "4c542e59-4a62-41bc-b718-bcd7c3d42efc",
+      "width": 0,
+      "x": 866,
+      "y": 819,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -87,15 +80,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1080,
+      "depth": 1,
+      "height": 1061,
       "keepRatio": true,
       "layer": "",
       "name": "Fade",
-      "persistentUuid": "96e420ce-8f66-444c-b584-c38ef37c9eee",
+      "persistentUuid": "fbe29ab1-222c-445e-88e1-70f582c9be7a",
       "width": 1920,
       "x": -1,
-      "y": -1,
-      "zOrder": 100,
+      "y": 8,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -107,7 +101,7 @@
       "bold": true,
       "italic": false,
       "name": "CreditsTitle",
-      "persistentUuid": "36dd1079-507e-4fc2-aa13-81e5e55fa593",
+      "persistentUuid": "0b184577-d077-4803-8b77-b4299f41f197",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -151,7 +145,7 @@
       "bold": false,
       "italic": false,
       "name": "CreditsBody",
-      "persistentUuid": "4da186a6-e40e-440d-bad6-fa93cf347f82",
+      "persistentUuid": "923cbda0-3418-4858-887e-cbeaf1ead1ce",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -195,7 +189,7 @@
       "bold": true,
       "italic": false,
       "name": "CreditsBack",
-      "persistentUuid": "bff158b4-b472-4996-85e0-99db831d0305",
+      "persistentUuid": "f0ee76d5-3667-4e5d-b10e-3468f1906664",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -238,7 +232,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "33454e7ebbe51f44913847d92c10e31219f1972174a74ae1d54d4662eb109d33",
       "name": "Fade",
-      "persistentUuid": "07f21b5a-e6c3-4bb1-bf55-d064d0add217",
+      "persistentUuid": "005d7eb1-c7ca-4864-9f11-dfc5846f425f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -251,16 +245,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "pixel-black",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "pixel-black.png",
+                  "image": "pixel-black",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -280,16 +275,16 @@
                         "y": 0
                       },
                       {
-                        "x": 4,
+                        "x": 400,
                         "y": 0
                       },
                       {
-                        "x": 4,
-                        "y": 4
+                        "x": 400,
+                        "y": 400
                       },
                       {
                         "x": 0,
-                        "y": 4
+                        "y": 400
                       }
                     ]
                   ]

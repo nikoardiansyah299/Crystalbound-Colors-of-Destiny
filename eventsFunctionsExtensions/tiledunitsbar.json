@@ -2105,6 +2105,368 @@
             "selectedLayer": "",
             "gameEditorMode": "instances-editor"
           }
+        },
+        {
+          "areaMaxX": 42,
+          "areaMaxY": 12,
+          "areaMaxZ": 1,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreAssetId": "873e2f91bd39cf67d2f834d3b9d9f174d84e1f59d79419a8bb2bf3b5cf5f7c85",
+          "assetStoreOriginalName": "Thick Pixel Heart Bar",
+          "name": "Thick Pixel Heart Bar",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "height": 12,
+              "name": "FillBar",
+              "persistentUuid": "90eef22a-f85b-467d-9aa4-ee3cae0a76ce",
+              "texture": "assets\\Thick Pixel Heart Resource Bar Separated Filled.png",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 14,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "leftEdgeAnchor": 1,
+                  "rightEdgeAnchor": 1,
+                  "bottomEdgeAnchor": 4,
+                  "relativeToOriginalWindowSize": true,
+                  "topEdgeAnchor": 4,
+                  "useLegacyBottomAndRightAnchors": false
+                },
+                {
+                  "name": "ResourceBar",
+                  "type": "TiledUnitsBar::ResourceBar",
+                  "Value": 1,
+                  "MaxValue": 3,
+                  "PreviousValue": 0
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "height": 12,
+              "name": "Bar",
+              "persistentUuid": "765a6c3a-c1d2-442e-956f-d22068c56a3b",
+              "texture": "assets\\Thick Pixel Heart Resource Bar Separated Empty.png",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 14,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "leftEdgeAnchor": 1,
+                  "rightEdgeAnchor": 1,
+                  "bottomEdgeAnchor": 4,
+                  "relativeToOriginalWindowSize": true,
+                  "topEdgeAnchor": 4,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Background",
+              "persistentUuid": "ebee811f-dd19-4f5c-a447-69c5bf2c1dfd",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 1,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Bar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 0,
+              "height": 12,
+              "layer": "",
+              "name": "Bar",
+              "persistentUuid": "caf6fdad-096d-4247-b23b-6cc1a89ce9f8",
+              "width": 42,
+              "x": 0,
+              "y": 0,
+              "zOrder": 2,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 0,
+              "height": 12,
+              "layer": "",
+              "name": "FillBar",
+              "persistentUuid": "4b784a8f-dbae-4d8b-a287-628642416d10",
+              "width": 42,
+              "x": 0,
+              "y": 0,
+              "zOrder": 3,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            }
+          ],
+          "editionSettings": {
+            "grid": false,
+            "gridType": "rectangular",
+            "gridWidth": 32,
+            "gridHeight": 32,
+            "gridDepth": 32,
+            "gridOffsetX": 0,
+            "gridOffsetY": 0,
+            "gridOffsetZ": 0,
+            "gridColor": 10401023,
+            "gridAlpha": 0.8,
+            "snap": false,
+            "zoomFactor": 10.501720135565007,
+            "windowMask": false,
+            "selectedLayer": "",
+            "gameEditorMode": "instances-editor"
+          }
+        },
+        {
+          "areaMaxX": 48,
+          "areaMaxY": 16,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreAssetId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
+          "assetStoreOriginalName": "Pixel Heart Bar",
+          "name": "Pixel Heart Bar",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "height": 16,
+              "name": "FillBar",
+              "texture": "tiled_Tiled Filler UI Heart.png",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 16,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 0,
+                  "leftEdgeAnchor": 0,
+                  "rightEdgeAnchor": 0,
+                  "topEdgeAnchor": 0,
+                  "relativeToOriginalWindowSize": true,
+                  "useLegacyBottomAndRightAnchors": false
+                },
+                {
+                  "name": "ResourceBar",
+                  "type": "TiledUnitsBar::ResourceBar",
+                  "Value": 1,
+                  "MaxValue": 3,
+                  "PreviousValue": 0
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "height": 16,
+              "name": "Bar",
+              "texture": "tiled_Tiled Empty UI Heart.png",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 48,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 0,
+                  "leftEdgeAnchor": 0,
+                  "rightEdgeAnchor": 0,
+                  "topEdgeAnchor": 0,
+                  "relativeToOriginalWindowSize": true,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 0,
+              "leftMargin": 0,
+              "name": "Background",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 0,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 1,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Bar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 16,
+              "layer": "",
+              "name": "Bar",
+              "persistentUuid": "0bc17780-1629-4494-8eb7-0fb46d818b51",
+              "width": 49,
+              "x": 0,
+              "y": 0,
+              "zOrder": 1,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 2,
+              "height": 16,
+              "layer": "",
+              "name": "FillBar",
+              "persistentUuid": "92a97eef-aaa6-4dce-a07b-a96bd82f662d",
+              "width": 32,
+              "x": 0,
+              "y": 0,
+              "zOrder": 2,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            }
+          ],
+          "editionSettings": {}
         }
       ]
     }
