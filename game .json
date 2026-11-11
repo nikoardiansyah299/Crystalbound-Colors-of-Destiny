@@ -9394,7 +9394,7 @@
       {
         "file": "assets/Dash_fw.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw.png\"}",
         "name": "Dash_fw",
         "smoothed": true,
         "userAdded": false
@@ -9402,7 +9402,7 @@
       {
         "file": "assets/Dash_fw2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw2.png\"}",
         "name": "Dash_fw2",
         "smoothed": true,
         "userAdded": false
@@ -9410,7 +9410,7 @@
       {
         "file": "assets/Dash_fw3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw3.png\"}",
         "name": "Dash_fw3",
         "smoothed": true,
         "userAdded": false
@@ -9418,7 +9418,7 @@
       {
         "file": "assets/Dash_fw4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw4.png\"}",
         "name": "Dash_fw4",
         "smoothed": true,
         "userAdded": false
@@ -9426,7 +9426,7 @@
       {
         "file": "assets/Dash_fw5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw5.png\"}",
         "name": "Dash_fw5",
         "smoothed": true,
         "userAdded": false
@@ -9434,7 +9434,7 @@
       {
         "file": "assets/Dash_fw6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw6.png\"}",
         "name": "Dash_fw6",
         "smoothed": true,
         "userAdded": false
@@ -9442,7 +9442,7 @@
       {
         "file": "assets/Dash_fw7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw7.png\"}",
         "name": "Dash_fw7",
         "smoothed": true,
         "userAdded": false
@@ -9450,7 +9450,7 @@
       {
         "file": "assets/Dash_fw8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw8.png\"}",
         "name": "Dash_fw8",
         "smoothed": true,
         "userAdded": false
@@ -9458,7 +9458,7 @@
       {
         "file": "assets/Dash_fw9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw9.png\"}",
         "name": "Dash_fw9",
         "smoothed": true,
         "userAdded": false
@@ -9466,7 +9466,7 @@
       {
         "file": "assets/Dash_fw10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw10.png\"}",
         "name": "Dash_fw10",
         "smoothed": true,
         "userAdded": false
@@ -9474,7 +9474,7 @@
       {
         "file": "assets/Dash_fw11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw11.png\"}",
         "name": "Dash_fw11",
         "smoothed": true,
         "userAdded": false
@@ -9482,7 +9482,7 @@
       {
         "file": "assets/Dash_fw12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw12.png\"}",
         "name": "Dash_fw12",
         "smoothed": true,
         "userAdded": false
@@ -9490,7 +9490,7 @@
       {
         "file": "assets/Dash_fw13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw13.png\"}",
         "name": "Dash_fw13",
         "smoothed": true,
         "userAdded": false
@@ -9498,7 +9498,7 @@
       {
         "file": "assets/Dash_fw14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw14.png\"}",
         "name": "Dash_fw14",
         "smoothed": true,
         "userAdded": false
@@ -9506,7 +9506,7 @@
       {
         "file": "assets/Dash_fw15.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw15.png\"}",
         "name": "Dash_fw15",
         "smoothed": true,
         "userAdded": false
@@ -9514,7 +9514,7 @@
       {
         "file": "assets/Dash_fw16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw16.png\"}",
         "name": "Dash_fw16",
         "smoothed": true,
         "userAdded": false
@@ -9522,7 +9522,7 @@
       {
         "file": "assets/Dash_fw17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Dash_fw17.png\"}",
         "name": "Dash_fw17",
         "smoothed": true,
         "userAdded": false
@@ -9748,6 +9748,1450 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite176",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "purple door.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"purple door.png\",\"extension\":\".png\"}",
+        "name": "purple door.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite177.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite177",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite178.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite178",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite179.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite179",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite180",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite181.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite181",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite182",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite183.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite183",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite184.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite184",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite185.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite185",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InventoryGem.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InventoryGem",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InventoryGem2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InventoryGem2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InventoryGem3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InventoryGem3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InventoryGem4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InventoryGem4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yellow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cyan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "white.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purple_open12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purple_open12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan_open8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cyan3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cyan_open9.png\"}",
+        "name": "cyan_open9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cyan_open10.png\"}",
+        "name": "cyan_open10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cyan_open11.png\"}",
+        "name": "cyan_open11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cyan_open12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cyan_open12.png\"}",
+        "name": "cyan_open12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/yellow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "yellow",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Craft.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Craft",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Craft2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Craft2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/green.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "green",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/green_open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "green_open",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/green_open2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "green_open2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/green_open3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "green_open3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/green_open4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "green_open4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "54427377-sword-slash-476148.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "54427377-sword-slash-476148.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "666herohero-slash-21834.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "666herohero-slash-21834.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill.png\"}",
+        "name": "Skill",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill2.png\"}",
+        "name": "Skill2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill3.png\"}",
+        "name": "Skill3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill4.png\"}",
+        "name": "Skill4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill5.png\"}",
+        "name": "Skill5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill6.png\"}",
+        "name": "Skill6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill7.png\"}",
+        "name": "Skill7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill8.png\"}",
+        "name": "Skill8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill9.png\"}",
+        "name": "Skill9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill10.png\"}",
+        "name": "Skill10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill11.png\"}",
+        "name": "Skill11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill12.png\"}",
+        "name": "Skill12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill13.png\"}",
+        "name": "Skill13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill14.png\"}",
+        "name": "Skill14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill15.png\"}",
+        "name": "Skill15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill16.png\"}",
+        "name": "Skill16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill17.png\"}",
+        "name": "Skill17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill18.png\"}",
+        "name": "Skill18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill19.png\"}",
+        "name": "Skill19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill20.png\"}",
+        "name": "Skill20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill21.png\"}",
+        "name": "Skill21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill22.png\"}",
+        "name": "Skill22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill23.png\"}",
+        "name": "Skill23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill24.png\"}",
+        "name": "Skill24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill25.png\"}",
+        "name": "Skill25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill26.png\"}",
+        "name": "Skill26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill27.png\"}",
+        "name": "Skill27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill28.png\"}",
+        "name": "Skill28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill29.png\"}",
+        "name": "Skill29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill30.png\"}",
+        "name": "Skill30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill31.png\"}",
+        "name": "Skill31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill32.png\"}",
+        "name": "Skill32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill33.png\"}",
+        "name": "Skill33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill34.png\"}",
+        "name": "Skill34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill35.png\"}",
+        "name": "Skill35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill36.png\"}",
+        "name": "Skill36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill37.png\"}",
+        "name": "Skill37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill38.png\"}",
+        "name": "Skill38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill39.png\"}",
+        "name": "Skill39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill40.png\"}",
+        "name": "Skill40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill41.png\"}",
+        "name": "Skill41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill42.png\"}",
+        "name": "Skill42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill43.png\"}",
+        "name": "Skill43",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill44.png\"}",
+        "name": "Skill44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill45.png\"}",
+        "name": "Skill45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill46.png\"}",
+        "name": "Skill46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill47.png\"}",
+        "name": "Skill47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill48.png\"}",
+        "name": "Skill48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill49.png\"}",
+        "name": "Skill49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill50.png\"}",
+        "name": "Skill50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill51.png\"}",
+        "name": "Skill51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill52.png\"}",
+        "name": "Skill52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill53.png\"}",
+        "name": "Skill53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill54.png\"}",
+        "name": "Skill54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill55.png\"}",
+        "name": "Skill55",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill56.png\"}",
+        "name": "Skill56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill57.png\"}",
+        "name": "Skill57",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill58.png\"}",
+        "name": "Skill58",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill59.png\"}",
+        "name": "Skill59",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill60.png\"}",
+        "name": "Skill60",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill61.png\"}",
+        "name": "Skill61",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill62.png\"}",
+        "name": "Skill62",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill63.png\"}",
+        "name": "Skill63",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill64.png\"}",
+        "name": "Skill64",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill65.png\"}",
+        "name": "Skill65",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill66.png\"}",
+        "name": "Skill66",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill67.png\"}",
+        "name": "Skill67",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill68.png\"}",
+        "name": "Skill68",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill69.png\"}",
+        "name": "Skill69",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill70.png\"}",
+        "name": "Skill70",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill71.png\"}",
+        "name": "Skill71",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill72.png\"}",
+        "name": "Skill72",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill73.png\"}",
+        "name": "Skill73",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill74.png\"}",
+        "name": "Skill74",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill75.png\"}",
+        "name": "Skill75",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill76.png\"}",
+        "name": "Skill76",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill77.png\"}",
+        "name": "Skill77",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill78.png\"}",
+        "name": "Skill78",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill79.png\"}",
+        "name": "Skill79",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill80.png\"}",
+        "name": "Skill80",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill81.png\"}",
+        "name": "Skill81",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill82.png\"}",
+        "name": "Skill82",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill83.png\"}",
+        "name": "Skill83",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill84.png\"}",
+        "name": "Skill84",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill85.png\"}",
+        "name": "Skill85",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill86.png\"}",
+        "name": "Skill86",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill87.png\"}",
+        "name": "Skill87",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill88.png\"}",
+        "name": "Skill88",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill89.png\"}",
+        "name": "Skill89",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill90.png\"}",
+        "name": "Skill90",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill91.png\"}",
+        "name": "Skill91",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill92.png\"}",
+        "name": "Skill92",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill93.png\"}",
+        "name": "Skill93",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Skill94.png\"}",
+        "name": "Skill94",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Skill95",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skill96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Skill96",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Shop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Ui_Shop.png\"}",
+        "name": "Ui_Shop",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Shop2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ui_Shop2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ui_Shop3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ui_Shop3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite179.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite179.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Normal Potion Red_No Shadow.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Normal Potion Red_No Shadow.png\",\"extension\":\".png\"}",
+        "name": "Normal Potion Red_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Normal Potion Red_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Normal Potion Red_Shadow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite181.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite181.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite186.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite186",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/No Shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "No Shadow",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Shadow.png\"}",
+        "name": "Shadow",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/No Shadow2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "No Shadow2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shadow2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shadow2",
         "smoothed": true,
         "userAdded": false
       }
@@ -10073,8 +11517,8 @@
     },
     {
       "description": "Tab toggles the inventory; collected red gems are stored as icons inside the bag slots",
-      "lastRunAt": 1794112567438,
-      "lastRunDurationMs": 803,
+      "lastRunAt": 1794321311322,
+      "lastRunDurationMs": 1029,
       "lastRunFramesExecuted": 20,
       "lastRunStatus": "passed",
       "name": "Inventory opens with Tab and gems are stored",
@@ -10121,8 +11565,8 @@
     },
     {
       "description": "Collecting gems creates icons in the inventory slots, hidden while the bag is closed",
-      "lastRunAt": 1794112570306,
-      "lastRunDurationMs": 710,
+      "lastRunAt": 1794321309716,
+      "lastRunDurationMs": 1496,
       "lastRunFramesExecuted": 19,
       "lastRunStatus": "passed",
       "name": "Gems appear as icons inside the inventory slots",
@@ -10155,8 +11599,8 @@
     },
     {
       "description": "Eight gems fill the first row of slots and wrap onto the second row",
-      "lastRunAt": 1793721459481,
-      "lastRunDurationMs": 931,
+      "lastRunAt": 1794220050141,
+      "lastRunDurationMs": 1552,
       "lastRunFramesExecuted": 34,
       "lastRunStatus": "passed",
       "name": "Gem icons fill inventory slots in a grid",
@@ -10291,6 +11735,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/tweenintoview"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/homingprojectile"
     }
   ],
   "externalLayouts": [],
