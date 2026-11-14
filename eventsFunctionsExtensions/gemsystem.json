@@ -1,0 +1,129 @@
+{
+  "author": "",
+  "category": "Game mechanic",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "GemSystem",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "GemSystem",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Computes the reduced color of the gem (red/green/blue divided by their GCD) and plays the matching named animation with a white tint, or the base animation tinted with the reduced color.",
+      "fullName": "Apply gem color display",
+      "functionType": "Action",
+      "name": "ApplyDisplay",
+      "sentence": "Apply the color display (animation + tint) of _PARAM1_",
+      "events": [
+        {
+          "aiGeneratedEventId": "01M7C4BDMNKQ2JF5RV0BW32X7R",
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "for (const gem of objects) {",
+            "  const vars = gem.getVariables();",
+            "  const r = Math.round(vars.get(\"Red\").getAsNumber());",
+            "  const g = Math.round(vars.get(\"Green\").getAsNumber());",
+            "  const b = Math.round(vars.get(\"Blue\").getAsNumber());",
+            "  const gcd2 = (a, c) => { a = Math.abs(a); c = Math.abs(c); while (c) { const t = a % c; a = c; c = t; } return a; };",
+            "  let d = gcd2(gcd2(r, g), b);",
+            "  if (d <= 0) d = 1;",
+            "  const rr = Math.floor(r / d), rg = Math.floor(g / d), rb = Math.floor(b / d);",
+            "  const key = rr + \"/\" + rg + \"/\" + rb;",
+            "  const tintTable = { \"1/0/0\": \"239;68;68\", \"0/1/0\": \"34;197;94\", \"0/0/1\": \"59;130;246\", \"1/1/0\": \"250;204;21\", \"0/1/1\": \"34;211;238\", \"1/0/1\": \"168;85;247\", \"1/1/1\": \"255;255;255\", \"0/0/0\": \"120;114;146\" };",
+            "  const named = (rr === 1 && rg === 0 && rb === 0) ? \"red\" : (rr === 0 && rg === 1 && rb === 0) ? \"green\" : (rr === 0 && rg === 0 && rb === 1) ? \"blue\" : (rr === 1 && rg === 1 && rb === 0) ? \"yellow\" : (rr === 0 && rg === 1 && rb === 1) ? \"cyan\" : (rr === 1 && rg === 0 && rb === 1) ? \"purple\" : (rr === 1 && rg === 1 && rb === 1) ? \"white\" : \"\";",
+            "  let tint = tintTable[key];",
+            "  if (!tint) { const m = Math.max(rr, rg, rb); tint = m > 0 ? Math.round(255 * rr / m) + \";\" + Math.round(255 * rg / m) + \";\" + Math.round(255 * rb / m) : \"120;114;146\"; }",
+            "  if (named !== \"\") { gem.setAnimationName(named); gem.setColor(\"255;255;255\"); vars.get(\"GemType\").setString(named); }",
+            "  else { gem.setAnimationName(\"base\"); gem.setColor(tint); vars.get(\"GemType\").setString(\"mixed\"); }",
+            "}"
+          ],
+          "parameterObjects": "Gem",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Gem",
+          "name": "Gem",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns tint R;G;B for red/green/blue counts: reduces by GCD, returns named gem color or normalized mix.",
+      "fullName": "Get tint color",
+      "functionType": "StringExpression",
+      "name": "GetTint",
+      "sentence": "",
+      "events": [
+        {
+          "aiGeneratedEventId": "01M7C350ZYSFF19R9WQNK2QZN0",
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "  const r = Math.round(Number(eventsFunctionContext.getArgument(\"Red\")) || 0);",
+            "  const g = Math.round(Number(eventsFunctionContext.getArgument(\"Green\")) || 0);",
+            "  const b = Math.round(Number(eventsFunctionContext.getArgument(\"Blue\")) || 0);",
+            "  const gcd2 = (a, c) => { a = Math.abs(a); c = Math.abs(c); while (c) { const t = a % c; a = c; c = t; } return a; };",
+            "  let d = gcd2(gcd2(r, g), b);",
+            "  if (d <= 0) d = 1;",
+            "  const rr = Math.floor(r / d), rg = Math.floor(g / d), rb = Math.floor(b / d);",
+            "  const key = rr + \"/\" + rg + \"/\" + rb;",
+            "  const table = { \"1/0/0\": \"239;68;68\", \"0/1/0\": \"34;197;94\", \"0/0/1\": \"59;130;246\", \"1/1/0\": \"250;204;21\", \"0/1/1\": \"34;211;238\", \"1/0/1\": \"168;85;247\", \"1/1/1\": \"255;255;255\", \"0/0/0\": \"120;114;146\" };",
+            "  if (table[key]) { eventsFunctionContext.returnValue = table[key]; }",
+            "  else { const m = Math.max(rr, rg, rb); if (m > 0) { eventsFunctionContext.returnValue = Math.round(255 * rr / m) + \";\" + Math.round(255 * rg / m) + \";\" + Math.round(255 * rb / m); } else { eventsFunctionContext.returnValue = \"120;114;146\"; } }"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Red",
+          "name": "Red",
+          "type": "expression"
+        },
+        {
+          "description": "Green",
+          "name": "Green",
+          "type": "expression"
+        },
+        {
+          "description": "Blue",
+          "name": "Blue",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "ApplyDisplay"
+      },
+      {
+        "functionName": "GetTint"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

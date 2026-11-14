@@ -1,0 +1,3799 @@
+{
+  "author": "",
+  "category": "Game mechanic",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Enemy AI",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "EnemyAI",
+  "previewIconUrl": "",
+  "shortDescription": "Reusable enemy patrol/chase/attack AI.",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsBasedBehaviors": [
+    {
+      "description": "Patrol back and forth, chase the player with line-of-sight, stab attack, hurt stun, death. Attach to a Sprite with PlatformerObject and Health behaviors.",
+      "fullName": "Enemy patrol & chase AI",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "EnemyPatrolChase",
+      "objectType": "",
+      "previewIconUrl": "",
+      "eventsFunctions": [
+        {
+          "description": "the patrol route length of the object.",
+          "fullName": "Patrol route length",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "PatrolLength",
+          "sentence": "the patrol route length",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "PatrolLength"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "PatrolLength",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetPatrolLength",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PatrolLength",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the patrol speed of the object.",
+          "fullName": "Patrol speed",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "PatrolSpeed",
+          "sentence": "the patrol speed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "PatrolSpeed"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "PatrolSpeed",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetPatrolSpeed",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PatrolSpeed",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the chase speed of the object.",
+          "fullName": "Chase speed",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "ChaseSpeed",
+          "sentence": "the chase speed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ChaseSpeed"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "ChaseSpeed",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetChaseSpeed",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChaseSpeed",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the chase trigger distance of the object.",
+          "fullName": "Chase trigger distance",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "ChaseRange",
+          "sentence": "the chase trigger distance",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ChaseRange"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "ChaseRange",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetChaseRange",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChaseRange",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the attack range of the object.",
+          "fullName": "Attack range",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "AttackRange",
+          "sentence": "the attack range",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "AttackRange"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "AttackRange",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetAttackRange",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AttackRange",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the attack damage of the object.",
+          "fullName": "Attack damage",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "AttackDamage",
+          "sentence": "the attack damage",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "AttackDamage"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "AttackDamage",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetAttackDamage",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AttackDamage",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the attack cooldown of the object.",
+          "fullName": "Attack cooldown",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "AttackCooldown",
+          "sentence": "the attack cooldown",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "AttackCooldown"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "AttackCooldown",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetAttackCooldown",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AttackCooldown",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the hurt stun duration of the object.",
+          "fullName": "Hurt stun duration",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "StunDuration",
+          "sentence": "the hurt stun duration",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "StunDuration"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "StunDuration",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetStunDuration",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "StunDuration",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the initial patrol direction of the object.",
+          "fullName": "Initial patrol direction",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "InitialDirection",
+          "sentence": "the initial patrol direction",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "InitialDirection"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "supplementaryInformation": "[\"1\",\"-1\"]",
+            "type": "numberWithChoices"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "InitialDirection",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetInitialDirection",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "InitialDirection",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the walk animation of the object.",
+          "fullName": "Walk animation",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "WalkAnim",
+          "sentence": "the walk animation",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "WalkAnim"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "objectAnimationName"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "WalkAnim",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetWalkAnim",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "WalkAnim",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the idle animation of the object.",
+          "fullName": "Idle animation",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "IdleAnim",
+          "sentence": "the idle animation",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "IdleAnim"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "objectAnimationName"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "IdleAnim",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetIdleAnim",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "IdleAnim",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the attack (stab) animation of the object.",
+          "fullName": "Attack (stab) animation",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "AttackAnim",
+          "sentence": "the attack (stab) animation",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "AttackAnim"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "objectAnimationName"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "AttackAnim",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetAttackAnim",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "AttackAnim",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the hurt animation of the object.",
+          "fullName": "Hurt animation",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "HurtAnim",
+          "sentence": "the hurt animation",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "HurtAnim"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "objectAnimationName"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "HurtAnim",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetHurtAnim",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "HurtAnim",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the death animation of the object.",
+          "fullName": "Death animation",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "DeathAnim",
+          "sentence": "the death animation",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "DeathAnim"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "objectAnimationName"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "DeathAnim",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetDeathAnim",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DeathAnim",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the aI state (runtime) of the object.",
+          "fullName": "AI state (runtime)",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "State",
+          "sentence": "the aI state (runtime)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "State"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "State",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetState",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the attack phase (runtime) of the object.",
+          "fullName": "Attack phase (runtime)",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "AttackPhase",
+          "sentence": "the attack phase (runtime)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "AttackPhase"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "AttackPhase",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetAttackPhase",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "AttackPhase",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the home X (runtime) of the object.",
+          "fullName": "Home X (runtime)",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "HomeX",
+          "sentence": "the home X (runtime)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "HomeX"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "HomeX",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetHomeX",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "HomeX",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the direction (runtime) of the object.",
+          "fullName": "Direction (runtime)",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "Dir",
+          "sentence": "the direction (runtime)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Dir"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "Dir",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetDir",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dir",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if stab just landed (runtime).",
+          "fullName": "Stab just landed (runtime)",
+          "functionType": "Condition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "JustHit",
+          "sentence": "_PARAM0_ stab just landed (runtime)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change if stab just landed (runtime).",
+          "fullName": "Stab just landed (runtime)",
+          "functionType": "Action",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetJustHit",
+          "sentence": "_PARAM0_ stab just landed (runtime): _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Value",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Value",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            },
+            {
+              "defaultValue": "yes",
+              "description": "JustHit",
+              "name": "Value",
+              "optional": true,
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Run AI one frame",
+          "functionType": "Action",
+          "name": "Tick",
+          "sentence": "Run the patrol/chase/attack AI of _PARAM0_ every frame",
+          "events": [
+            {
+              "aiGeneratedEventId": "01M7CD1BAQS53ZVF159GGW095T",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "\"dead\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimDeath\").getAsString(); if (v) o.setAnimationName(v); }",
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"death\"",
+                        ">",
+                        "0.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M7C98S1V7YFEP1G8NADSKK8Z",
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Move",
+                    "=",
+                    "PatrolSpeed"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"hurt\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "aiGeneratedEventId": "01M7CD1BAQS53ZVF159GGW095T",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"stun\"",
+                            ">",
+                            "StunDuration"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Probe",
+                            "=",
+                            "(Object.CenterX() + Target.CenterX()) / 2",
+                            "=",
+                            "Object.Y() + ProbeBodyOffsetPx"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "abs(Target.CenterX() - Object.CenterX())",
+                                "<",
+                                "ChaseRange"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "Obstacles",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "State",
+                                "=",
+                                "\"chase\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"lost\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Else",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "State",
+                                "=",
+                                "\"return\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"attack\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "aiGeneratedEventId": "01M7CD1BAQS53ZVF159GGW095T",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "AttackPhase",
+                            "=",
+                            "\"windup\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"windup\"",
+                            ">",
+                            "0.5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "AttackPhase",
+                            "=",
+                            "\"stab\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"stab\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"lost\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::JsCode",
+                          "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimAttack\").getAsString(); if (v) o.setAnimationName(v); }",
+                          "parameterObjects": "Object",
+                          "useStrict": true,
+                          "eventsSheetExpanded": false
+                        }
+                      ]
+                    },
+                    {
+                      "aiGeneratedEventId": "01M7CD1BAQS53ZVF159GGW095T",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "AttackPhase",
+                            "=",
+                            "\"stab\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"stab\"",
+                            ">",
+                            "0.64"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "AttackPhase",
+                            "=",
+                            "\"recover\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"cool\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"lost\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "abs(Target.CenterX() - Object.CenterX())",
+                                "<",
+                                "AttackRange + 60"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "JustHit",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "AttackPhase",
+                            "=",
+                            "\"recover\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"cool\"",
+                            ">",
+                            "AttackCooldown"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "State",
+                            "=",
+                            "\"chase\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"lost\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"chase\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Move",
+                        "=",
+                        "ChaseSpeed"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dir",
+                        "=",
+                        "sign(Target.CenterX() - Object.CenterX())"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(Target.CenterX() - Object.CenterX())",
+                            "<",
+                            "ChaseRange"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Probe",
+                            "=",
+                            "(Object.CenterX() + Target.CenterX()) / 2",
+                            "=",
+                            "Object.Y() + ProbeBodyOffsetPx"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "Obstacles",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"lost\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetXY"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "=",
+                                "Object.CenterX() + Dir * ProbeAheadPx",
+                                "=",
+                                "Object.Y() + ProbeFootOffsetPx"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Probe",
+                                    "Obstacles",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": []
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Else",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Dir",
+                                        "=",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::SimulateRightKey"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Move"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Dir",
+                                        "=",
+                                        "-1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::SimulateLeftKey"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Move"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "aiGeneratedEventId": "01M7CA68Y5YVM75M4S899GF8A1",
+                                  "type": "BuiltinCommonInstructions::JsCode",
+                                  "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimWalk\").getAsString(); if (v) o.setAnimationName(v); }",
+                                  "parameterObjects": "Object",
+                                  "useStrict": true,
+                                  "eventsSheetExpanded": false
+                                }
+                              ]
+                            },
+                            {
+                              "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "abs(Target.CenterX() - Object.CenterX())",
+                                    "<",
+                                    "AttackRange"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetStringVariable"
+                                  },
+                                  "parameters": [
+                                    "State",
+                                    "=",
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetStringVariable"
+                                  },
+                                  "parameters": [
+                                    "AttackPhase",
+                                    "=",
+                                    "\"windup\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"windup\""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::JsCode",
+                                  "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimIdle\").getAsString(); if (v) o.setAnimationName(v); }",
+                                  "parameterObjects": "Object",
+                                  "useStrict": true,
+                                  "eventsSheetExpanded": false
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"lost\"",
+                            ">",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "State",
+                            "=",
+                            "\"return\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "AttackPhase",
+                            "=",
+                            "\"\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "State",
+                            "=",
+                            "\"patrol\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "State",
+                            "=",
+                            "\"return\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "State",
+                            "=",
+                            "\"return\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "abs(Object.X() - HomeX)",
+                                "<",
+                                "20"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "State",
+                                "=",
+                                "\"patrol\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Else",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dir",
+                                "=",
+                                "sign(HomeX - Object.X())"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Move"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Probe",
+                            "=",
+                            "Object.CenterX() + Dir * ProbeAheadPx",
+                            "=",
+                            "Object.Y() + ProbeFootOffsetPx"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "Obstacles",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dir",
+                                "=",
+                                "-Dir"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetXY"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "=",
+                                "Object.CenterX() + Dir * ProbeAheadPx",
+                                "=",
+                                "Object.Y() + ProbeBodyOffsetPx"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "Obstacles",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dir",
+                                "=",
+                                "-Dir"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "State",
+                                "=",
+                                "\"patrol\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Dir",
+                                        "=",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Object.X()",
+                                        ">=",
+                                        "HomeX + PatrolLength"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Dir",
+                                        "=",
+                                        "-1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Object.X()",
+                                        "<=",
+                                        "HomeX - PatrolLength"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dir",
+                                "=",
+                                "-Dir"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Dir",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Move"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Dir",
+                                "=",
+                                "-1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Move"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "aiGeneratedEventId": "01M7CA68Y5YVM75M4S899GF8A1",
+                          "type": "BuiltinCommonInstructions::JsCode",
+                          "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimWalk\").getAsString(); if (v) o.setAnimationName(v); }",
+                          "parameterObjects": "Object",
+                          "useStrict": true,
+                          "eventsSheetExpanded": false
+                        }
+                      ]
+                    },
+                    {
+                      "aiGeneratedEventId": "01M7CA68Y5YVM75M4S899GF8A1",
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::JsCode",
+                          "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimIdle\").getAsString(); if (v) o.setAnimationName(v); }",
+                          "parameterObjects": "Object",
+                          "useStrict": true,
+                          "eventsSheetExpanded": false
+                        }
+                      ]
+                    },
+                    {
+                      "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(Target.CenterX() - Object.CenterX())",
+                            "<",
+                            "ChaseRange"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Probe",
+                            "=",
+                            "(Object.CenterX() + Target.CenterX()) / 2",
+                            "=",
+                            "Object.Y() + ProbeBodyOffsetPx"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Probe",
+                                "Obstacles",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "State",
+                                "=",
+                                "\"chase\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"lost\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            },
+            {
+              "description": "Player target",
+              "name": "Target",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Invisible probe object",
+              "name": "Probe",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Solid obstacles (platforms/walls)",
+              "name": "Obstacles",
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Damage the enemy",
+          "functionType": "Action",
+          "name": "Hurt",
+          "sentence": "Make _PARAM0_ take damage, get stunned or die",
+          "events": [
+            {
+              "aiGeneratedEventId": "01M7CA719NY753H2FWF9PZ6C98",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "\"dead\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Object",
+                    "HealthB",
+                    "Damage",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "aiGeneratedEventId": "01M7CD3B3WV65JPY0G8NJR77F1",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "Object",
+                        "HealthB",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"dead\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "AttackPhase",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"death\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"hurt\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "AttackPhase",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"stun\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "  for (const o of objects) { const v = o.getVariables().get(\"AnimHurt\").getAsString(); if (v) o.setAnimationName(v); }",
+                      "parameterObjects": "Object",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            },
+            {
+              "description": "Amount of damage",
+              "name": "Damage",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Stab just landed",
+          "functionType": "Condition",
+          "name": "JustDealtDamage",
+          "sentence": "Stab of _PARAM0_ just landed this frame",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M7C9A7VGGXVXNBBP3MXE6CCN",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M7C9A7VGGXVXNBBP3MXE6CCN",
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "aiGeneratedEventId": "01M7C96MJSCRYVMBN96VCE3XNX",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "HomeX",
+                    "=",
+                    "Object.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dir",
+                    "=",
+                    "InitialDirection"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "\"patrol\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "AttackPhase",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "JustHit",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the probe distance ahead of the object.",
+          "fullName": "Probe distance ahead",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "ProbeAheadPx",
+          "sentence": "the probe distance ahead",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ProbeAheadPx"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "ProbeAheadPx",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetProbeAheadPx",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ProbeAheadPx",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the probe offset below origin (feet) of the object.",
+          "fullName": "Probe offset below origin (feet)",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "ProbeFootOffsetPx",
+          "sentence": "the probe offset below origin (feet)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ProbeFootOffsetPx"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "ProbeFootOffsetPx",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetProbeFootOffsetPx",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ProbeFootOffsetPx",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the probe offset below origin (body) of the object.",
+          "fullName": "Probe offset below origin (body)",
+          "functionType": "ExpressionAndCondition",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "ProbeBodyOffsetPx",
+          "sentence": "the probe offset below origin (body)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ProbeBodyOffsetPx"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "ActionWithOperator",
+          "getterName": "ProbeBodyOffsetPx",
+          "group": "Enemy patrol & chase AI configuration",
+          "name": "SetProbeBodyOffsetPx",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ProbeBodyOffsetPx",
+                    "=",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "EnemyAI::EnemyPatrolChase",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Enemy patrol & chase AI configuration",
+            "children": [
+              {
+                "functionName": "PatrolLength"
+              },
+              {
+                "functionName": "SetPatrolLength"
+              },
+              {
+                "functionName": "PatrolSpeed"
+              },
+              {
+                "functionName": "SetPatrolSpeed"
+              },
+              {
+                "functionName": "ChaseSpeed"
+              },
+              {
+                "functionName": "SetChaseSpeed"
+              },
+              {
+                "functionName": "ChaseRange"
+              },
+              {
+                "functionName": "SetChaseRange"
+              },
+              {
+                "functionName": "AttackRange"
+              },
+              {
+                "functionName": "SetAttackRange"
+              },
+              {
+                "functionName": "AttackDamage"
+              },
+              {
+                "functionName": "SetAttackDamage"
+              },
+              {
+                "functionName": "AttackCooldown"
+              },
+              {
+                "functionName": "SetAttackCooldown"
+              },
+              {
+                "functionName": "StunDuration"
+              },
+              {
+                "functionName": "SetStunDuration"
+              },
+              {
+                "functionName": "InitialDirection"
+              },
+              {
+                "functionName": "SetInitialDirection"
+              },
+              {
+                "functionName": "WalkAnim"
+              },
+              {
+                "functionName": "SetWalkAnim"
+              },
+              {
+                "functionName": "IdleAnim"
+              },
+              {
+                "functionName": "SetIdleAnim"
+              },
+              {
+                "functionName": "AttackAnim"
+              },
+              {
+                "functionName": "SetAttackAnim"
+              },
+              {
+                "functionName": "HurtAnim"
+              },
+              {
+                "functionName": "SetHurtAnim"
+              },
+              {
+                "functionName": "DeathAnim"
+              },
+              {
+                "functionName": "SetDeathAnim"
+              },
+              {
+                "functionName": "State"
+              },
+              {
+                "functionName": "SetState"
+              },
+              {
+                "functionName": "AttackPhase"
+              },
+              {
+                "functionName": "SetAttackPhase"
+              },
+              {
+                "functionName": "HomeX"
+              },
+              {
+                "functionName": "SetHomeX"
+              },
+              {
+                "functionName": "Dir"
+              },
+              {
+                "functionName": "SetDir"
+              },
+              {
+                "functionName": "JustHit"
+              },
+              {
+                "functionName": "SetJustHit"
+              },
+              {
+                "functionName": "ProbeAheadPx"
+              },
+              {
+                "functionName": "SetProbeAheadPx"
+              },
+              {
+                "functionName": "ProbeFootOffsetPx"
+              },
+              {
+                "functionName": "SetProbeFootOffsetPx"
+              },
+              {
+                "functionName": "ProbeBodyOffsetPx"
+              },
+              {
+                "functionName": "SetProbeBodyOffsetPx"
+              }
+            ]
+          },
+          {
+            "functionName": "Tick"
+          },
+          {
+            "functionName": "Hurt"
+          },
+          {
+            "functionName": "JustDealtDamage"
+          },
+          {
+            "functionName": "onCreated"
+          }
+        ]
+      },
+      "propertyDescriptors": [
+        {
+          "value": "150",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Patrol route length",
+          "name": "PatrolLength"
+        },
+        {
+          "value": "100",
+          "type": "Number",
+          "unit": "PixelSpeed",
+          "label": "Patrol speed",
+          "name": "PatrolSpeed"
+        },
+        {
+          "value": "200",
+          "type": "Number",
+          "unit": "PixelSpeed",
+          "label": "Chase speed",
+          "name": "ChaseSpeed"
+        },
+        {
+          "value": "450",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Chase trigger distance",
+          "name": "ChaseRange"
+        },
+        {
+          "value": "150",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Attack range",
+          "name": "AttackRange"
+        },
+        {
+          "value": "1",
+          "type": "Number",
+          "label": "Attack damage",
+          "name": "AttackDamage"
+        },
+        {
+          "value": "1",
+          "type": "Number",
+          "unit": "Second",
+          "label": "Attack cooldown",
+          "name": "AttackCooldown"
+        },
+        {
+          "value": "0.3",
+          "type": "Number",
+          "unit": "Second",
+          "label": "Hurt stun duration",
+          "name": "StunDuration"
+        },
+        {
+          "value": "1",
+          "type": "NumberWithChoices",
+          "label": "Initial patrol direction",
+          "choices": [
+            {
+              "label": "Right",
+              "value": "1"
+            },
+            {
+              "label": "Left",
+              "value": "-1"
+            }
+          ],
+          "name": "InitialDirection"
+        },
+        {
+          "value": "run",
+          "type": "String",
+          "label": "Walk animation name",
+          "name": "WalkAnim"
+        },
+        {
+          "value": "idle",
+          "type": "String",
+          "label": "Idle animation name",
+          "name": "IdleAnim"
+        },
+        {
+          "value": "attack",
+          "type": "String",
+          "label": "Attack (stab) animation name",
+          "name": "AttackAnim"
+        },
+        {
+          "value": "hurt",
+          "type": "String",
+          "label": "Hurt animation name",
+          "name": "HurtAnim"
+        },
+        {
+          "value": "death",
+          "type": "String",
+          "label": "Death animation name",
+          "name": "DeathAnim"
+        },
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "Platformer behavior",
+          "extraInformation": [
+            "PlatformBehavior::PlatformerObjectBehavior"
+          ],
+          "choices": [],
+          "name": "Move"
+        },
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "Health behavior",
+          "extraInformation": [
+            "Health::Health"
+          ],
+          "choices": [],
+          "name": "HealthB"
+        },
+        {
+          "value": "patrol",
+          "type": "String",
+          "label": "AI state (runtime)",
+          "hidden": true,
+          "name": "State"
+        },
+        {
+          "value": "",
+          "type": "String",
+          "label": "Attack phase (runtime)",
+          "hidden": true,
+          "name": "AttackPhase"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Home X (runtime)",
+          "hidden": true,
+          "name": "HomeX"
+        },
+        {
+          "value": "1",
+          "type": "Number",
+          "label": "Direction (runtime)",
+          "hidden": true,
+          "name": "Dir"
+        },
+        {
+          "value": "false",
+          "type": "Boolean",
+          "label": "Stab just landed (runtime)",
+          "hidden": true,
+          "name": "JustHit"
+        },
+        {
+          "value": "40",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Probe distance ahead",
+          "name": "ProbeAheadPx"
+        },
+        {
+          "value": "80",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Probe offset below origin (feet)",
+          "name": "ProbeFootOffsetPx"
+        },
+        {
+          "value": "30",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Probe offset below origin (body)",
+          "name": "ProbeBodyOffsetPx"
+        }
+      ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PatrolLength"
+          },
+          {
+            "propertyName": "PatrolSpeed"
+          },
+          {
+            "propertyName": "ChaseSpeed"
+          },
+          {
+            "propertyName": "ChaseRange"
+          },
+          {
+            "propertyName": "AttackRange"
+          },
+          {
+            "propertyName": "AttackDamage"
+          },
+          {
+            "propertyName": "AttackCooldown"
+          },
+          {
+            "propertyName": "StunDuration"
+          },
+          {
+            "propertyName": "InitialDirection"
+          },
+          {
+            "propertyName": "WalkAnim"
+          },
+          {
+            "propertyName": "IdleAnim"
+          },
+          {
+            "propertyName": "AttackAnim"
+          },
+          {
+            "propertyName": "HurtAnim"
+          },
+          {
+            "propertyName": "DeathAnim"
+          },
+          {
+            "propertyName": "Move"
+          },
+          {
+            "propertyName": "HealthB"
+          },
+          {
+            "propertyName": "State"
+          },
+          {
+            "propertyName": "AttackPhase"
+          },
+          {
+            "propertyName": "HomeX"
+          },
+          {
+            "propertyName": "Dir"
+          },
+          {
+            "propertyName": "JustHit"
+          },
+          {
+            "propertyName": "ProbeAheadPx"
+          },
+          {
+            "propertyName": "ProbeFootOffsetPx"
+          },
+          {
+            "propertyName": "ProbeBodyOffsetPx"
+          }
+        ]
+      }
+    }
+  ],
+  "eventsBasedObjects": []
+}
