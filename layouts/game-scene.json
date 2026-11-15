@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073748998,
+    "zoomFactor": 0.14513286445533496,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1959,6 +1959,491 @@
       "x": 1024,
       "y": 400,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1309,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_sky_midnight",
+      "persistentUuid": "b0658bda-1dac-4963-af6b-014ba9d0ab05",
+      "width": 2450,
+      "x": 7281,
+      "y": -182,
+      "zOrder": 170,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1309,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_sky_midnight",
+      "persistentUuid": "3e09db35-de56-4870-9569-0d2110b7aefd",
+      "width": 2450,
+      "x": 8714,
+      "y": -182,
+      "zOrder": 170,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_far_sky",
+      "persistentUuid": "5eaa33ec-2136-4a78-bca7-564d15703735",
+      "width": 3884,
+      "x": 7283,
+      "y": -170,
+      "zOrder": 171,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_mid_city",
+      "persistentUuid": "8d21467a-eca3-402d-b955-ae77a7848288",
+      "width": 3896,
+      "x": 7271,
+      "y": -22,
+      "zOrder": 172,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 440,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_fog_midnight",
+      "persistentUuid": "5d568ee1-1f5e-4cc9-8712-3a1c59d09b6c",
+      "width": 3880,
+      "x": 7278,
+      "y": 676,
+      "zOrder": 173,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_near_midnight",
+      "persistentUuid": "74c6d515-61d2-4dc0-af62-aadae6ae6734",
+      "width": 3950,
+      "x": 7225,
+      "y": 48,
+      "zOrder": 174,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ground_city_night",
+      "persistentUuid": "5d84e362-7a06-482b-a9b7-8545808e0651",
+      "width": 3905,
+      "x": 7273,
+      "y": 1008,
+      "zOrder": 175,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform_city_night",
+      "persistentUuid": "b6035905-8c66-4b79-ad93-d85be8efa95a",
+      "width": 0,
+      "x": 9017,
+      "y": 753,
+      "zOrder": 176,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform_city_night",
+      "persistentUuid": "11fddea7-ccf7-481a-abe9-5bec31de5bfe",
+      "width": 333,
+      "x": 9365,
+      "y": 604,
+      "zOrder": 177,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1332,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_city_dusk",
+      "persistentUuid": "7e804887-f816-429b-bad5-28358621383e",
+      "width": 2298,
+      "x": 11335,
+      "y": -184,
+      "zOrder": 178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1332,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_city_dusk",
+      "persistentUuid": "7e8a8475-1fe6-4659-af39-2efe7db462c6",
+      "width": 2298,
+      "x": 12753,
+      "y": -187,
+      "zOrder": 178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_far_sky_dusk",
+      "persistentUuid": "37e266f2-b036-4596-983d-65476292b5ea",
+      "width": 3717,
+      "x": 11333,
+      "y": -198,
+      "zOrder": 179,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_mid_city_dusk",
+      "persistentUuid": "f1cfad1b-31f6-4b10-80b5-5013266f9eb9",
+      "width": 3704,
+      "x": 11337,
+      "y": -12,
+      "zOrder": 180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 440,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_fog_city_dusk",
+      "persistentUuid": "e7917da6-1004-48ac-9130-0fde2780492e",
+      "width": 3720,
+      "x": 11326,
+      "y": 704,
+      "zOrder": 181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_near_city_dusk",
+      "persistentUuid": "d0be6cc0-823e-474a-b999-5b56f7a554d2",
+      "width": 3867,
+      "x": 11164,
+      "y": 61,
+      "zOrder": 182,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ground_city_dusk",
+      "persistentUuid": "bd1d1589-93e6-43e8-babe-0703b6c6c8a3",
+      "width": 3735,
+      "x": 11324,
+      "y": 1026,
+      "zOrder": 183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform_city_dusk",
+      "persistentUuid": "30320fbc-6f22-4687-97c7-38dce2fe8014",
+      "width": 205,
+      "x": 11361,
+      "y": 585,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform_city_dusk",
+      "persistentUuid": "b008a358-19e0-48f6-8167-affafbeb89d7",
+      "width": 205,
+      "x": 11993,
+      "y": 358,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform_city_dusk",
+      "persistentUuid": "96842b89-3551-4dcb-9158-35ff944f0fdc",
+      "width": 205,
+      "x": 11782,
+      "y": 362,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp",
+      "persistentUuid": "3720556f-0a48-4254-9dd1-cd1827b75195",
+      "width": 0,
+      "x": 11636,
+      "y": 788,
+      "zOrder": 185,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp",
+      "persistentUuid": "9a5e8b79-c9b1-4120-b6f3-4ca32fd48cff",
+      "width": 0,
+      "x": 12846,
+      "y": 789,
+      "zOrder": 185,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp",
+      "persistentUuid": "48e37c19-5d25-4c6b-8e68-a27f59d4d558",
+      "width": 0,
+      "x": 13659,
+      "y": 786,
+      "zOrder": 185,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp",
+      "persistentUuid": "dde62753-087b-475b-888b-ba7c01db3f4d",
+      "width": 0,
+      "x": 8568,
+      "y": 772,
+      "zOrder": 186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp",
+      "persistentUuid": "a5a7891b-f689-418b-afd8-f38faec4b4fd",
+      "width": 0,
+      "x": 9338,
+      "y": 772,
+      "zOrder": 187,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp",
+      "persistentUuid": "caf75b5d-22f9-440d-bb88-2d1b741a6aca",
+      "width": 0,
+      "x": 12027,
+      "y": 122,
+      "zOrder": 188,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 146,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crate",
+      "persistentUuid": "ce9102bf-53cc-4222-b269-3e46fb9bc6cc",
+      "width": 215,
+      "x": 13202,
+      "y": 880,
+      "zOrder": 189,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crate",
+      "persistentUuid": "6d1c42b0-f787-4826-a631-1589c6cb3414",
+      "width": 0,
+      "x": 12105,
+      "y": 284,
+      "zOrder": 190,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crate",
+      "persistentUuid": "bb387b73-a647-4ad9-b81e-6e404a541e3a",
+      "width": 217,
+      "x": 10950,
+      "y": 934,
+      "zOrder": 191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crate",
+      "persistentUuid": "9bf16a0e-e48f-4e9e-9db0-3a31af0f95d5",
+      "width": 150,
+      "x": 11018,
+      "y": 866,
+      "zOrder": 191,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -20016,6 +20501,345 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_sky_midnight",
+      "persistentUuid": "f36ccfab-deb8-441d-b4a8-37fb3b6697aa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/bg1_sky.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_far_sky",
+      "persistentUuid": "342f6085-07f2-4016-ae07-0941b72e4e58",
+      "texture": "assets/bg2_far_skyline.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1920,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_mid_city",
+      "persistentUuid": "d9deb7a4-4a29-4874-9d02-ecf60986a31c",
+      "texture": "assets/bg3_mid_city.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 440,
+      "name": "bg_fog_midnight",
+      "persistentUuid": "e069ed49-bebf-44fb-87b7-52585c08f5d1",
+      "texture": "assets/bg4_fog.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1920,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_near_midnight",
+      "persistentUuid": "d5236a08-92ce-4c3e-88ac-5266cdb58ea6",
+      "texture": "assets/bg5_near_buildings.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "ground_city_night",
+      "persistentUuid": "425194fc-53e7-4eb0-92e6-393db007b47f",
+      "texture": "assets/ground_strip.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 104,
+      "name": "platform_city_night",
+      "persistentUuid": "ba614a61-0824-45bc-b170-d6a5db1cb337",
+      "texture": "assets/platform_48.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 200,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_city_dusk",
+      "persistentUuid": "27bcfc07-4ebe-4d10-a36c-38eb55af4d8a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bg1_sky.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_far_sky_dusk",
+      "persistentUuid": "935d2a1a-a39e-42e4-9731-ff6882bb8d3d",
+      "texture": "bg2_far_skyline.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1920,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_mid_city_dusk",
+      "persistentUuid": "93f9d5d6-835a-44bd-af9c-87e31db3a66e",
+      "texture": "bg3_mid_city.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 440,
+      "name": "bg_fog_city_dusk",
+      "persistentUuid": "1762fb04-6eeb-40ef-887e-342662843dee",
+      "texture": "bg4_fog.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1920,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_near_city_dusk",
+      "persistentUuid": "be497975-09b6-47a9-a525-3b008953e102",
+      "texture": "bg5_near_buildings.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "ground_city_dusk",
+      "persistentUuid": "c94d8574-d56e-4116-9af8-6449eba3f3b4",
+      "texture": "ground_strip.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 104,
+      "name": "platform_city_dusk",
+      "persistentUuid": "f91116dd-afe1-492d-b096-cb86cd079ba5",
+      "texture": "platform_48.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 200,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lamp",
+      "persistentUuid": "2faf8f53-0f03-4546-9558-d7ca4bf16b7b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lamp_post.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 100,
+                        "y": 24
+                      },
+                      {
+                        "x": 100,
+                        "y": 240
+                      },
+                      {
+                        "x": 8,
+                        "y": 240
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 72,
+      "name": "crate",
+      "persistentUuid": "0f4fdb9a-2794-4b90-96a4-7461c5a06a20",
+      "texture": "crate.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 72,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -20023,6 +20847,9 @@
     "children": [
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "bg_sky_midnight"
       },
       {
         "objectName": "Player2"
@@ -20089,6 +20916,9 @@
       },
       {
         "objectName": "npc_nopal"
+      },
+      {
+        "objectName": "crate"
       },
       {
         "objectName": "demon"
@@ -20263,6 +21093,48 @@
       },
       {
         "objectName": "LevelUpOverlay"
+      },
+      {
+        "objectName": "bg_far_sky"
+      },
+      {
+        "objectName": "bg_mid_city"
+      },
+      {
+        "objectName": "bg_fog_midnight"
+      },
+      {
+        "objectName": "bg_near_midnight"
+      },
+      {
+        "objectName": "ground_city_night"
+      },
+      {
+        "objectName": "platform_city_night"
+      },
+      {
+        "objectName": "bg_city_dusk"
+      },
+      {
+        "objectName": "bg_far_sky_dusk"
+      },
+      {
+        "objectName": "bg_mid_city_dusk"
+      },
+      {
+        "objectName": "bg_fog_city_dusk"
+      },
+      {
+        "objectName": "bg_near_city_dusk"
+      },
+      {
+        "objectName": "lamp"
+      },
+      {
+        "objectName": "ground_city_dusk"
+      },
+      {
+        "objectName": "platform_city_dusk"
       }
     ]
   },

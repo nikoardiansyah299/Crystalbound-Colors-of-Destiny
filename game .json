@@ -11654,6 +11654,134 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/9536181c317acd32aef619d1e268e504d1d9eaf4c37a05897d83f029d698e94a_Grid.png",
           "name": "Grid.png"
         }
+      },
+      {
+        "file": "assets/bg1_sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bg1_sky.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg2_far_skyline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bg2_far_skyline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg3_mid_city.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bg3_mid_city.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg4_fog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bg4_fog.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg5_near_buildings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bg5_near_buildings.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ground_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/ground_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/platform_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/platform_48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg1_sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg1_sky.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg2_far_skyline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg2_far_skyline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg3_mid_city.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg3_mid_city.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg4_fog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg4_fog.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg5_near_buildings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg5_near_buildings.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ground_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "platform_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "platform_48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lamp_post.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamp_post.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crate.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
