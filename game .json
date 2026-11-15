@@ -11194,6 +11194,466 @@
         "name": "Shadow2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_060.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_070.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_090.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/nurus/Downloads/frames/exp_bar_100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/nurus/Downloads/frames/exp_bar_100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_bar_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_bar_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_060.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_070.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_090.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_bar_100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_bar_100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_060.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_070.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_090.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power_bar_100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/power_bar_100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_burst_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_burst_00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_burst_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_burst_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_burst_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_burst_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_burst_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_burst_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_burst_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_burst_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_burst_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_burst_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_drop_idle_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/exp_drop_idle_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "skill_card_1_shockwave_slam_x8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skill_card_1_shockwave_slam_x8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "skill_card_2_crescent_dash_x8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skill_card_2_crescent_dash_x8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Heart Red_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/938ddce064ae3f50e145623d8766d066721bb8f227783301d7f5d2f0563f5533_Heart Red_1.png",
+          "name": "Heart Red_1.png"
+        }
+      },
+      {
+        "file": "assets/Heart Red_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/552c302c1bf96c4efcb6e8f3a47226f015065b13d758eacef10d8e52d3656321_Heart Red_2.png",
+          "name": "Heart Red_2.png"
+        }
+      },
+      {
+        "file": "assets/Heart Red_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/001188d042a9a4c9dbdcf452faf383a77a848cc19f09a129179990a3f2f13411_Heart Red_3.png",
+          "name": "Heart Red_3.png"
+        }
+      },
+      {
+        "file": "assets/Heart Red_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/2ba82e25951f6e61ba95b9f34425eb736475ca83a65aee850112eed6b772bbb9_Heart Red_4.png",
+          "name": "Heart Red_4.png"
+        }
+      },
+      {
+        "file": "assets/Grid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grid.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/9536181c317acd32aef619d1e268e504d1d9eaf4c37a05897d83f029d698e94a_Grid.png",
+          "name": "Grid.png"
+        }
       }
     ]
   },
@@ -11202,7 +11662,83 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Skill1Radius",
+      "type": "number",
+      "value": 250
+    },
+    {
+      "name": "Skill1Damage",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "GameState",
+      "type": "string",
+      "value": "Playing"
+    },
+    {
+      "name": "LevelUpPending",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Skill2Unlocked",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Skill1Unlocked",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "PowerPerAttack",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "name": "PowerMax",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "PlayerPower",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ExpDropMax",
+      "type": "number",
+      "value": 40
+    },
+    {
+      "name": "ExpDropMin",
+      "type": "number",
+      "value": 30
+    },
+    {
+      "name": "ExpMax",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "PlayerExp",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MaxLevel",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "PlayerLevel",
+      "type": "number",
+      "value": 1
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -11660,6 +12196,39 @@
         "}",
         ""
       ]
+    },
+    {
+      "description": "Verify HUD hearts, power gain on attack, level-up card flow, and skill1 power consumption.",
+      "lastRunAt": 1794731013566,
+      "lastRunDurationMs": 3473,
+      "lastRunFramesExecuted": 93,
+      "lastRunStatus": "passed",
+      "name": "EXP level skill flow",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(60);",
+        "const hearts = harness.getObjects('RedSmoothHeart');",
+        "harness.assert(hearts.length === 1, 'RedSmoothHeart bar ada (1), found '+hearts.length);",
+        "harness.assert(!hearts[0].hidden, 'RedSmoothHeart terlihat (satu-satunya sistem darah)');",
+        "const oldHearts = harness.getObjects('Heart');",
+        "harness.assert(oldHearts.length === 0, 'Sistem Heart lama sudah dihapus, found '+oldHearts.length);",
+        "const s1 = harness.getObjects('skill1_hud');",
+        "const s2 = harness.getObjects('skill2_hud');",
+        "harness.assert(s1.length === 1 && s2.length === 1, 'skill1_hud & skill2_hud ada di bawah power_bar');",
+        "harness.assert(s1[0].hidden === true && s2[0].hidden === true, 'Ikon skill tersembunyi sebelum unlock');",
+        "const p1 = harness.getObjects('Player')[0];",
+        "harness.assert(p1.x !== undefined, 'Player ada');",
+        "// power gain via attack",
+        "const pow0 = harness.getSceneVariable('PlayerPower')?.value ?? harness.getGlobalVariable('PlayerPower')?.value ?? 0;",
+        "harness.setMouseButtonPressed(true, 'left');",
+        "await harness.stepFrames(2);",
+        "harness.setMouseButtonPressed(false, 'left');",
+        "await harness.stepFrames(30);",
+        "const pow1 = harness.getSceneVariable('PlayerPower')?.value ?? harness.getGlobalVariable('PlayerPower')?.value ?? 0;",
+        "harness.assert(Number(pow1) >= Number(pow0), 'PlayerPower tidak berkurang setelah attack ('+pow0+'->'+pow1+')');",
+        "await harness.takeScreenshot('health-skill-hud');"
+      ]
     }
   ],
   "testsFolderStructure": {
@@ -11688,6 +12257,9 @@
       },
       {
         "itemName": "Coin drop from demon"
+      },
+      {
+        "itemName": "EXP level skill flow"
       }
     ]
   },
