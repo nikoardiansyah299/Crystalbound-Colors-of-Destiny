@@ -11918,6 +11918,2070 @@
         "name": "attack9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Grid.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grid",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp_00.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp_00",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-60",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-70",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-80",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-90",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/exp-100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "exp-100",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-00.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-00",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-60",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-70",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-80",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-90",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/power-100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "power-100",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_burst_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_burst_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_burst_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_burst_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_burst_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_burst_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_burst_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_burst_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_burst_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_burst_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_burst_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_burst_00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "exp_drop_idle_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exp_drop_idle_00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill_card_1_shockwave_slam_x8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill_card_1_shockwave_slam_x8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill_card_2_crescent_dash_x8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill_card_2_crescent_dash_x8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg2_far_skyline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg2_far_skyline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg3_mid_city.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg3_mid_city.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg4_fog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg4_fog.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg5_near_buildings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg5_near_buildings.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ground_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "platform_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "platform_48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lamp_post.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lamp_post",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg1_sky.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bg1_sky",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg2_far_skyline2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg2_far_skyline2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg3_mid_city2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg3_mid_city2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg4_fog2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg4_fog2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bg5_near_buildings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg5_near_buildings2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ground_strip2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_strip2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "platform_96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "platform_96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "platform_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "platform_49.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg1_sky2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/bg1_sky",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/portal_purple18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_purple18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/platform_49.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/platform_49.png2.png\"}",
+        "name": "platform_49.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "city_tileset_4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "city_tileset_4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "city_tileset_purple_4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "city_tileset_purple_4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Portal-Spinning10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal-Spinning10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill43",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill55",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill57",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill58",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill59",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill60",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill61",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill62",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill63",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill64",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill65",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill66",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill67",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill68",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill69",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill70",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill71",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill72",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill73",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill74",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill75",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill76",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill77",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill78",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill79",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill80",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill81",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill82",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill83",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill84",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill85",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill86",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill87",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill88",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill89",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill90",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill91",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill92",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill93",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill94",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill95",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill96",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill97",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill98",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill99",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill100",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill101",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill102",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill103",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill104",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill105",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill106",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill107",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill108",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill109",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill110",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill111",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill112",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill113",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill114",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill115",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill116",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill117",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill118",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill119",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill120",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill121",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill122",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill123.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill123",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill124.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill124",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill125.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill125",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill126",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill127",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill128",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill129",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill130",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill131",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill132",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill133",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill134",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill135",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill136",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill137",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill138",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill139",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill140.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill140",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill141.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill141",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill142.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill142",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill143.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill143",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill144",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill145",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill146",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill147",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill148",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill149",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill150",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill151",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill152",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill153",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill154",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill155",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill156",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill157",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill158",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill159",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill160",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill161",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill162",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill163",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill164",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill165",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill166",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill167",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill168",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill169",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill171",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -11926,7 +13990,68 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "PowerMax",
+      "persistentUuid": "08f226b9-b09b-4b74-9daf-78a1acc9fce1",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "MaxLevel",
+      "persistentUuid": "059ea1d4-5d5b-42ac-a795-59f72cf0ee1f",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "Skill1Radius",
+      "persistentUuid": "b7e3e999-e738-4fbf-a31d-dd1f72c71e75",
+      "type": "number",
+      "value": 250
+    },
+    {
+      "name": "Skill1Damage",
+      "persistentUuid": "eeba4f19-74a6-4fff-9340-369ac8b7a442",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "PowerPerAttack",
+      "persistentUuid": "a9f65772-7497-432f-b8b6-d8b89ac7b04f",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "name": "PlayerPower",
+      "persistentUuid": "06da8ef7-1438-422a-aa49-5f9f9b9f54e1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ExpDropMax",
+      "persistentUuid": "d6957b4b-416a-450f-ba6f-321c90109a5f",
+      "type": "number",
+      "value": 40
+    },
+    {
+      "name": "ExpDropMin",
+      "persistentUuid": "4614bb59-d9a5-46d6-ae04-2c696774de00",
+      "type": "number",
+      "value": 30
+    },
+    {
+      "name": "ExpMax",
+      "persistentUuid": "efb1f147-c583-49d3-adc3-cf3d7a902382",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "GameState",
+      "persistentUuid": "d483629a-872f-47d6-bc24-aec9167774d7",
+      "type": "string",
+      "value": "Playing"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
