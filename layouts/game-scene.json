@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.14513286445533496,
+    "zoomFactor": 0.1150652972751166,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2444,6 +2444,40 @@
       "x": 11018,
       "y": 866,
       "zOrder": 191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1344,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_kingdom_midnight",
+      "persistentUuid": "f1273844-1b85-482b-a598-d61351749e8c",
+      "width": 3901,
+      "x": 7300,
+      "y": 1459,
+      "zOrder": 192,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1326,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_kingdom_dusk",
+      "persistentUuid": "65d88537-33bb-4c95-825c-6d09027b45f5",
+      "width": 4092,
+      "x": 11401,
+      "y": 1452,
+      "zOrder": 193,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -20840,6 +20874,127 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_kingdom_midnight",
+      "persistentUuid": "98081831-4e89-48c9-8440-91de8ca0f9f1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Kota Fantasi Abad Pertengahan di Bawah Bulan Purnama (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 4344,
+                        "y": 0
+                      },
+                      {
+                        "x": 4344,
+                        "y": 1448
+                      },
+                      {
+                        "x": 0,
+                        "y": 1448
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_kingdom_dusk",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Violet Twilight Medieval Townscape (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 4344,
+                        "y": 0
+                      },
+                      {
+                        "x": 4344,
+                        "y": 1448
+                      },
+                      {
+                        "x": 0,
+                        "y": 1448
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -21135,6 +21290,12 @@
       },
       {
         "objectName": "platform_city_dusk"
+      },
+      {
+        "objectName": "bg_kingdom_midnight"
+      },
+      {
+        "objectName": "bg_kingdom_dusk"
       }
     ]
   },
