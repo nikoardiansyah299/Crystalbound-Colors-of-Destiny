@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1150652972751166,
+    "zoomFactor": 0.31119749424452886,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -594,8 +594,8 @@
       "name": "InteractPrompt",
       "persistentUuid": "d3baf967-ecbc-4685-84a8-b7d5bc9a0628",
       "width": 0,
-      "x": 2494,
-      "y": 765,
+      "x": 1180,
+      "y": 771,
       "zOrder": 131,
       "numberProperties": [],
       "stringProperties": [],
@@ -612,8 +612,8 @@
       "name": "npc_ns",
       "persistentUuid": "9956a479-3967-4930-ae6f-2f816132d6c2",
       "width": 136,
-      "x": 2515,
-      "y": 907,
+      "x": 1196,
+      "y": 901,
       "zOrder": 110,
       "numberProperties": [],
       "stringProperties": [],
@@ -23764,18 +23764,9 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7JBTQT3A1YG35MW3XV75V08",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "BooleanVariable"
@@ -23793,6 +23784,17 @@
           "parameters": [
             "",
             "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_ns",
+            "250",
+            ""
           ]
         }
       ],
@@ -23886,6 +23888,7 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7JCKJXQSYXVMPBY40N1EYED",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -24003,7 +24006,119 @@
                 "DialogText",
                 "Text",
                 "=",
-                "\"Disini cukup berbahaya, kurasa kau harus keluar dari goa ini..!\""
+                "\"Tekan A-D bergerak, Spasi lompat,\" + NewLine() + \"Left Ctrl dash, Klik Kiri menyerang.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Coba tebas monster di depan dengan Klik Kiri.\" + NewLine() + \"Jangan takut, mereka lemah!\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Monster yang kalah menjatuhkan gem, exp, dan coin.\" + NewLine() + \"Kumpulkan semuanya untuk bekal perjalananmu.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Gem itu bukan hiasan!\" + NewLine() + \"Bawa gem sewarna ke gerbang untuk membukanya.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Disini cukup berbahaya, segera keluar dari goa ini..!\""
               ]
             }
           ]
@@ -24018,7 +24133,7 @@
               "parameters": [
                 "DialogueStepnuru",
                 ">=",
-                "3"
+                "7"
               ]
             }
           ],
@@ -24167,6 +24282,7 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7JBGSGSMAJAK8C0147RMFGV",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -24196,6 +24312,17 @@
           "parameters": [
             "",
             "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_niko",
+            "250",
+            ""
           ]
         }
       ],
@@ -24570,6 +24697,249 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7JBGSGSMAJAK8C0147RMFGV",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_ns",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DialogueOpen",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "InteractPrompt",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "InteractPrompt",
+            "=",
+            "npc_ns.X() + 16",
+            "=",
+            "npc_ns.Y() - 50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "NearNPC",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7JBGSGSMAJAK8C0147RMFGV",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_niko",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DialogueOpen",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "InteractPrompt",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "InteractPrompt",
+            "=",
+            "npc_niko.X() + 16",
+            "=",
+            "npc_niko.Y() - 50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "NearNPC",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7JBGSGSMAJAK8C0147RMFGV",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_nopal",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DialogueOpen",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "InteractPrompt",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "InteractPrompt",
+            "=",
+            "npc_nopal.X() + 16",
+            "=",
+            "npc_nopal.Y() - 50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "NearNPC",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7JBGSGSMAJAK8C0147RMFGV",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_ns",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_niko",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_nopal",
+            "250",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "InteractPrompt"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "NearNPC",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7JBGSGSMAJAK8C0147RMFGV",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -24599,6 +24969,17 @@
           "parameters": [
             "",
             "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_nopal",
+            "250",
+            ""
           ]
         }
       ],
@@ -35529,7 +35910,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M71EDD9080FZB1Q1GA7Q0Z3Q",
+          "aiGeneratedEventId": "01M7JC03336CCX5BJFSB9ABRTW",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35550,6 +35931,30 @@
               "parameters": [
                 "Player",
                 "npc_nopal",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "npc_ns",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "npc_niko",
                 "250",
                 ""
               ]
