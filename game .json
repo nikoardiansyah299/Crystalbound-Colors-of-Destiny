@@ -13982,6 +13982,228 @@
         "name": "skill171",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/01_backdrop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/01_backdrop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/02_far.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/02_far.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/03_vault.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/03_vault.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/08_overhead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/08_overhead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/04_pillars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/04_pillars.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/05_near_rocks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/05_near_rocks.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/06_props.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/06_props.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/07_ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/07_ground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/01_backdrop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/01_backdrop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/02_far.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/02_far.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/03_mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/03_mid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/04_near_trunk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/04_near_trunk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/05_props.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/05_props.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/06_ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/06_ground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/07_overhead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/07_overhead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/City Sunshine.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "City Sunshine.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "victory bgm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "victory bgm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "defeat bgm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "defeat bgm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/The Crown.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "The Crown.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Nordic Wist.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Nordic Wist.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mysterious Lights.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Mysterious Lights.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Forest Frolic Loop.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Forest Frolic Loop.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "tileset_cave_forest_16x16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_cave_forest_16x16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tileset_cave_forest_16x16.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tileset_cave_forest_16x16.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/panorama_cave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/panorama_cave.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/panorama_cave_to_forest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/panorama_cave_to_forest.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -14509,6 +14731,70 @@
         "}",
         ""
       ]
+    },
+    {
+      "description": "The Main Menu starts looping menu music; going to the Game Scene fades it out and stops it.",
+      "lastRunAt": 1794898173515,
+      "lastRunDurationMs": 2621,
+      "lastRunFramesExecuted": 31,
+      "lastRunStatus": "passed",
+      "name": "Main menu background music plays and stops",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Main Menu');",
+        "await harness.stepFrames(30);",
+        "const sounds = harness.getPlayedSounds();",
+        "const played = sounds.map(s => s.sound).join(', ');",
+        "harness.assert(sounds.some(s => /City Sunshine/i.test(s.sound)), 'Menu music started on the Main Menu (played: ' + played + ')');",
+        "await harness.takeScreenshot('main menu');",
+        "harness.assert(harness.getSceneName() === 'Main Menu', 'Still on the Main Menu');",
+        ""
+      ]
+    },
+    {
+      "description": "The 4 stages each play their own looping music (cave, forest, kingdom city, dusk kingdom city) and the music always matches the stage the player is in.",
+      "lastRunAt": 1794899066601,
+      "lastRunDurationMs": 5966,
+      "lastRunFramesExecuted": 57,
+      "lastRunStatus": "passed",
+      "name": "Stage background music switches per stage",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(4);",
+        "const names = () => harness.getPlayedSounds().map(s => s.sound);",
+        "const joined = () => names().join(', ');",
+        "const map = { 1: /Mysterious Lights/i, 2: /Forest Frolic/i, 3: /The Crown/i, 4: /Nordic Wist/i };",
+        "const keys = { 1: 'cave', 2: 'forest', 3: 'city', 4: 'dusk' };",
+        "const marker = { 1: 'area_1_start', 2: 'area_2_start', 3: 'area_3a_start', 4: 'area_4_start' };",
+        "const matchesArea = () => keys[harness.getSceneVariable('CurrentArea').value] === harness.getSceneVariable('CurrentMusic').value;",
+        "",
+        "const startArea = harness.getSceneVariable('CurrentArea').value;",
+        "harness.assert(map[startArea] && map[startArea].test(joined()), 'Start stage (area ' + startArea + ') plays its own music: ' + joined());",
+        "",
+        "const player = harness.getObjects('Player')[0];",
+        "for (const a of [1, 2, 3, 4]) {",
+        "  const m = harness.getObjects(marker[a])[0];",
+        "  harness.setObjectPosition(player.id, m.centerX, m.centerY);",
+        "  await harness.setSceneVariable('CurrentArea', a);",
+        "  await harness.stepFrames(3);",
+        "  harness.assert(map[a].test(joined()), 'Stage area ' + a + ' plays its music (played: ' + joined() + ')');",
+        "  harness.assert(harness.getSceneVariable('CurrentMusic').value === keys[a], 'Stage area ' + a + ' recorded CurrentMusic=' + harness.getSceneVariable('CurrentMusic').value);",
+        "}",
+        "",
+        "// The music must always match the current stage, and never restart in place.",
+        "let invariantOk = true;",
+        "for (let i = 0; i < 8; i++) {",
+        "  await harness.stepFrames(5);",
+        "  if (!matchesArea()) invariantOk = false;",
+        "}",
+        "harness.assert(invariantOk, 'Over 40 frames the music always matches the stage the player is in');",
+        "const total = names().length;",
+        "const uniqueTracks = new Set(names()).size;",
+        "harness.assert(total <= uniqueTracks * 3, 'Music tracks are not restarted continuously (' + total + ' plays for ' + uniqueTracks + ' tracks)' );",
+        "await harness.takeScreenshot('game scene');",
+        ""
+      ]
     }
   ],
   "testsFolderStructure": {
@@ -14537,6 +14823,12 @@
       },
       {
         "itemName": "Coin drop from demon"
+      },
+      {
+        "itemName": "Main menu background music plays and stops"
+      },
+      {
+        "itemName": "Stage background music switches per stage"
       }
     ]
   },

@@ -478,7 +478,7 @@
   },
   "events": [
     {
-      "aiGeneratedEventId": "01M6D9F7SC02X1BVJXWC8P8C7H",
+      "aiGeneratedEventId": "01M7M47TQYGD1ERE4NPR717XYD",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -525,11 +525,24 @@
             "False",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "City Sunshine.aac",
+            "1",
+            "yes",
+            "55",
+            "1"
+          ]
         }
       ]
     },
     {
-      "aiGeneratedEventId": "01M6D9F7SC02X1BVJXWC8P8C7H",
+      "aiGeneratedEventId": "01M7M47TQYGD1ERE4NPR717XYD",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -591,11 +604,31 @@
         },
         {
           "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
             "await": true,
             "value": "Wait"
           },
           "parameters": [
             "0.45"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         },
         {
@@ -611,7 +644,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M6D9F7SC02X1BVJXWC8P8C7H",
+      "aiGeneratedEventId": "01M7M47TQYGD1ERE4NPR717XYD",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -673,11 +706,31 @@
         },
         {
           "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
             "await": true,
             "value": "Wait"
           },
           "parameters": [
             "0.45"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         },
         {
