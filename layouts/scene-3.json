@@ -144,7 +144,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "3"
+            "5"
           ]
         },
         {
@@ -154,6 +154,33 @@
           "parameters": [
             "",
             "\"Game Scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "defeat bgm.mp3",
+            "yes",
+            "",
             ""
           ]
         }

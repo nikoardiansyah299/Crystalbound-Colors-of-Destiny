@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.14039857806034475,
+    "zoomFactor": 0.11506529727511719,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -66,6 +66,11 @@
     }
   ],
   "variables": [
+    {
+      "name": "CurrentMusic",
+      "type": "string",
+      "value": ""
+    },
     {
       "name": "NearActiveDoor",
       "persistentUuid": "24ea4749-c5c9-4833-8afb-43c23718c018",
@@ -1184,8 +1189,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 6307,
-      "y": 431,
+      "x": 2259,
+      "y": 660,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -47496,6 +47501,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Portal",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -47826,6 +47832,210 @@
             "Player",
             "=",
             "area_4_start.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7M4X7G4RMXFD2FKZ2XZS3MY",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentArea",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "!=",
+            "\"cave\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "=",
+            "\"cave\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "Mysterious Lights.aac",
+            "1",
+            "yes",
+            "40",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7M4X7G4RMXFD2FKZ2XZS3MY",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentArea",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "!=",
+            "\"forest\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "=",
+            "\"forest\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "Forest Frolic Loop.aac",
+            "1",
+            "yes",
+            "40",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7M4X7G4RMXFD2FKZ2XZS3MY",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentArea",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "!=",
+            "\"city\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "=",
+            "\"city\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "The Crown.aac",
+            "1",
+            "yes",
+            "40",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M7M4X7G4RMXFD2FKZ2XZS3MY",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentArea",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "!=",
+            "\"dusk\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentMusic",
+            "=",
+            "\"dusk\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "Nordic Wist.aac",
+            "1",
+            "yes",
+            "40",
+            "1"
           ]
         }
       ]
