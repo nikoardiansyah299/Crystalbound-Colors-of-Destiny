@@ -14172,6 +14172,38 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "tileset_cave_forest_16x16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_cave_forest_16x16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tileset_cave_forest_16x16.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tileset_cave_forest_16x16.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/panorama_cave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/panorama_cave.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/panorama_cave_to_forest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/panorama_cave_to_forest.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

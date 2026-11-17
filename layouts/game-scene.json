@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11506529727511719,
+    "zoomFactor": 0.2912258866911241,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -68,6 +68,7 @@
   "variables": [
     {
       "name": "CurrentMusic",
+      "persistentUuid": "ee7284ff-8ef7-4834-b436-4acfd3479bbe",
       "type": "string",
       "value": ""
     },
@@ -580,14 +581,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1218,
+      "height": 1369,
       "keepRatio": true,
       "layer": "",
       "name": "area_1",
       "persistentUuid": "f7a33c98-bec7-4b22-8b3e-132346fe3ea5",
       "width": 3993,
-      "x": -768,
-      "y": -106,
+      "x": -773,
+      "y": -145,
       "zOrder": -34,
       "numberProperties": [],
       "stringProperties": [],
@@ -620,8 +621,8 @@
       "persistentUuid": "8b9e2a8e-0792-4186-bcb7-00a9f508fe03",
       "width": 11939,
       "x": 3337,
-      "y": 919,
-      "zOrder": -50,
+      "y": 935,
+      "zOrder": -54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -637,7 +638,7 @@
       "width": 0,
       "x": 3604,
       "y": 832,
-      "zOrder": -52,
+      "zOrder": -55,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -705,7 +706,7 @@
       "width": 137,
       "x": 5768,
       "y": 539,
-      "zOrder": 101,
+      "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -908,9 +909,9 @@
       "name": "portal_blue2",
       "persistentUuid": "86aa1146-10e6-49ef-a591-86c607b1c598",
       "width": 182,
-      "x": 5462,
-      "y": 647,
-      "zOrder": 123,
+      "x": 10844,
+      "y": 702,
+      "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -926,7 +927,7 @@
       "width": 0,
       "x": 5807,
       "y": 665,
-      "zOrder": 129,
+      "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1154,23 +1155,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "demon",
-      "persistentUuid": "9c34d50d-80e4-4eca-9743-c5af015473d9",
-      "width": 271,
-      "x": 1998,
-      "y": 853,
-      "zOrder": 141,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 251,
-      "keepRatio": true,
-      "layer": "",
-      "name": "demon",
       "persistentUuid": "b4a82d04-33e3-4cb6-9574-72363de657d5",
       "width": 271,
       "x": 2720,
@@ -1189,8 +1173,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 2259,
-      "y": 660,
+      "x": 7439,
+      "y": 669,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -2011,55 +1995,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blue_gem",
-      "persistentUuid": "744f9dcd-1d79-4983-839f-979bb545eb36",
-      "width": 0,
-      "x": -670,
-      "y": 820,
-      "zOrder": 170,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 167,
-      "keepRatio": true,
-      "layer": "",
-      "name": "green_gem",
-      "persistentUuid": "a2fe73cd-193b-4eb0-956d-35aff5a3595f",
-      "width": 164,
-      "x": 79,
-      "y": 807,
-      "zOrder": 171,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "red_gem",
-      "persistentUuid": "8b8b3d2e-1a3b-40a5-a681-8c34c9e0c202",
-      "width": 0,
-      "x": -140,
-      "y": 811,
-      "zOrder": 172,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 60,
       "hidden": true,
@@ -2081,60 +2016,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "green_gem",
-      "persistentUuid": "94e46cf5-f1db-4337-b216-9c324e6eb334",
-      "width": 0,
-      "x": -477,
-      "y": 820,
-      "zOrder": 173,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "DoorBase",
-      "persistentUuid": "13fdb477-069e-4932-a92e-b9ffc2577087",
-      "width": 0,
-      "x": -720,
-      "y": 708,
-      "zOrder": 174,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "DoorHint",
-      "persistentUuid": "553fc710-374f-44cc-bdfd-92ce30f1d4f4",
-      "width": 0,
-      "x": -719,
-      "y": 708,
-      "zOrder": 175,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "goblin",
       "persistentUuid": "c98657b3-3a92-4f79-91f4-b63fea62503e",
       "width": 0,
-      "x": 4097,
-      "y": 827,
-      "zOrder": 176,
+      "x": 4879,
+      "y": 826,
+      "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2151,7 +2038,7 @@
       "width": 8,
       "x": 4097,
       "y": 827,
-      "zOrder": 0,
+      "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2654,14 +2541,14 @@
       "name": "tile_dusk",
       "persistentUuid": "ef4f8838-749b-432e-8c91-7f051d33f02d",
       "width": 0,
-      "x": 10937,
-      "y": 600,
+      "x": 10770,
+      "y": -43,
       "zOrder": 203,
       "numberProperties": [],
       "stringProperties": [
         {
           "name": "tilemap",
-          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[4,5]]}]}"
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":1,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[9],[9],[9],[9],[9],[9],[9],[9],[9],[9],[9]]}]}"
         }
       ],
       "initialVariables": []
@@ -2675,7 +2562,7 @@
       "name": "DoorBase",
       "persistentUuid": "15b2d556-86a1-4e9c-bf34-c4ddae508cae",
       "width": 0,
-      "x": 10945,
+      "x": 10772,
       "y": 657,
       "zOrder": 204,
       "numberProperties": [],
@@ -2941,6 +2828,24 @@
       "stringProperties": [],
       "initialVariables": [
         {
+          "name": "needBlue",
+          "persistentUuid": "2aab36de-05fd-40a8-8a1f-9cbdd04c07a7",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "needRed",
+          "persistentUuid": "bd70aa37-79f3-49ec-8388-999604e12a42",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "needGreen",
+          "persistentUuid": "ce5a777f-ed48-4c55-a008-b373de098999",
+          "type": "number",
+          "value": 0
+        },
+        {
           "name": "doorId",
           "persistentUuid": "dc51317c-33f6-4866-a4da-bce11b8fc453",
           "type": "number",
@@ -2957,7 +2862,7 @@
       "name": "DoorHint",
       "persistentUuid": "699c2990-5478-42c8-a7ad-f1e221c20fe5",
       "width": 0,
-      "x": 8871,
+      "x": 8873,
       "y": 33,
       "zOrder": 228,
       "numberProperties": [],
@@ -3031,7 +2936,7 @@
       "name": "DoorHint",
       "persistentUuid": "cd82704c-688d-4521-b927-d7024129b4df",
       "width": 0,
-      "x": 10945,
+      "x": 10772,
       "y": 658,
       "zOrder": 232,
       "numberProperties": [],
@@ -3211,7 +3116,7 @@
       "width": 0,
       "x": 7028,
       "y": 774,
-      "zOrder": -51,
+      "zOrder": -56,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3241,8 +3146,8 @@
       "name": "goblin",
       "persistentUuid": "15f49fc3-8bc1-4bef-8a4b-07067ca59de4",
       "width": 0,
-      "x": 8131,
-      "y": 767,
+      "x": 8807,
+      "y": 632,
       "zOrder": 243,
       "numberProperties": [],
       "stringProperties": [],
@@ -3266,17 +3171,122 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1395,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "bg_cave",
-      "persistentUuid": "9d4df5a6-b762-4b7e-b7e5-3395e96bfd8c",
-      "width": 4167,
-      "x": -1474,
-      "y": 1473,
-      "zOrder": 245,
+      "name": "tilemaplevel2",
+      "persistentUuid": "05f2e197-7d4a-4643-8c04-8b068a14d82b",
+      "width": 0,
+      "x": 3723,
+      "y": 144,
+      "zOrder": 265,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":12,\"dimY\":8,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4],[-1,-1,-1,-1,-1,-1,4,4,4,4,4,4],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[5,6,4,4,4,-1,-1,-1,-1,-1,-1,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door_purple",
+      "persistentUuid": "785802c7-3f56-4ebf-a317-5b2739c33116",
+      "width": 0,
+      "x": 4172,
+      "y": 204,
+      "zOrder": 266,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blue_gem",
+      "persistentUuid": "731086c2-4bef-4f11-806b-19ea568ee5d1",
+      "width": 0,
+      "x": 4295,
+      "y": 767,
+      "zOrder": 267,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "red_gem",
+      "persistentUuid": "38511ae3-fdb7-4f4c-ba41-4022e37b06a7",
+      "width": 0,
+      "x": 3839,
+      "y": 398,
+      "zOrder": 268,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "green_gem",
+      "persistentUuid": "a517400d-c842-440d-80b4-724d6dae328b",
+      "width": 0,
+      "x": 4276,
+      "y": 321,
+      "zOrder": 269,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tilemaplevel2",
+      "persistentUuid": "3b3a93d5-74c5-4218-8019-48ba431ab992",
+      "width": 0,
+      "x": 4727,
+      "y": 219,
+      "zOrder": 270,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":10,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[14,30,31,31,31,31,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,30,31,31,31,31,31,31,31,31]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blue_gem",
+      "persistentUuid": "231a93f8-dc3e-450c-9a8f-f9c80b03a046",
+      "width": 0,
+      "x": 5200,
+      "y": 403,
+      "zOrder": 272,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3285,15 +3295,84 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 140,
       "keepRatio": true,
       "layer": "",
-      "name": "bg_far",
-      "persistentUuid": "3056f570-0906-4daf-aff8-b097048c072c",
-      "width": 4179,
-      "x": -1468,
-      "y": 1911,
-      "zOrder": 251,
+      "name": "yellow_gem",
+      "persistentUuid": "64e41e13-2f2b-4ffb-b3d0-21ac20937686",
+      "width": 140,
+      "x": 4834,
+      "y": 398,
+      "zOrder": 273,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door_cyan",
+      "persistentUuid": "8641e835-9a33-471c-b101-28273db77294",
+      "width": 0,
+      "x": 5052,
+      "y": 279,
+      "zOrder": 274,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tilemaplevel2",
+      "persistentUuid": "6b3116fd-37f9-4030-8935-6b2c4f6dec60",
+      "width": 0,
+      "x": 5557,
+      "y": -188,
+      "zOrder": 275,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,16,16,16,16,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,18,18,18,18,18,18,18,18,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "red_gem",
+      "persistentUuid": "6a22924e-a1da-4a2f-95e7-5e679b002235",
+      "width": 0,
+      "x": 5998,
+      "y": 493,
+      "zOrder": 276,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door_yellow",
+      "persistentUuid": "701c2bce-41dc-4cab-a3a9-8a0457deb247",
+      "width": 0,
+      "x": 6583,
+      "y": 198,
+      "zOrder": 277,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3302,15 +3381,31 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 126,
       "keepRatio": true,
       "layer": "",
-      "name": "cave_vault",
-      "persistentUuid": "52c2f5dc-66e6-4a29-973b-5489b5f8f649",
-      "width": 4161,
-      "x": -1480,
-      "y": 1468,
-      "zOrder": 252,
+      "name": "cyan_gem",
+      "persistentUuid": "c905647b-15ff-476d-b18c-9b30fb3ac4ae",
+      "width": 121,
+      "x": 6746,
+      "y": 317,
+      "zOrder": 278,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door_white",
+      "persistentUuid": "59a69ffe-cc17-4b41-8a1b-803281f193fa",
+      "width": 0,
+      "x": 6901,
+      "y": 653,
+      "zOrder": 279,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3319,197 +3414,37 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 837,
       "keepRatio": true,
       "layer": "",
-      "name": "cave_overhead",
-      "persistentUuid": "e7452265-9ab7-402d-8925-9a4920ab0023",
-      "width": 4161,
-      "x": -1479,
-      "y": 1472,
-      "zOrder": 253,
+      "name": "tilemaplevel2",
+      "persistentUuid": "6544b55e-410b-4fbb-8a76-a93f434c9071",
+      "width": 64,
+      "x": 3217,
+      "y": -154,
+      "zOrder": 280,
       "numberProperties": [],
-      "stringProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":1,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[5],[5],[6],[5],[5],[7],[6],[5],[6],[5],[5],[5]]}]}"
+        }
+      ],
       "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1658,
+      "height": 1486,
       "keepRatio": true,
       "layer": "",
-      "name": "cave_pillar",
-      "persistentUuid": "ea987935-25f3-4ae4-98e3-76d2950d015c",
+      "name": "area_2",
+      "persistentUuid": "2febce7a-e664-4dba-bab1-f370b2e2d229",
       "width": 3840,
-      "x": -550,
-      "y": 1376,
-      "zOrder": 249,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "cave_near_rock",
-      "persistentUuid": "a5494bda-0143-451e-898a-a06f0d34b0b0",
-      "width": 4190,
-      "x": -1479,
-      "y": 1794,
-      "zOrder": 256,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "cave_props",
-      "persistentUuid": "d531d9e4-fcd6-46c0-b396-5876a79894d7",
-      "width": 0,
-      "x": -1211,
-      "y": 1864,
-      "zOrder": 255,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "cave_ground",
-      "persistentUuid": "5a5eba82-135d-40fb-abbe-ab31e2c30481",
-      "width": 4261,
-      "x": -1436,
-      "y": 1875,
-      "zOrder": 257,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1303,
-      "keepRatio": true,
-      "layer": "",
-      "name": "fores_bg",
-      "persistentUuid": "b3dd7564-b7d9-4a0f-b7ea-74ed26750194",
-      "width": 3806,
-      "x": 3350,
-      "y": -225,
-      "zOrder": -49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "far_forest",
-      "persistentUuid": "d17cff30-18a8-4f6b-87db-4d803765be26",
-      "width": 3806,
-      "x": 3316,
-      "y": -42,
-      "zOrder": -49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "mid_forest",
-      "persistentUuid": "eb3037da-ee97-4ed2-92e3-55caf4b4b35d",
-      "width": 0,
-      "x": 3303,
-      "y": -47,
-      "zOrder": -49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "near_forest",
-      "persistentUuid": "34d8afe4-6250-465e-8b97-d9a073ec3d23",
-      "width": 0,
-      "x": 3295,
-      "y": -64,
-      "zOrder": -49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1235,
-      "keepRatio": true,
-      "layer": "",
-      "name": "forest_props",
-      "persistentUuid": "77644028-6762-4c02-8990-eac123f75f2e",
-      "width": 3840,
-      "x": 3349,
-      "y": -5,
-      "zOrder": -49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "forest_ground",
-      "persistentUuid": "b496dc6a-eeeb-4eb5-8847-518b60bcd154",
-      "width": 0,
-      "x": 3328,
-      "y": 16,
-      "zOrder": -49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "forest_overhead",
-      "persistentUuid": "8a5113a5-7ac6-47d6-92d3-c3a346e54d7f",
-      "width": 0,
-      "x": 3315,
-      "y": -227,
-      "zOrder": -49,
+      "x": 3325,
+      "y": -298,
+      "zOrder": -53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4904,7 +4839,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Misty Blue Crystal Cavern.png",
+                  "image": "assets/crystalbound_cave_assets/panorama_cave.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4924,16 +4859,16 @@
                         "y": 0
                       },
                       {
-                        "x": 2172,
+                        "x": 3840,
                         "y": 0
                       },
                       {
-                        "x": 2172,
-                        "y": 724
+                        "x": 3840,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 724
+                        "y": 1080
                       }
                     ]
                   ]
@@ -5135,7 +5070,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mystical Cave to Misty Forest.png",
+                  "image": "assets/crystalbound_assets/panorama_cave_to_forest.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5155,16 +5090,16 @@
                         "y": 0
                       },
                       {
-                        "x": 2172,
+                        "x": 3840,
                         "y": 0
                       },
                       {
-                        "x": 2172,
-                        "y": 724
+                        "x": 3840,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 724
+                        "y": 1080
                       }
                     ]
                   ]
@@ -26033,6 +25968,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "bg_cave",
+      "persistentUuid": "4a33bd99-d0b7-402b-81ef-f7e72b33d870",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -26115,6 +26051,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "cave_overhead",
+      "persistentUuid": "2ca9682e-fcc1-472d-99eb-40b158cade32",
       "texture": "assets/crystalbound_cave_assets/layers/08_overhead.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26126,6 +26063,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "cave_pillar",
+      "persistentUuid": "72c24b2b-96a4-47a1-91c8-a4eea5a6d40d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -26257,6 +26195,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "cave_ground",
+      "persistentUuid": "8a90c008-2216-4ad5-b326-ed8d112af268",
       "texture": "assets/crystalbound_cave_assets/layers/07_ground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26268,6 +26207,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "fores_bg",
+      "persistentUuid": "e690d2bc-d6ed-4712-8185-340446833129",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -26328,6 +26268,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "far_forest",
+      "persistentUuid": "cb12f11c-b57d-4ac3-9e59-9ef38d117a52",
       "texture": "assets/crystalbound_assets/layers/02_far.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26339,6 +26280,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "mid_forest",
+      "persistentUuid": "6d31cdf3-dbe6-4164-8f23-22ac74f12dbb",
       "texture": "assets/crystalbound_assets/layers/03_mid.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26350,6 +26292,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "near_forest",
+      "persistentUuid": "93260154-688f-4ca6-aaa9-03f44f8f62df",
       "texture": "assets/crystalbound_assets/layers/04_near_trunk.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26361,6 +26304,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "forest_props",
+      "persistentUuid": "03dc33cd-574f-42a0-9c91-b40ac816cbb1",
       "texture": "assets/crystalbound_assets/layers/05_props.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26372,6 +26316,7 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "forest_ground",
+      "persistentUuid": "9d37b78b-d46f-4c81-b802-97bbade9aae5",
       "texture": "assets/crystalbound_assets/layers/06_ground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
@@ -26383,12 +26328,37 @@
       "assetStoreId": "",
       "height": 1080,
       "name": "forest_overhead",
+      "persistentUuid": "37fafc07-2bef-4005-aab9-931f31c4a56b",
       "texture": "assets/crystalbound_assets/layers/07_overhead.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 3840,
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "tilemaplevel2",
+      "persistentUuid": "699325fd-835c-4a6c-8397-e9f7adfe4242",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "tileset_cave_forest_16x16.png2",
+        "rowCount": 5,
+        "columnCount": 16,
+        "tileSize": 64,
+        "tilesWithHitBox": "16,32,48,64,49,65,50,66,51,67,4,20,36,52,68,5,21,37,53,69,6,22,38,54,70,7,23,39,55,71,8,24,40,56,72,9,25,41,57,73,10,26,42,58,74,11,27,43,59,75,12,28,44,60,76,13,29,45,61,77,14,30,46,62,78,15,31,47,63,79,0,1,2,3,17,18,19,33,35,34"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -26765,6 +26735,9 @@
       },
       {
         "objectName": "forest_ground"
+      },
+      {
+        "objectName": "tilemaplevel2"
       },
       {
         "objectName": "forest_overhead"
@@ -32168,7 +32141,7 @@
       "comment": "Red gems are collected on contact and stored in the inventory."
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -32184,209 +32157,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "red_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "red_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "red_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "red_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "RedGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"red\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "red_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "red_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "red_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "red_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"red\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -32448,7 +32438,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -32464,209 +32454,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "blue_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "blue_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "blue_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "blue_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "BlueGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"blue\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "blue_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "blue_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "blue_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "blue_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"blue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -32728,7 +32735,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -32744,209 +32751,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "green_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "green_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "green_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "green_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "GreenGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"green\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "green_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "green_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "green_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "green_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GreenGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"green\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -33008,7 +33032,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33024,209 +33048,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "yellow_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "yellow_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "yellow_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "yellow_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "YellowGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"yellow\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "yellow_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "yellow_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "yellow_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "yellow_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "YellowGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"yellow\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -33288,7 +33329,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33304,209 +33345,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "cyan_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "cyan_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "cyan_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "cyan_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "CyanGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"cyan\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "cyan_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "cyan_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "cyan_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "cyan_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CyanGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"cyan\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -33568,7 +33626,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33584,209 +33642,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "purple_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "purple_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "purple_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "purple_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "PurpleGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"purple\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "purple_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "purple_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "purple_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "purple_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PurpleGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"purple\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -33848,7 +33923,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7BP8PACM88NSSEEV72ZQKMW",
+      "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33864,209 +33939,226 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pr",
-            "=",
-            "white_gem.Red"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pg",
-            "=",
-            "white_gem.Green"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "pb",
-            "=",
-            "white_gem.Blue"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "white_gem",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "WhiteGemCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets/CoinPickUp.wav",
-            "",
-            "80",
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotIndex",
-            "=",
-            "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotColumn",
-            "=",
-            "SlotIndex - floor(SlotIndex / 6) * 6"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SlotRow",
-            "=",
-            "floor(SlotIndex / 6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InventoryGem",
-            "0",
-            "0",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "GemType",
-            "=",
-            "\"white\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "IsResult",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Red",
-            "=",
-            "pr"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Green",
-            "=",
-            "pg"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "InventoryGem",
-            "Blue",
-            "=",
-            "pb"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "54"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeHeight"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "306 + SlotColumn * 85",
-            "=",
-            "333 + SlotRow * 75"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetZOrder"
-          },
-          "parameters": [
-            "InventoryGem",
-            "=",
-            "200"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FIX inventory 5x4: kolom dibungkus per 5 agar baris penuh turun ke bawah."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pr",
+                "=",
+                "white_gem.Red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pg",
+                "=",
+                "white_gem.Green"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pb",
+                "=",
+                "white_gem.Blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "white_gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "WhiteGemCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/CoinPickUp.wav",
+                "",
+                "80",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotIndex",
+                "=",
+                "RedGemCount + BlueGemCount + GreenGemCount + YellowGemCount + CyanGemCount + PurpleGemCount + WhiteGemCount - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotColumn",
+                "=",
+                "SlotIndex - floor(SlotIndex / 5) * 5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SlotRow",
+                "=",
+                "floor(SlotIndex / 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InventoryGem",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "GemType",
+                "=",
+                "\"white\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "IsResult",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Red",
+                "=",
+                "pr"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Green",
+                "=",
+                "pg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "InventoryGem",
+                "Blue",
+                "=",
+                "pb"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "306 + SlotColumn * 85",
+                "=",
+                "333 + SlotRow * 75"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "InventoryGem",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -39301,6 +39393,7 @@
               "actions": [],
               "events": [
                 {
+                  "aiGeneratedEventId": "01M7MBHVH2VXKS8AYYP5BSFQ4T",
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -39316,6 +39409,18 @@
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "FIX gem-konsumsi: gem di slot pintu dihapus saat portal dibuka agar tidak muncul lagi."
+                    },
                     {
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Doors",
@@ -39373,6 +39478,29 @@
                             "DoorOpen",
                             "True",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "InventoryGem",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Open"
                           ]
                         }
                       ]
@@ -39610,6 +39738,8 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M7MBHVH2VXKS8AYYP5BSFQ4T",
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -39655,6 +39785,18 @@
           ],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "FIX gem-konsumsi: relock dimatikan agar pintu yang sudah dibuka (gem dihapus) tidak menutup lagi dan gem tidak diminta lagi."
+            },
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Doors",
@@ -44385,6 +44527,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M7MBHVH2VXKS8AYYP5BSFQ4T",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -44450,7 +44593,18 @@
           "actions": [],
           "events": [
             {
-              "aiGeneratedEventId": "01M7C643HCE48F0R025SY4EFTW",
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "FIX gem-konsumsi: gem di slot pintu dihapus saat portal dibuka agar tidak muncul lagi."
+            },
+            {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "DoorBase",
               "conditions": [
@@ -44523,6 +44677,35 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventoryGem",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    "Ui_Slot_Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InventoryGem",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -44534,6 +44717,14 @@
                     "DoorOpen",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Open"
                   ]
                 }
               ]
