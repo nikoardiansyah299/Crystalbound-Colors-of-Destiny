@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.23089183385225617,
+    "zoomFactor": 0.14039857806034475,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -608,23 +608,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1249,
-      "keepRatio": true,
-      "layer": "",
-      "name": "area_2",
-      "persistentUuid": "5e138ee0-cd37-49e8-854c-438fbcb7c115",
-      "width": 3836,
-      "x": 3384,
-      "y": -124,
-      "zOrder": -37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 64,
       "keepRatio": true,
       "layer": "",
@@ -633,7 +616,7 @@
       "width": 11939,
       "x": 3337,
       "y": 919,
-      "zOrder": -38,
+      "zOrder": -50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -649,7 +632,7 @@
       "width": 0,
       "x": 3604,
       "y": 832,
-      "zOrder": -39,
+      "zOrder": -52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1201,8 +1184,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 7798,
-      "y": 695,
+      "x": 6307,
+      "y": 431,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -3223,7 +3206,7 @@
       "width": 0,
       "x": 7028,
       "y": 774,
-      "zOrder": -45,
+      "zOrder": -51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3272,6 +3255,256 @@
       "x": 8526,
       "y": -126,
       "zOrder": 244,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1395,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_cave",
+      "persistentUuid": "9d4df5a6-b762-4b7e-b7e5-3395e96bfd8c",
+      "width": 4167,
+      "x": -1474,
+      "y": 1473,
+      "zOrder": 245,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg_far",
+      "persistentUuid": "3056f570-0906-4daf-aff8-b097048c072c",
+      "width": 4179,
+      "x": -1468,
+      "y": 1911,
+      "zOrder": 251,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cave_vault",
+      "persistentUuid": "52c2f5dc-66e6-4a29-973b-5489b5f8f649",
+      "width": 4161,
+      "x": -1480,
+      "y": 1468,
+      "zOrder": 252,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cave_overhead",
+      "persistentUuid": "e7452265-9ab7-402d-8925-9a4920ab0023",
+      "width": 4161,
+      "x": -1479,
+      "y": 1472,
+      "zOrder": 253,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1658,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cave_pillar",
+      "persistentUuid": "ea987935-25f3-4ae4-98e3-76d2950d015c",
+      "width": 3840,
+      "x": -550,
+      "y": 1376,
+      "zOrder": 249,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cave_near_rock",
+      "persistentUuid": "a5494bda-0143-451e-898a-a06f0d34b0b0",
+      "width": 4190,
+      "x": -1479,
+      "y": 1794,
+      "zOrder": 256,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cave_props",
+      "persistentUuid": "d531d9e4-fcd6-46c0-b396-5876a79894d7",
+      "width": 0,
+      "x": -1211,
+      "y": 1864,
+      "zOrder": 255,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cave_ground",
+      "persistentUuid": "5a5eba82-135d-40fb-abbe-ab31e2c30481",
+      "width": 4261,
+      "x": -1436,
+      "y": 1875,
+      "zOrder": 257,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1303,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fores_bg",
+      "persistentUuid": "b3dd7564-b7d9-4a0f-b7ea-74ed26750194",
+      "width": 3806,
+      "x": 3350,
+      "y": -225,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "far_forest",
+      "persistentUuid": "d17cff30-18a8-4f6b-87db-4d803765be26",
+      "width": 3806,
+      "x": 3316,
+      "y": -42,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mid_forest",
+      "persistentUuid": "eb3037da-ee97-4ed2-92e3-55caf4b4b35d",
+      "width": 0,
+      "x": 3303,
+      "y": -47,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "near_forest",
+      "persistentUuid": "34d8afe4-6250-465e-8b97-d9a073ec3d23",
+      "width": 0,
+      "x": 3295,
+      "y": -64,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1235,
+      "keepRatio": true,
+      "layer": "",
+      "name": "forest_props",
+      "persistentUuid": "77644028-6762-4c02-8990-eac123f75f2e",
+      "width": 3840,
+      "x": 3349,
+      "y": -5,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "forest_ground",
+      "persistentUuid": "b496dc6a-eeeb-4eb5-8847-518b60bcd154",
+      "width": 0,
+      "x": 3328,
+      "y": 16,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "forest_overhead",
+      "persistentUuid": "8a5113a5-7ac6-47d6-92d3-c3a346e54d7f",
+      "width": 0,
+      "x": 3315,
+      "y": -227,
+      "zOrder": -49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -25790,6 +26023,367 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_cave",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/crystalbound_cave_assets/layers/01_backdrop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "bg_far",
+      "texture": "assets/crystalbound_cave_assets/layers/02_far.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "cave_vault",
+      "texture": "assets/crystalbound_cave_assets/layers/03_vault.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "cave_overhead",
+      "texture": "assets/crystalbound_cave_assets/layers/08_overhead.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cave_pillar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/crystalbound_cave_assets/layers/04_pillars.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 908,
+                        "y": 120
+                      },
+                      {
+                        "x": 3456,
+                        "y": 120
+                      },
+                      {
+                        "x": 3456,
+                        "y": 888
+                      },
+                      {
+                        "x": 908,
+                        "y": 888
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cave_near_rock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/crystalbound_cave_assets/layers/05_near_rocks.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "cave_props",
+      "texture": "assets/crystalbound_cave_assets/layers/06_props.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "cave_ground",
+      "texture": "assets/crystalbound_cave_assets/layers/07_ground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fores_bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/crystalbound_assets/layers/01_backdrop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "far_forest",
+      "texture": "assets/crystalbound_assets/layers/02_far.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "mid_forest",
+      "texture": "assets/crystalbound_assets/layers/03_mid.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "near_forest",
+      "texture": "assets/crystalbound_assets/layers/04_near_trunk.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "forest_props",
+      "texture": "assets/crystalbound_assets/layers/05_props.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "forest_ground",
+      "texture": "assets/crystalbound_assets/layers/06_ground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1080,
+      "name": "forest_overhead",
+      "texture": "assets/crystalbound_assets/layers/07_overhead.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -26124,6 +26718,51 @@
       },
       {
         "objectName": "tile_midnight"
+      },
+      {
+        "objectName": "bg_cave"
+      },
+      {
+        "objectName": "bg_far"
+      },
+      {
+        "objectName": "cave_vault"
+      },
+      {
+        "objectName": "cave_overhead"
+      },
+      {
+        "objectName": "cave_pillar"
+      },
+      {
+        "objectName": "cave_near_rock"
+      },
+      {
+        "objectName": "cave_props"
+      },
+      {
+        "objectName": "cave_ground"
+      },
+      {
+        "objectName": "fores_bg"
+      },
+      {
+        "objectName": "far_forest"
+      },
+      {
+        "objectName": "mid_forest"
+      },
+      {
+        "objectName": "near_forest"
+      },
+      {
+        "objectName": "forest_props"
+      },
+      {
+        "objectName": "forest_ground"
+      },
+      {
+        "objectName": "forest_overhead"
       }
     ]
   },

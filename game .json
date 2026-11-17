@@ -13982,6 +13982,126 @@
         "name": "skill171",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/01_backdrop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/01_backdrop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/02_far.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/02_far.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/03_vault.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/03_vault.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/08_overhead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/08_overhead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/04_pillars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/04_pillars.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/05_near_rocks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/05_near_rocks.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/06_props.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/06_props.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_cave_assets/layers/07_ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_cave_assets/layers/07_ground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/01_backdrop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/01_backdrop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/02_far.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/02_far.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/03_mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/03_mid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/04_near_trunk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/04_near_trunk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/05_props.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/05_props.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/06_ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/06_ground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crystalbound_assets/layers/07_overhead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crystalbound_assets/layers/07_overhead.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
