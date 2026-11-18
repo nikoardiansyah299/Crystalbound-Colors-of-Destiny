@@ -1932,7 +1932,7 @@
                       ]
                     },
                     {
-                      "aiGeneratedEventId": "01M7CD1BAQS53ZVF159GGW095T",
+                      "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -1991,6 +1991,18 @@
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Target",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "BuiltinCommonInstructions::CompareNumbers"
@@ -2106,7 +2118,7 @@
                   ],
                   "events": [
                     {
-                      "aiGeneratedEventId": "01M7J0GC61KF68BVR0EG6GGQN9",
+                      "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2127,6 +2139,18 @@
                             "abs(Target.CenterY() - Object.CenterY())",
                             "<",
                             "450"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Target",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ],
@@ -2274,7 +2298,7 @@
                               ]
                             },
                             {
-                              "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
+                              "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -2285,6 +2309,18 @@
                                     "abs(Target.CenterX() - Object.CenterX())",
                                     "<",
                                     "AttackRange"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Target",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 }
                               ],
@@ -2744,7 +2780,7 @@
                       ]
                     },
                     {
-                      "aiGeneratedEventId": "01M7J0GC61KF68BVR0EG6GGQN9",
+                      "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2765,6 +2801,18 @@
                             "abs(Target.CenterY() - Object.CenterY())",
                             "<",
                             "450"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Target",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ],

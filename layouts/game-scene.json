@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2912258866911241,
+    "zoomFactor": 0.5290357402157074,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -532,7 +532,7 @@
       "name": "Skill2Unlocked",
       "persistentUuid": "5981c76e-f5ca-4e7f-9dd9-0742ab586961",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "name": "LevelUpPending",
@@ -555,6 +555,12 @@
     {
       "name": "Skill1Active",
       "persistentUuid": "bf792dbf-8758-4fa0-97d1-0ca8b0d1b02d",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Skill2Active",
+      "persistentUuid": "5131a552-3d4e-4276-838f-8afd59c8ef09",
       "type": "boolean",
       "value": false
     }
@@ -824,7 +830,7 @@
       "width": 0,
       "x": 2494,
       "y": 765,
-      "zOrder": 131,
+      "zOrder": 282,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -842,7 +848,7 @@
       "width": 136,
       "x": 2515,
       "y": 907,
-      "zOrder": 110,
+      "zOrder": 281,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1173,8 +1179,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 7439,
-      "y": 669,
+      "x": 2116,
+      "y": 793,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -15191,7 +15197,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill140",
+                  "image": "skill172",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15227,7 +15233,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill141",
+                  "image": "skill173",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15263,7 +15269,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill142",
+                  "image": "skill174",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15299,7 +15305,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill143",
+                  "image": "skill175",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15335,7 +15341,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill144",
+                  "image": "skill176",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15371,7 +15377,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill145",
+                  "image": "skill177",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15407,7 +15413,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill146",
+                  "image": "skill178",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15443,7 +15449,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill147",
+                  "image": "skill179",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15479,7 +15485,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill148",
+                  "image": "skill180",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15515,7 +15521,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill149",
+                  "image": "skill181",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15551,7 +15557,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill150",
+                  "image": "skill182",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15587,7 +15593,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill151",
+                  "image": "skill183",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15623,7 +15629,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill152",
+                  "image": "skill184",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15659,7 +15665,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill153",
+                  "image": "skill185",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15695,7 +15701,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill154",
+                  "image": "skill186",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15731,7 +15737,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill155",
+                  "image": "skill187",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15767,7 +15773,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill156",
+                  "image": "skill188",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15803,7 +15809,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill157",
+                  "image": "skill189",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15839,7 +15845,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill158",
+                  "image": "skill190",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15875,7 +15881,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill159",
+                  "image": "skill191",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15911,7 +15917,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill160",
+                  "image": "skill192",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15947,7 +15953,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill161",
+                  "image": "skill193",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15983,7 +15989,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill162",
+                  "image": "skill194",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16019,7 +16025,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill163",
+                  "image": "skill195",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16055,7 +16061,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill164",
+                  "image": "skill196",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16091,7 +16097,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill165",
+                  "image": "skill197",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16127,7 +16133,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill166",
+                  "image": "skill198",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16163,7 +16169,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill167",
+                  "image": "skill199",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16199,7 +16205,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill168",
+                  "image": "skill200",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16235,7 +16241,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill169",
+                  "image": "skill201",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16271,7 +16277,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill170",
+                  "image": "skill202",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16307,7 +16313,43 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "skill171",
+                  "image": "skill203",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 403.5,
+                    "y": 462.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 405,
+                    "y": 467
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 343.5,
+                        "y": 376
+                      },
+                      {
+                        "x": 490,
+                        "y": 373.5
+                      },
+                      {
+                        "x": 491,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 333,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "skill204",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -26345,10 +26387,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -26958,7 +27000,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
+      "aiGeneratedEventId": "01M7MVEEJ0K2MV42SBKHZKTQ85",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -27007,6 +27049,26 @@
                 "0.15"
               ]
             }
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill1Active",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill2Active",
+            "False",
+            ""
           ]
         },
         {
@@ -27068,7 +27130,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
+      "aiGeneratedEventId": "01M7MVFBMZTE1FTQDQY77PY112",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -27117,6 +27179,26 @@
                 "0.15"
               ]
             }
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill1Active",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill2Active",
+            "False",
+            ""
           ]
         },
         {
@@ -27178,7 +27260,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
+      "aiGeneratedEventId": "01M7MVFBMZTE1FTQDQY77PY112",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -27218,6 +27300,26 @@
                 "0.15"
               ]
             }
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill1Active",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill2Active",
+            "False",
+            ""
           ]
         },
         {
@@ -27309,7 +27411,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M6KG7PZ75CKHWK5DEQCA5C88",
+      "aiGeneratedEventId": "01M7MVFBMZTE1FTQDQY77PY112",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -27348,6 +27450,26 @@
                 "0.15"
               ]
             }
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill1Active",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill2Active",
+            "False",
+            ""
           ]
         },
         {
@@ -28035,7 +28157,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M5RTQ5HDY2WD3XR0KZ3MD9SY",
+      "aiGeneratedEventId": "01M7MVEEJ0K2MV42SBKHZKTQ85",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -28046,6 +28168,26 @@
             "AttackStage",
             ">",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill1Active",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill2Active",
+            "False",
+            ""
           ]
         },
         {
@@ -28083,7 +28225,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M5RTQ5HDY2WD3XR0KZ3MD9SY",
+      "aiGeneratedEventId": "01M7MVEEJ0K2MV42SBKHZKTQ85",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -28094,6 +28236,26 @@
             "AttackStage",
             ">",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill1Active",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Skill2Active",
+            "False",
+            ""
           ]
         },
         {
@@ -28323,6 +28485,17 @@
           "parameters": [
             "",
             "demon",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "goblin",
             "=",
             "0"
           ]
@@ -29586,9 +29759,10 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "NPC Dialog ns"
+      "comment": "NPC Dialog ns "
     },
     {
+      "aiGeneratedEventId": "01M7MQ4SY866KP36Z61FGTMCEN",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29634,56 +29808,19 @@
             "=",
             "npc_ns.Y() - 50"
           ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
         }
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MQ3HQJGJWCGBFQ537E1ZAW",
       "type": "BuiltinCommonInstructions::Else",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "InteractPrompt"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "False",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
+      "aiGeneratedEventId": "01M7MQ274B2J2Q2WMEGGAAH9B6",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "BooleanVariable"
@@ -29701,6 +29838,17 @@
           "parameters": [
             "",
             "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_ns",
+            "250",
+            ""
           ]
         }
       ],
@@ -29794,6 +29942,7 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MR7FRM869KS1BV351AAP92",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29804,6 +29953,17 @@
             "DialogueOpen",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "DialogName",
+            "Text",
+            "=",
+            "\"Penambang\""
           ]
         },
         {
@@ -29925,8 +30085,120 @@
               },
               "parameters": [
                 "DialogueStepnuru",
-                ">=",
+                "=",
                 "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Coba tebas monster di depan dengan Klik Kiri.\" + NewLine() + \"Jangan takut, mereka lemah!\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Monster yang kalah menjatuhkan gem, exp, dan coin.\" + NewLine() + \"Kumpulkan semuanya untuk bekal perjalananmu.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Gem itu bukan hiasan!\" + NewLine() + \"Bawa gem sewarna ke gerbang untuk membukanya.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogText",
+                "Text",
+                "=",
+                "\"Disini cukup berbahaya, segera keluar dari goa ini..!\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                ">=",
+                "7"
               ]
             }
           ],
@@ -29992,6 +30264,7 @@
       "comment": "NPC Dialog na"
     },
     {
+      "aiGeneratedEventId": "01M7MQ4SY866KP36Z61FGTMCEN",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -30037,56 +30310,19 @@
             "=",
             "npc_niko.Y() - 50"
           ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
         }
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MQ44P5F7E3BT8JM785YCXT",
       "type": "BuiltinCommonInstructions::Else",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "InteractPrompt"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "False",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
+      "aiGeneratedEventId": "01M7MQ274B2J2Q2WMEGGAAH9B6",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "BooleanVariable"
@@ -30104,6 +30340,17 @@
           "parameters": [
             "",
             "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_niko",
+            "250",
+            ""
           ]
         }
       ],
@@ -30197,6 +30444,7 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MR7FRM869KS1BV351AAP92",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -30207,6 +30455,17 @@
             "DialogueOpen",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "DialogName",
+            "Text",
+            "=",
+            "\"Wizard\""
           ]
         },
         {
@@ -30395,6 +30654,7 @@
       "comment": "NPC Dialog nn"
     },
     {
+      "aiGeneratedEventId": "01M7MQ4SY866KP36Z61FGTMCEN",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -30440,22 +30700,56 @@
             "=",
             "npc_nopal.Y() - 50"
           ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
         }
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MQ44P5F7E3BT8JM785YCXT",
       "type": "BuiltinCommonInstructions::Else",
       "conditions": [],
+      "actions": []
+    },
+    {
+      "aiGeneratedEventId": "01M7MQ5BBMQ3816D8NDCD4QWG5",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_ns",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_niko",
+            "250",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_nopal",
+            "250",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -30464,32 +30758,13 @@
           "parameters": [
             "InteractPrompt"
           ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "False",
-            ""
-          ]
         }
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MQ274B2J2Q2WMEGGAAH9B6",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "NearNPC",
-            "True",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "BooleanVariable"
@@ -30507,6 +30782,17 @@
           "parameters": [
             "",
             "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "npc_nopal",
+            "250",
+            ""
           ]
         }
       ],
@@ -30561,7 +30847,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "DialogueStepniko",
+            "DialogueStepnopal",
             "=",
             "0"
           ]
@@ -30600,6 +30886,7 @@
       ]
     },
     {
+      "aiGeneratedEventId": "01M7MR7FRM869KS1BV351AAP92",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -30610,6 +30897,17 @@
             "DialogueOpen",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "DialogName",
+            "Text",
+            "=",
+            "\"Merchant\""
           ]
         },
         {
@@ -30879,11 +31177,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -30955,6 +31248,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Demon combat",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -31879,6 +32173,17 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "goblin",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -31981,6 +32286,7 @@
     },
     {
       "aiGeneratedEventId": "01M6ZR70A3XBFRY4WSJV9ZT752",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -32142,6 +32448,7 @@
     },
     {
       "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -32439,6 +32746,7 @@
     },
     {
       "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -32736,6 +33044,7 @@
     },
     {
       "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33033,6 +33342,7 @@
     },
     {
       "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33330,6 +33640,7 @@
     },
     {
       "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -33627,6 +33938,7 @@
     },
     {
       "aiGeneratedEventId": "01M7MCSQ1RPDQ41HFEPMX0PVQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -40187,6 +40499,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Healing Potion tooltip and use",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -42508,7 +42821,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M71EDD9080FZB1Q1GA7Q0Z3Q",
+          "aiGeneratedEventId": "01M7MR014QCJYT3WT47GXWVQ2Q",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42519,6 +42832,17 @@
                 "DialogueOpen",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "DialogName",
+                "Text",
+                "=",
+                "\"Merchant\""
               ]
             },
             {
@@ -44998,6 +45322,8 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "disabled": true,
+      "folded": true,
       "name": "Goblin AI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -47255,6 +47581,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M7MVVXRZE6CJVKW61AXNF9ZV",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -47293,7 +47620,7 @@
               },
               "parameters": [
                 "Skill2Unlocked",
-                "True",
+                "False",
                 ""
               ]
             },
@@ -47407,6 +47734,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M7MY0RPNR4WZMWRKQ1KD05EK",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -47468,6 +47796,16 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Skill2Active",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -47520,6 +47858,18 @@
                 "Animation",
                 "=",
                 "\"Skill\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/Explosion 7.aac",
+                "",
+                "100",
+                "1"
               ]
             }
           ],
@@ -47637,6 +47987,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M7MVCHD61EHM9YSMX507X7KA",
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -47646,9 +47997,10 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "TODO Skill 2 Crescent Dash: flag unlock + event tombol 2 (belum diimplementasikan)."
+          "comment": "Skill 2 Crescent Dash: tombol Num2, animasi skill2. Saling eksklusif dengan Skill 1 (cek Skill1Active/Skill2Active + nama animasi agar cleanup tidak tertukar)."
         },
         {
+          "aiGeneratedEventId": "01M7MY22VAY5Q96AS6HNF4JQM5",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -47679,9 +48031,227 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerPower",
+                ">=",
+                "PowerMax"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Skill2Active",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Skill1Active",
+                "False",
+                ""
+              ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerPower",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Skill2Active",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AttackStage",
+                "=",
+                "99"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"skill2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/Woosh 3.aac",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "demon",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "demon",
+                    "Player",
+                    "Skill1Radius",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "demon",
+                    "Health",
+                    "Skill1Damage",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M7MVCHD61EHM9YSMX507X7KA",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Skill2Active",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"skill2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Skill2Active",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AttackStage",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []

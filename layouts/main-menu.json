@@ -141,7 +141,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Ksatria di Gua Kristal bercahaya.png",
+                  "image": "Gua Kristal dengan Logo Crystalbound (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -161,16 +161,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1672,
+                        "x": 3344,
                         "y": 0
                       },
                       {
-                        "x": 1672,
-                        "y": 941
+                        "x": 3344,
+                        "y": 1882
                       },
                       {
                         "x": 0,
-                        "y": 941
+                        "y": 1882
                       }
                     ]
                   ]

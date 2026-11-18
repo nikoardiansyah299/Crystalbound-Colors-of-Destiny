@@ -69,7 +69,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pixel-Art Fantasy Victory Screen.png",
+                  "image": "Kemenangan di Gua Kristal (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -89,16 +89,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1671,
+                        "x": 3344,
                         "y": 0
                       },
                       {
-                        "x": 1671,
-                        "y": 941
+                        "x": 3344,
+                        "y": 1882
                       },
                       {
                         "x": 0,
-                        "y": 941
+                        "y": 1882
                       }
                     ]
                   ]

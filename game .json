@@ -14204,6 +14204,322 @@
         "name": "assets/crystalbound_assets/panorama_cave_to_forest.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Kekalahan di Bawah Bulan Merah (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kekalahan di Bawah Bulan Merah (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixel-Art Fantasy Victory Screen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel-Art Fantasy Victory Screen2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Kemenangan di Gua Kristal (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kemenangan di Gua Kristal (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gua Kristal dengan Logo Crystalbound (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gua Kristal dengan Logo Crystalbound (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Woosh 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Woosh 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill172",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill173",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill174",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill175",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill176",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill177.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill177",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill178.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill178",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill179.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill179",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill180",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill181.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill181",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill182",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill183.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill183",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill184.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill184",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill185.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill185",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill186.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill186",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill187.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill187",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill188.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill188",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill189.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill189",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill190.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill190",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill191.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill191",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill192",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill193.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill193",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill194.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill194",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill195.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill195",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill196.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill196",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill197.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill197",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill198.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill198",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill199.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill199",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill200.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill200",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill201.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill201",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill202.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill202",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill203.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill203",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/skill204.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "skill204",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explosion 7.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Explosion 7.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
