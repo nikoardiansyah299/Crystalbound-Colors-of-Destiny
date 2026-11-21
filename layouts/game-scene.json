@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402157074,
+    "zoomFactor": 0.321691176470603,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1179,8 +1179,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 2116,
-      "y": 793,
+      "x": 7908,
+      "y": 625,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -45317,12 +45317,11 @@
       "parameters": []
     },
     {
-      "aiGeneratedEventId": "01M7C9B4TV8F9ANK2RFXVP26ZR",
+      "aiGeneratedEventId": "01M7WK14WK0BFFCRWD1Q97YDJM",
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": true,
       "folded": true,
       "name": "Goblin AI",
       "source": "",
@@ -45353,7 +45352,6 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M7J0FQZB4SJ72SKGEC74RHG7",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "goblin",
           "conditions": [],
@@ -45668,12 +45666,11 @@
                         "Player",
                         "Animation",
                         "=",
-                        "\"death\""
+                        "\"hurt\""
                       ]
                     },
                     {
                       "type": {
-                        "await": true,
                         "value": "Wait"
                       },
                       "parameters": [

@@ -2118,7 +2118,7 @@
                   ],
                   "events": [
                     {
-                      "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
+                      "aiGeneratedEventId": "01M7WK5EEGH0YH6S0R2J404BP5",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2138,19 +2138,7 @@
                           "parameters": [
                             "abs(Target.CenterY() - Object.CenterY())",
                             "<",
-                            "450"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Target",
-                            "",
-                            "",
-                            ""
+                            "100"
                           ]
                         }
                       ],
@@ -2298,7 +2286,7 @@
                               ]
                             },
                             {
-                              "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
+                              "aiGeneratedEventId": "01M7WK5EEGH0YH6S0R2J404BP5",
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -2313,14 +2301,12 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "CollisionNP"
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
                                   },
                                   "parameters": [
-                                    "Object",
-                                    "Target",
-                                    "",
-                                    "",
-                                    ""
+                                    "abs(Target.CenterY() - Object.CenterY())",
+                                    "<",
+                                    "100"
                                   ]
                                 }
                               ],
@@ -2780,7 +2766,7 @@
                       ]
                     },
                     {
-                      "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
+                      "aiGeneratedEventId": "01M7WK5EEGH0YH6S0R2J404BP5",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2800,19 +2786,7 @@
                           "parameters": [
                             "abs(Target.CenterY() - Object.CenterY())",
                             "<",
-                            "450"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Target",
-                            "",
-                            "",
-                            ""
+                            "100"
                           ]
                         }
                       ],
