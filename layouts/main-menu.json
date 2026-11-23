@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.5250860067782502,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -33,6 +33,17 @@
       "persistentUuid": "9d459a3e-e736-4522-8c6a-7440ee512b2c",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "MusicVolume",
+      "persistentUuid": "1c7a1e8e-f94f-4d6c-b1e7-05690a9f7019",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "SoundVolume",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -63,9 +74,9 @@
       "name": "Fade",
       "persistentUuid": "a4e7a2f5-33f1-4456-abe8-6034608481b8",
       "width": 1930,
-      "x": -7,
-      "y": 1,
-      "zOrder": 7,
+      "x": -1221,
+      "y": 1095,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -79,8 +90,8 @@
       "name": "MenuPlay",
       "persistentUuid": "08ed226b-019a-4c96-92a3-e1f77ceb6ecc",
       "width": 0,
-      "x": 880,
-      "y": 688,
+      "x": 878,
+      "y": 657,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,8 +106,8 @@
       "name": "MenuCredits",
       "persistentUuid": "3171bf34-0c6c-4bae-b7d2-c0b5530f7a27",
       "width": 0,
-      "x": 814,
-      "y": 787,
+      "x": 812,
+      "y": 848,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,9 +122,42 @@
       "name": "MenuExit",
       "persistentUuid": "94ad890d-8f52-4ff5-aa1d-48dbb90cdf5a",
       "width": 0,
-      "x": 775,
-      "y": 875,
+      "x": 773,
+      "y": 944,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuSettings",
+      "persistentUuid": "03bae487-fc70-45e8-841b-47935a33260d",
+      "width": 0,
+      "x": 796,
+      "y": 753,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 207,
+      "keepRatio": true,
+      "layer": "",
+      "name": "player",
+      "persistentUuid": "43d10a0b-6647-4d61-a58d-a9152a38cd9c",
+      "width": 158,
+      "x": 444,
+      "y": 690,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -451,6 +495,440 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MenuSettings",
+      "persistentUuid": "95578192-6d8b-46bc-9ed1-bca7ca5446e5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "SETTINGS",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 72,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "SETTINGS",
+        "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 72,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "player",
+      "persistentUuid": "04be9738-2303-4188-bc85-31f0d6e1689f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 0
+                      },
+                      {
+                        "x": 173,
+                        "y": 207
+                      },
+                      {
+                        "x": 0,
+                        "y": 207
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -466,6 +944,9 @@
         "objectName": "Fade"
       },
       {
+        "objectName": "MenuSettings"
+      },
+      {
         "objectName": "MenuPlay"
       },
       {
@@ -473,12 +954,15 @@
       },
       {
         "objectName": "MenuExit"
+      },
+      {
+        "objectName": "player"
       }
     ]
   },
   "events": [
     {
-      "aiGeneratedEventId": "01M7M47TQYGD1ERE4NPR717XYD",
+      "aiGeneratedEventId": "01M846BNZT592H24WCX93G4KBR",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -525,18 +1009,216 @@
             "False",
             ""
           ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"music\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"music\"",
+                "",
+                "MusicVolume"
+              ]
+            }
+          ]
         },
         {
-          "type": {
-            "value": "PlayMusicOnChannel"
-          },
-          "parameters": [
-            "",
-            "City Sunshine.aac",
-            "1",
-            "yes",
-            "55",
-            "1"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"sound\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"sound\"",
+                "",
+                "SoundVolume"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "City Sunshine.aac",
+                "1",
+                "yes",
+                "MusicVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetMusicChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "MusicVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "player",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuPlay",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuCredits",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuSettings",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuExit",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuPlay",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.35",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuCredits",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.55",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuSettings",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.75",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuExit",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.95",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "player",
+                "Tween",
+                "\"Enter\"",
+                "350",
+                "660",
+                "\"easeOutBack\"",
+                "0.8",
+                "no"
+              ]
+            }
           ]
         }
       ]
@@ -1011,6 +1693,177 @@
           },
           "parameters": [
             "MenuExit",
+            "=",
+            "72"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "MenuLocked",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MenuSettings",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "MenuLocked",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "Opacity",
+            "\"FadeOut\"",
+            "255",
+            "\"linear\"",
+            "0.4",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "await": true,
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.45"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Settings\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MenuSettings",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "MenuSettings",
+            "\"255;220;120\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "MenuSettings",
+            "=",
+            "84"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Else",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "MenuSettings",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "MenuSettings",
             "=",
             "72"
           ]

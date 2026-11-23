@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.321691176470603,
+    "zoomFactor": 0.17130934511242674,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1179,8 +1179,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 7908,
-      "y": 625,
+      "x": 2296,
+      "y": 677,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -1778,14 +1778,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 147,
+      "depth": 1,
+      "height": 108,
       "keepRatio": true,
       "layer": "",
       "name": "green_gem",
       "persistentUuid": "6e18001c-01cd-48db-91c4-7f476842e945",
-      "width": 125,
-      "x": 2946,
-      "y": -17,
+      "width": 98,
+      "x": 2973,
+      "y": 22,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -2525,15 +2526,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 173,
+      "height": 110,
       "keepRatio": true,
       "layer": "",
       "name": "white_gem",
       "persistentUuid": "7e9aebea-3ddc-4bef-809f-0c5442fdb07c",
-      "width": 172,
-      "x": 7622,
-      "y": 2150,
-      "zOrder": 200,
+      "width": 89,
+      "x": 7673,
+      "y": 2199,
+      "zOrder": 283,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2604,14 +2605,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 138,
+      "height": 106,
       "keepRatio": true,
       "layer": "",
       "name": "yellow_gem",
       "persistentUuid": "47113230-0969-44fd-ae9d-78f879028faa",
-      "width": 140,
-      "x": 7461,
-      "y": 444,
+      "width": 92,
+      "x": 7493,
+      "y": 458,
       "zOrder": 206,
       "numberProperties": [],
       "stringProperties": [],
@@ -2626,8 +2627,8 @@
       "name": "tile_midnight",
       "persistentUuid": "9dacc27f-b2e1-4819-986d-91ee03db8496",
       "width": 0,
-      "x": 7424,
-      "y": 1703,
+      "x": 7422,
+      "y": 1699,
       "zOrder": 209,
       "numberProperties": [],
       "stringProperties": [
@@ -2658,14 +2659,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 150,
+      "height": 109,
       "keepRatio": true,
       "layer": "",
       "name": "cyan_gem",
       "persistentUuid": "20cba5d0-93ba-4f8c-b0bc-27526dcf2c7a",
-      "width": 142,
-      "x": 8134,
-      "y": 128,
+      "width": 108,
+      "x": 8168,
+      "y": 169,
       "zOrder": 212,
       "numberProperties": [],
       "stringProperties": [],
@@ -2680,8 +2681,8 @@
       "name": "Door_red",
       "persistentUuid": "5b264e7e-e023-4397-adb9-0fd2a0de90b8",
       "width": 0,
-      "x": 7970,
-      "y": 29,
+      "x": 7971,
+      "y": 38,
       "zOrder": 215,
       "numberProperties": [],
       "stringProperties": [],
@@ -2689,15 +2690,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 102,
       "keepRatio": true,
       "layer": "",
       "name": "red_gem",
       "persistentUuid": "8037b297-21e6-496c-8908-1c844a71d616",
-      "width": 0,
-      "x": 8752,
-      "y": 2178,
+      "width": 80,
+      "x": 8780,
+      "y": 2204,
       "zOrder": 216,
       "numberProperties": [],
       "stringProperties": [],
@@ -2705,15 +2707,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
       "keepRatio": true,
       "layer": "",
       "name": "purple_gem",
       "persistentUuid": "7768c1a3-3fc7-4014-829a-e85b080ca495",
-      "width": 0,
-      "x": 10308,
-      "y": 1874,
+      "width": 94,
+      "x": 10323,
+      "y": 1896,
       "zOrder": 219,
       "numberProperties": [],
       "stringProperties": [],
@@ -2737,15 +2740,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "red_gem",
       "persistentUuid": "d76463e4-0f82-486f-a67f-d9f802a3bf26",
-      "width": 0,
-      "x": 8635,
-      "y": 2184,
+      "width": 82,
+      "x": 8655,
+      "y": 2209,
       "zOrder": 223,
       "numberProperties": [],
       "stringProperties": [],
@@ -2804,15 +2808,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 119,
       "keepRatio": true,
       "layer": "",
       "name": "purple_gem",
       "persistentUuid": "f4533df3-7ff8-4223-bd15-d86d079094e1",
-      "width": 0,
-      "x": 10431,
-      "y": 1872,
+      "width": 94,
+      "x": 10447,
+      "y": 1881,
       "zOrder": 219,
       "numberProperties": [],
       "stringProperties": [],
@@ -2827,8 +2832,8 @@
       "name": "DoorBase",
       "persistentUuid": "c1b0167a-bab8-4cd2-9d9e-2b0eca01be59",
       "width": 0,
-      "x": 8872,
-      "y": 33,
+      "x": 8864,
+      "y": 34,
       "zOrder": 227,
       "numberProperties": [],
       "stringProperties": [],
@@ -2868,8 +2873,8 @@
       "name": "DoorHint",
       "persistentUuid": "699c2990-5478-42c8-a7ad-f1e221c20fe5",
       "width": 0,
-      "x": 8873,
-      "y": 33,
+      "x": 8864,
+      "y": 34,
       "zOrder": 228,
       "numberProperties": [],
       "stringProperties": [],
@@ -2958,15 +2963,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
       "keepRatio": true,
       "layer": "",
       "name": "green_gem",
       "persistentUuid": "9b108dcc-592a-414d-8aed-2d5fbc1e09af",
-      "width": 0,
-      "x": 8490,
-      "y": 138,
+      "width": 109,
+      "x": 8507,
+      "y": 158,
       "zOrder": 233,
       "numberProperties": [],
       "stringProperties": [],
@@ -2976,14 +2982,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 138,
+      "height": 113,
       "keepRatio": true,
       "layer": "",
       "name": "yellow_gem",
       "persistentUuid": "5dc6cbb6-c147-47df-b6c2-df02c8372ca1",
-      "width": 140,
-      "x": 8666,
-      "y": 142,
+      "width": 115,
+      "x": 8691,
+      "y": 167,
       "zOrder": 206,
       "numberProperties": [],
       "stringProperties": [],
@@ -3246,15 +3252,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
       "keepRatio": true,
       "layer": "",
       "name": "green_gem",
       "persistentUuid": "a517400d-c842-440d-80b4-724d6dae328b",
-      "width": 0,
+      "width": 110,
       "x": 4276,
-      "y": 321,
+      "y": 337,
       "zOrder": 269,
       "numberProperties": [],
       "stringProperties": [],
@@ -3301,14 +3308,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 140,
+      "height": 109,
       "keepRatio": true,
       "layer": "",
       "name": "yellow_gem",
       "persistentUuid": "64e41e13-2f2b-4ffb-b3d0-21ac20937686",
-      "width": 140,
-      "x": 4834,
-      "y": 398,
+      "width": 109,
+      "x": 4865,
+      "y": 429,
       "zOrder": 273,
       "numberProperties": [],
       "stringProperties": [],
@@ -3340,13 +3347,13 @@
       "persistentUuid": "6b3116fd-37f9-4030-8935-6b2c4f6dec60",
       "width": 0,
       "x": 5557,
-      "y": -188,
+      "y": -316,
       "zOrder": 275,
       "numberProperties": [],
       "stringProperties": [
         {
           "name": "tilemap",
-          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,16,16,16,16,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,18,18,18,18,18,18,18,18,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,16,16,16,16,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,18,18,18,18,18,18,18,18,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
         }
       ],
       "initialVariables": []
@@ -21363,6 +21370,16 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
+        {
+          "name": "CoinsDropped",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ExpDropped",
+          "type": "boolean",
+          "value": false
+        },
         {
           "name": "AnimDeath",
           "persistentUuid": "f6f16645-d1c0-4c2f-bbeb-2dbf66cb34f4",
@@ -46426,6 +46443,154 @@
               },
               "parameters": [
                 "demon",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M849ZB4K7JXFQYM9RVRKP7SY",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "goblin",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "goblin",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "goblin",
+                "ExpDropped",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "goblin",
+                "ExpDropped",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "goblin",
+                "CoinsDropped",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "goblin",
+                "Animation",
+                "=",
+                "\"death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Coin",
+                "goblin.CenterX() - 20",
+                "goblin.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Coin",
+                "goblin.CenterX() + 20",
+                "goblin.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "exp_drop_idle",
+                "goblin.CenterX()",
+                "goblin.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "exp_drop_idle",
+                "ExpValue",
+                "=",
+                "RandomInRange(ExpDropMin, ExpDropMax)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "exp_drop_idle",
+                "Collected",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "exp_drop_idle",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "await": true,
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "goblin",
                 ""
               ]
             }

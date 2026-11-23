@@ -14610,6 +14610,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/settings"
     }
   ],
   "layoutsFolderStructure": {
@@ -14629,6 +14633,9 @@
       },
       {
         "itemName": "Credits"
+      },
+      {
+        "itemName": "Settings"
       }
     ]
   },
