@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17708595277544673,
+    "zoomFactor": 0.23089183385225914,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -68,6 +68,7 @@
   "variables": [
     {
       "name": "Skill2Active",
+      "persistentUuid": "304686c8-3131-4d42-86f8-97475930f151",
       "type": "boolean",
       "value": false
     },
@@ -1178,7 +1179,7 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 2293,
+      "x": 2185,
       "y": 728,
       "zOrder": 190,
       "numberProperties": [],
@@ -2679,8 +2680,8 @@
       "name": "Door_red",
       "persistentUuid": "5b264e7e-e023-4397-adb9-0fd2a0de90b8",
       "width": 0,
-      "x": 7970,
-      "y": 29,
+      "x": 7972,
+      "y": 35,
       "zOrder": 215,
       "numberProperties": [],
       "stringProperties": [],
@@ -2826,8 +2827,8 @@
       "name": "DoorBase",
       "persistentUuid": "c1b0167a-bab8-4cd2-9d9e-2b0eca01be59",
       "width": 0,
-      "x": 8872,
-      "y": 33,
+      "x": 8864,
+      "y": 35,
       "zOrder": 227,
       "numberProperties": [],
       "stringProperties": [],
@@ -2867,8 +2868,8 @@
       "name": "DoorHint",
       "persistentUuid": "699c2990-5478-42c8-a7ad-f1e221c20fe5",
       "width": 0,
-      "x": 8873,
-      "y": 33,
+      "x": 8864,
+      "y": 36,
       "zOrder": 228,
       "numberProperties": [],
       "stringProperties": [],
@@ -3245,15 +3246,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
       "keepRatio": true,
       "layer": "",
       "name": "green_gem",
       "persistentUuid": "a517400d-c842-440d-80b4-724d6dae328b",
-      "width": 0,
-      "x": 4276,
-      "y": 321,
+      "width": 106,
+      "x": 4271,
+      "y": 337,
       "zOrder": 269,
       "numberProperties": [],
       "stringProperties": [],
@@ -3300,14 +3302,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 140,
+      "height": 120,
       "keepRatio": true,
       "layer": "",
       "name": "yellow_gem",
       "persistentUuid": "64e41e13-2f2b-4ffb-b3d0-21ac20937686",
-      "width": 140,
-      "x": 4834,
-      "y": 398,
+      "width": 118,
+      "x": 4854,
+      "y": 400,
       "zOrder": 273,
       "numberProperties": [],
       "stringProperties": [],
@@ -3339,13 +3341,13 @@
       "persistentUuid": "6b3116fd-37f9-4030-8935-6b2c4f6dec60",
       "width": 0,
       "x": 5557,
-      "y": -188,
+      "y": -316,
       "zOrder": 275,
       "numberProperties": [],
       "stringProperties": [
         {
           "name": "tilemap",
-          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,16,16,16,16,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,18,18,18,18,18,18,18,18,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,16,16,16,16,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,24],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,18,18,18,18,18,18,18,18,20],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,26],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20],[-1,-1,-1,-1,-1,-1,18,18,18,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
         }
       ],
       "initialVariables": []
@@ -20766,6 +20768,16 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
+        {
+          "name": "ExpDropped",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "CoinsDropped",
+          "type": "boolean",
+          "value": false
+        },
         {
           "name": "AnimDeath",
           "persistentUuid": "f6f16645-d1c0-4c2f-bbeb-2dbf66cb34f4",
@@ -45866,6 +45878,125 @@
               "parameters": [
                 "demon",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M8457SBK31R7QGHRZK1W0FTY",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "goblin",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "goblin",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "goblin",
+                "ExpDropped",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "goblin",
+                "ExpDropped",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "goblin",
+                "CoinsDropped",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Coin",
+                "goblin.CenterX() - 20",
+                "goblin.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Coin",
+                "goblin.CenterX() + 20",
+                "goblin.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "exp_drop_idle",
+                "goblin.CenterX()",
+                "goblin.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "exp_drop_idle",
+                "ExpValue",
+                "=",
+                "RandomInRange(ExpDropMin, ExpDropMax)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "exp_drop_idle",
+                "Collected",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "exp_drop_idle",
+                "PlatformerObject"
               ]
             }
           ]

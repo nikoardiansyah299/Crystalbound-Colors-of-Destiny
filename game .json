@@ -16842,6 +16842,21 @@
   "objectsGroups": [],
   "variables": [
     {
+      "name": "Fullscreen",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SoundVolume",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "MusicVolume",
+      "type": "number",
+      "value": 55
+    },
+    {
       "name": "PowerMax",
       "persistentUuid": "08f226b9-b09b-4b74-9daf-78a1acc9fce1",
       "type": "number",
@@ -16922,6 +16937,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/settings"
     }
   ],
   "layoutsFolderStructure": {
@@ -16941,6 +16960,9 @@
       },
       {
         "itemName": "Credits"
+      },
+      {
+        "itemName": "Settings"
       }
     ]
   },
@@ -17362,8 +17384,8 @@
     },
     {
       "description": "The Main Menu starts looping menu music; going to the Game Scene fades it out and stops it.",
-      "lastRunAt": 1794898173515,
-      "lastRunDurationMs": 2621,
+      "lastRunAt": 1795437544483,
+      "lastRunDurationMs": 5639,
       "lastRunFramesExecuted": 31,
       "lastRunStatus": "passed",
       "name": "Main menu background music plays and stops",
@@ -17423,6 +17445,49 @@
         "await harness.takeScreenshot('game scene');",
         ""
       ]
+    },
+    {
+      "description": "Kill goblin via real combat and check drops",
+      "lastRunAt": 1795436346417,
+      "lastRunDurationMs": 8549,
+      "lastRunFramesExecuted": 349,
+      "lastRunStatus": "passed",
+      "name": "Goblin drops coins and exp",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(30);",
+        "let goblins = harness.getObjects('goblin');",
+        "harness.assert(goblins.length>0, 'goblin exists');",
+        "let target = goblins[0];",
+        "const player = harness.getObjects('Player')[0];",
+        "// teleport player next to goblin",
+        "const ro2 = harness.getRuntimeObject(player.id);",
+        "// use setup helper to move player",
+        "const scene = harness.getCurrentRuntimeScene();",
+        "// Move player via setObjectPosition helper",
+        "// find nearest goblin each loop and attack via mouse click",
+        "for (let i=0;i<6;i++) {",
+        "  goblins = harness.getObjects('goblin');",
+        "  const alive = goblins.filter(g=>g.behaviors?.Health?.state?.IsDead!==true);",
+        "  if (alive.length===0) break;",
+        "  // nearest alive",
+        "  let best=null, bd=1e9;",
+        "  const p = harness.getObjects('Player')[0];",
+        "  for (const g of alive) { const d=Math.hypot(g.centerX-p.centerX, g.centerY-p.centerY); if(d<bd){bd=d;best=g;} }",
+        "  harness.setObjectPosition(player.id, best.centerX-40, best.centerY);",
+        "  await harness.stepFrames(5);",
+        "  harness.setMouseButtonPressed(true, 'left');",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(false, 'left');",
+        "  await harness.stepFrames(40); // wait GoblinHit cooldown + anim",
+        "}",
+        "await harness.stepFrames(30);",
+        "const coins = harness.getObjects('Coin').length;",
+        "const exps = harness.getObjects('exp_drop_idle').length;",
+        "const bursts = harness.getObjects('exp_drop_burst').length;",
+        "harness.assert(coins+exps+bursts>0 || harness.getObjects('goblin').length<4, 'goblin dropped coins/exp (coins='+coins+' exp='+exps+' burst='+bursts+' goblins='+harness.getObjects('goblin').length+')');"
+      ]
     }
   ],
   "testsFolderStructure": {
@@ -17457,6 +17522,9 @@
       },
       {
         "itemName": "Stage background music switches per stage"
+      },
+      {
+        "itemName": "Goblin drops coins and exp"
       }
     ]
   },

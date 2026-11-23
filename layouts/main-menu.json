@@ -57,14 +57,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1086,
+      "height": 1099,
       "keepRatio": true,
       "layer": "",
       "name": "Fade",
       "persistentUuid": "a4e7a2f5-33f1-4456-abe8-6034608481b8",
       "width": 1930,
-      "x": -1,
-      "y": -5,
+      "x": 0,
+      "y": -10,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,7 +80,7 @@
       "persistentUuid": "08ed226b-019a-4c96-92a3-e1f77ceb6ecc",
       "width": 0,
       "x": 880,
-      "y": 688,
+      "y": 660,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,7 +96,7 @@
       "persistentUuid": "3171bf34-0c6c-4bae-b7d2-c0b5530f7a27",
       "width": 0,
       "x": 814,
-      "y": 787,
+      "y": 745,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -112,7 +112,7 @@
       "persistentUuid": "94ad890d-8f52-4ff5-aa1d-48dbb90cdf5a",
       "width": 0,
       "x": 775,
-      "y": 875,
+      "y": 915,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,6 +131,22 @@
       "x": 350,
       "y": 660,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MenuSettings",
+      "persistentUuid": "b1893c30-093a-4a43-98c6-06c714030fc6",
+      "width": 0,
+      "x": 810,
+      "y": 830,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,7 +364,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "PLAY",
       "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
       "textAlignment": "center",
@@ -392,7 +413,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "CREDITS",
       "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
       "textAlignment": "center",
@@ -436,7 +462,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "EXIT GAME",
       "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
       "textAlignment": "center",
@@ -478,7 +509,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "default",
@@ -853,6 +889,55 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MenuSettings",
+      "persistentUuid": "f231bb88-77ef-4a96-855e-0cb9b6137a05",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "SETTINGS",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 72,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "SETTINGS",
+        "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 72,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -878,12 +963,15 @@
       },
       {
         "objectName": "MenuExit"
+      },
+      {
+        "objectName": "MenuSettings"
       }
     ]
   },
   "events": [
     {
-      "aiGeneratedEventId": "01M7M47TQYGD1ERE4NPR717XYD",
+      "aiGeneratedEventId": "01M846BNZT592H24WCX93G4KBR",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -930,28 +1018,216 @@
             "False",
             ""
           ]
-        },
+        }
+      ],
+      "events": [
         {
-          "type": {
-            "value": "PlayMusicOnChannel"
-          },
-          "parameters": [
-            "",
-            "City Sunshine.aac",
-            "1",
-            "yes",
-            "55",
-            "1"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"music\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"music\"",
+                "",
+                "MusicVolume"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "FlippableCapability::FlippableBehavior::FlipX"
-          },
-          "parameters": [
-            "player",
-            "Flippable",
-            "yes"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"sound\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"sound\"",
+                "",
+                "SoundVolume"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "City Sunshine.aac",
+                "1",
+                "yes",
+                "MusicVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetMusicChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "MusicVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "player",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuPlay",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuCredits",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuSettings",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MenuExit",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuPlay",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.35",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuCredits",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.55",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuSettings",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.75",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+              },
+              "parameters": [
+                "MenuExit",
+                "Tween",
+                "Opacity",
+                "\"Enter\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.95",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "player",
+                "Tween",
+                "\"Enter\"",
+                "350",
+                "660",
+                "\"easeOutBack\"",
+                "0.8",
+                "no"
+              ]
+            }
           ]
         }
       ]
@@ -1436,6 +1712,271 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "MenuLocked",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MenuSettings",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "MenuLocked",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "Opacity",
+            "\"FadeOut\"",
+            "255",
+            "\"linear\"",
+            "0.4",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "await": true,
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.45"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Settings\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MenuSettings",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "MenuSettings",
+            "\"255;220;120\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "MenuSettings",
+            "=",
+            "84"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Else",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "MenuSettings",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "MenuSettings",
+            "=",
+            "72"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"Enter\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"FloatUp\"",
+            "350",
+            "640",
+            "\"easeInOutSine\"",
+            "1.2",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"FloatUp\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"FloatDown\"",
+            "350",
+            "660",
+            "\"easeInOutSine\"",
+            "1.2",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M846C82NKHADBHZVC4M8Z2SJ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"FloatDown\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"FloatUp\"",
+            "350",
+            "640",
+            "\"easeInOutSine\"",
+            "1.2",
+            "no"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
