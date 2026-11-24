@@ -16973,9 +16973,9 @@
   "tests": [
     {
       "description": "Pressing Space makes the player jump off the platform it stands on, and gravity brings it back down at the same place.",
-      "lastRunAt": 1793110103846,
-      "lastRunDurationMs": 613,
-      "lastRunFramesExecuted": 97,
+      "lastRunAt": 1795520152354,
+      "lastRunDurationMs": 6019,
+      "lastRunFramesExecuted": 107,
       "lastRunStatus": "passed",
       "name": "Jumping with Space",
       "type": "gameplay",
@@ -17584,6 +17584,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/enemyai"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotypingfixed"
     }
   ],
   "externalLayouts": [],

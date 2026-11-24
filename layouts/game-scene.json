@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.23089183385225914,
+    "zoomFactor": 0.09748304263251557,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -66,6 +66,18 @@
     }
   ],
   "variables": [
+    {
+      "name": "DialogTextReady",
+      "persistentUuid": "80e32873-2047-4be9-acc3-48074cf29b5f",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "DialogNPC",
+      "persistentUuid": "aac07590-a003-4260-b0ef-351861ea6a3f",
+      "type": "string",
+      "value": ""
+    },
     {
       "name": "Skill2Active",
       "persistentUuid": "304686c8-3131-4d42-86f8-97475930f151",
@@ -721,7 +733,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 147,
+      "height": 230,
       "hidden": true,
       "keepRatio": true,
       "layer": "UI",
@@ -787,14 +799,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 170,
       "hidden": true,
       "keepRatio": true,
       "layer": "UI",
       "name": "DialogText",
       "persistentUuid": "6cfe01dc-e882-40d2-906b-ca1d5b2feb88",
-      "width": 0,
+      "width": 1400,
       "x": 110,
       "y": 221,
       "zOrder": 107,
@@ -1179,8 +1191,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": 2185,
-      "y": 728,
+      "x": 2206,
+      "y": 673,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -5385,7 +5397,12 @@
       "width": 48,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5427,7 +5444,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 36,
-        "lineHeight": 0,
+        "lineHeight": 47,
         "color": "255;255;255"
       }
     },
@@ -5566,15 +5583,29 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTypingFixed::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "Text",
       "font": "561d75b195f4dfcbdf0c38511984c83680574032d6b8c3c6a436a4fd32094320_DotGothic16-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 42,
+      "characterSize": 26,
       "color": {
-        "b": 40,
-        "g": 20,
-        "r": 20
+        "b": 55,
+        "g": 25,
+        "r": 25
       },
       "content": {
         "bold": true,
@@ -5587,16 +5618,16 @@
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
         "shadowDistance": 4,
-        "shadowOpacity": 127,
+        "shadowOpacity": 200,
         "smoothed": true,
         "underlined": false,
         "text": "Text",
         "font": "561d75b195f4dfcbdf0c38511984c83680574032d6b8c3c6a436a4fd32094320_DotGothic16-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 42,
-        "lineHeight": 0,
-        "color": "20;20;40"
+        "characterSize": 26,
+        "lineHeight": 34,
+        "color": "25;25;55"
       }
     },
     {
@@ -5610,7 +5641,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "WARGA",
       "font": "",
       "textAlignment": "left",
@@ -5654,7 +5690,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "[ E ]",
       "font": "2d361282cf7e5646ed37f5eb34beea0802af5f6bf922414f9dde6a825141f979_Kenney High Square.ttf",
       "textAlignment": "center",
@@ -5683,7 +5724,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 48,
-        "lineHeight": 0,
+        "lineHeight": 58,
         "color": "252;246;255"
       }
     },
@@ -7491,7 +7532,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 35,
-        "lineHeight": 0,
+        "lineHeight": 40,
         "color": "0;0;0"
       }
     },
@@ -17586,7 +17627,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 48,
-        "lineHeight": 0,
+        "lineHeight": 58,
         "color": "252;246;255"
       }
     },
@@ -19644,7 +19685,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 14,
-        "lineHeight": 0,
+        "lineHeight": 40,
         "color": "0;0;0"
       }
     },
@@ -19794,7 +19835,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
-        "lineHeight": 0,
+        "lineHeight": 40,
         "color": "0;0;0"
       }
     },
@@ -20042,7 +20083,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 13,
-        "lineHeight": 0,
+        "lineHeight": 18,
         "color": "0;0;0"
       }
     },
@@ -20086,7 +20127,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 12,
-        "lineHeight": 0,
+        "lineHeight": 18,
         "color": "126;211;33"
       }
     },
@@ -20174,7 +20215,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 17,
-        "lineHeight": 0,
+        "lineHeight": 22,
         "color": "0;0;0"
       }
     },
@@ -22099,7 +22140,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 18,
-        "lineHeight": 0,
+        "lineHeight": 30,
         "color": "255;255;255"
       }
     },
@@ -22143,7 +22184,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 16,
-        "lineHeight": 0,
+        "lineHeight": 30,
         "color": "255;255;0"
       }
     },
@@ -22187,7 +22228,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 64,
-        "lineHeight": 0,
+        "lineHeight": 40,
         "color": "255;215;0"
       }
     },
@@ -22231,7 +22272,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 28,
-        "lineHeight": 0,
+        "lineHeight": 30,
         "color": "255;255;255"
       }
     },
@@ -29166,18 +29207,27 @@
       "comment": "NPC Dialog ns"
     },
     {
-      "aiGeneratedEventId": "01M7MQ4SY866KP36Z61FGTMCEN",
+      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "Distance"
+            "value": "PosX"
           },
           "parameters": [
             "Player",
-            "npc_ns",
-            "250",
-            ""
+            ">",
+            "npc_ns.X() - 220"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "npc_ns.X() + 220"
           ]
         },
         {
@@ -29222,7 +29272,7 @@
       "actions": []
     },
     {
-      "aiGeneratedEventId": "01M7MQ274B2J2Q2WMEGGAAH9B6",
+      "aiGeneratedEventId": "01M86TFW7S5RZR86JYNBBD61X9",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29231,6 +29281,16 @@
           },
           "parameters": [
             "DialogueOpen",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DoorUIOpen",
             "False",
             ""
           ]
@@ -29246,13 +29306,33 @@
         },
         {
           "type": {
-            "value": "Distance"
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DialogAdvance\"",
+            ">",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
           },
           "parameters": [
             "Player",
-            "npc_ns",
-            "250",
-            ""
+            ">",
+            "npc_ns.X() - 220"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "npc_ns.X() + 220"
           ]
         }
       ],
@@ -29314,13 +29394,23 @@
         },
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "DialogNPC",
+            "=",
+            "\"nuru\""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "DialogName",
             "Text",
             "=",
-            "\"Penambang\""
+            "\"Penambang Nuru\""
           ]
         },
         {
@@ -29331,7 +29421,17 @@
             "DialogText",
             "Text",
             "=",
-            "\"Halo, petualang! Tekan E lagi...\""
+            "\"Halo, petualang! Kau akhirnya sadar... Syukurlah kau selamat sampai di gua ini.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "DialogTextReady",
+            "False",
+            ""
           ]
         },
         {
@@ -29343,10 +29443,86 @@
             "\"DialogAdvance\""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<",
+                "npc_ns.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Player",
+                "Flippable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "npc_ns",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "npc_ns.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Player",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "npc_ns",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "aiGeneratedEventId": "01M7MR7FRM869KS1BV351AAP92",
+      "aiGeneratedEventId": "01M86TVY107R5M94TKEV6KK11M",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29361,13 +29537,12 @@
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
+            "value": "StringVariable"
           },
           "parameters": [
-            "DialogName",
-            "Text",
+            "DialogNPC",
             "=",
-            "\"Penambang\""
+            "\"nuru\""
           ]
         },
         {
@@ -29389,246 +29564,44 @@
             ">",
             "0.3"
           ]
-        },
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "npc_ns",
-            "250",
-            ""
-          ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "DialogueStepnuru",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"DialogAdvance\""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "inverted": true,
+                "value": "AutoTypingFixed::AutoTyping::IsFinished"
               },
               "parameters": [
                 "DialogText",
-                "Text",
-                "=",
-                "\"Aku Nuru Syahrirramadhan, 240533605851 adalah ID ku\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Disini cukup berbahaya, kurasa kau harus keluar dari goa ini..!\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Coba tebas monster di depan dengan Klik Kiri.\" + NewLine() + \"Jangan takut, mereka lemah!\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                "=",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Monster yang kalah menjatuhkan gem, exp, dan coin.\" + NewLine() + \"Kumpulkan semuanya untuk bekal perjalananmu.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                "=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Gem itu bukan hiasan!\" + NewLine() + \"Bawa gem sewarna ke gerbang untuk membukanya.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                "=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Disini cukup berbahaya, segera keluar dari goa ini..!\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnuru",
-                ">=",
-                "7"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogBox"
+                "AutoTyping",
+                ""
               ]
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "DialogName"
+                "DialogTextReady",
+                "False",
+                ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "AutoTypingFixed::AutoTyping::ShowFullText"
               },
               "parameters": [
-                "DialogText"
+                "DialogText",
+                "AutoTyping",
+                ""
               ]
             },
             {
@@ -29636,19 +29609,403 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "DialogueOpen",
-                "False",
+                "DialogTextReady",
+                "True",
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DialogAdvance\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "DialogueStepnuru",
-                "=",
-                "0"
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "DialogTextReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DialogAdvance\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Kamu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Ugh... kepalaku... Di mana aku? Tempat apa ini?\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Penambang Nuru\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Tenang... kau di Gua Bawah Tanah Kerajaan. Gerbang kegelapan tiba-tiba terbuka dan monster bermunculan di mana-mana.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Aku Nuru, penambang yang terjebak di sini. Para monster itu mengincar siapa pun yang lewat!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Ambil pedangmu! Tebas monster di depan dengan KLIK KIRI. Jangan takut, yang kecil itu lemah.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Monster yang kalah menjatuhkan gem, exp, dan coin. Kumpulkan semuanya, itu bekal perjalananmu.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Dengar baik-baik: gem itu bukan hiasan! Bawa gem SEWARNA ke gerbang untuk membukanya.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Kamu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Baik! Aku akan keluar dari gua ini dan mencari jalan pulang ke desa!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Penambang Nuru\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Hati-hati... dan semoga cahaya melindungimu, petualang!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    ">=",
+                    "9"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogueOpen",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnuru",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogTextReady",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogAdvance\""
+                  ]
+                }
               ]
             }
           ]
@@ -29668,18 +30025,27 @@
       "comment": "NPC Dialog na"
     },
     {
-      "aiGeneratedEventId": "01M7MQ4SY866KP36Z61FGTMCEN",
+      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "Distance"
+            "value": "PosX"
           },
           "parameters": [
             "Player",
-            "npc_niko",
-            "250",
-            ""
+            ">",
+            "npc_niko.X() - 220"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "npc_niko.X() + 220"
           ]
         },
         {
@@ -29724,7 +30090,7 @@
       "actions": []
     },
     {
-      "aiGeneratedEventId": "01M7MQ274B2J2Q2WMEGGAAH9B6",
+      "aiGeneratedEventId": "01M86TFW7S5RZR86JYNBBD61X9",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29733,6 +30099,16 @@
           },
           "parameters": [
             "DialogueOpen",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DoorUIOpen",
             "False",
             ""
           ]
@@ -29748,13 +30124,33 @@
         },
         {
           "type": {
-            "value": "Distance"
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DialogAdvance\"",
+            ">",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
           },
           "parameters": [
             "Player",
-            "npc_niko",
-            "250",
-            ""
+            ">",
+            "npc_niko.X() - 220"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "npc_niko.X() + 220"
           ]
         }
       ],
@@ -29816,13 +30212,23 @@
         },
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "DialogNPC",
+            "=",
+            "\"niko\""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "DialogName",
             "Text",
             "=",
-            "\"Wizard\""
+            "\"???\""
           ]
         },
         {
@@ -29833,86 +30239,17 @@
             "DialogText",
             "Text",
             "=",
-            "\"...\""
+            "\"... Siapa yang berani menginjakkan kaki di menara bayangan ini...?\""
           ]
         },
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "",
-            "\"DialogAdvance\""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01M7MR7FRM869KS1BV351AAP92",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "DialogueOpen",
-            "True",
+            "DialogTextReady",
+            "False",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "DialogName",
-            "Text",
-            "=",
-            "\"Wizard\""
-          ]
-        },
-        {
-          "type": {
-            "value": "KeyFromTextJustPressed"
-          },
-          "parameters": [
-            "",
-            "\"e\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "npc_niko",
-            "250",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"DialogAdvance\"",
-            ">",
-            "0.3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "DialogueStepniko",
-            "+",
-            "1"
           ]
         },
         {
@@ -29931,25 +30268,34 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "PosX"
               },
               "parameters": [
-                "DialogueStepniko",
-                "=",
-                "1"
+                "Player",
+                "<",
+                "npc_niko.X()"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Aku Niko Ardiansyah, 240533609358 adalah ID ku\""
+                "Player",
+                "Flippable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "npc_niko",
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -29959,66 +30305,121 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "PosX"
               },
               "parameters": [
-                "DialogueStepniko",
-                "=",
-                "2"
+                "Player",
+                ">",
+                "npc_niko.X()"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Kamu perlu membunuh semua monster jika ingin kembali ke desamu...\""
+                "Player",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "npc_niko",
+                "Flippable",
+                "no"
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M86TVY107R5M94TKEV6KK11M",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DialogueOpen",
+            "True",
+            ""
+          ]
         },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "DialogNPC",
+            "=",
+            "\"niko\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextJustPressed"
+          },
+          "parameters": [
+            "",
+            "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DialogAdvance\"",
+            ">",
+            "0.3"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "inverted": true,
+                "value": "AutoTypingFixed::AutoTyping::IsFinished"
               },
               "parameters": [
-                "DialogueStepniko",
-                ">=",
-                "3"
+                "DialogText",
+                "AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DialogTextReady",
+                "False",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "AutoTypingFixed::AutoTyping::ShowFullText"
               },
               "parameters": [
-                "DialogBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogName"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogText"
+                "DialogText",
+                "AutoTyping",
+                ""
               ]
             },
             {
@@ -30026,19 +30427,347 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "DialogueOpen",
-                "False",
+                "DialogTextReady",
+                "True",
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DialogAdvance\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "DialogueStepniko",
-                "=",
-                "0"
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "DialogTextReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DialogAdvance\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Kamu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Aku bukan musuh! Aku hanya petualang yang tersesat... Kau siapa?\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Wizard Niko\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Aku Niko, penyihir penjaga menara ini. Segel kerajaan telah pecah... kegelapan bocor ke dunia kita.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Desamu jauh di balik gerbang terkutuk itu. Satu-satunya jalan pulang: kalahkan semua monster yang menghalangi!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Setiap kemenangan membuatmu lebih kuat. Kumpulkan exp, naikkan level, dan buka skill rahasiamu!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Kamu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Aku tidak akan lari. Demi desaku... aku akan bertarung!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Wizard Niko\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Bagus... Itulah semangat ksatria! Maju, dan biarkan sihirmu mengguncang menara ini!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    ">=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogueOpen",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepniko",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogTextReady",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogAdvance\""
+                  ]
+                }
               ]
             }
           ]
@@ -30058,18 +30787,27 @@
       "comment": "NPC Dialog nn"
     },
     {
-      "aiGeneratedEventId": "01M7MQ4SY866KP36Z61FGTMCEN",
+      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "Distance"
+            "value": "PosX"
           },
           "parameters": [
             "Player",
-            "npc_nopal",
-            "250",
-            ""
+            ">",
+            "npc_nopal.X() - 220"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "npc_nopal.X() + 220"
           ]
         },
         {
@@ -30114,43 +30852,91 @@
       "actions": []
     },
     {
-      "aiGeneratedEventId": "01M7MQ5BBMQ3816D8NDCD4QWG5",
+      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "Distance"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Player",
-            "npc_ns",
-            "250",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<",
+                "npc_ns.X() - 220"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "npc_ns.X() + 220"
+              ]
+            }
           ]
         },
         {
           "type": {
-            "inverted": true,
-            "value": "Distance"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Player",
-            "npc_niko",
-            "250",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<",
+                "npc_niko.X() - 220"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "npc_niko.X() + 220"
+              ]
+            }
           ]
         },
         {
           "type": {
-            "inverted": true,
-            "value": "Distance"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Player",
-            "npc_nopal",
-            "250",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<",
+                "npc_nopal.X() - 220"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "npc_nopal.X() + 220"
+              ]
+            }
           ]
         }
       ],
@@ -30166,7 +30952,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M7MQ274B2J2Q2WMEGGAAH9B6",
+      "aiGeneratedEventId": "01M86TFW7S5RZR86JYNBBD61X9",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -30175,6 +30961,16 @@
           },
           "parameters": [
             "DialogueOpen",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DoorUIOpen",
             "False",
             ""
           ]
@@ -30190,13 +30986,33 @@
         },
         {
           "type": {
-            "value": "Distance"
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DialogAdvance\"",
+            ">",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
           },
           "parameters": [
             "Player",
-            "npc_nopal",
-            "250",
-            ""
+            ">",
+            "npc_nopal.X() - 220"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "npc_nopal.X() + 220"
           ]
         }
       ],
@@ -30258,13 +31074,23 @@
         },
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "DialogNPC",
+            "=",
+            "\"nopal\""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "DialogName",
             "Text",
             "=",
-            "\"Merchant\""
+            "\"Merchant Nopal\""
           ]
         },
         {
@@ -30275,86 +31101,17 @@
             "DialogText",
             "Text",
             "=",
-            "\"Halo Kostumer!\""
+            "\"Halo, halo, kostumer! Selamat datang di Toko Nopal, toko paling berani se-kerajaan!\""
           ]
         },
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "",
-            "\"DialogAdvance\""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01M7MR7FRM869KS1BV351AAP92",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "DialogueOpen",
-            "True",
+            "DialogTextReady",
+            "False",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "DialogName",
-            "Text",
-            "=",
-            "\"Merchant\""
-          ]
-        },
-        {
-          "type": {
-            "value": "KeyFromTextJustPressed"
-          },
-          "parameters": [
-            "",
-            "\"e\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "npc_nopal",
-            "250",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"DialogAdvance\"",
-            ">",
-            "0.3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "DialogueStepnopal",
-            "+",
-            "1"
           ]
         },
         {
@@ -30373,25 +31130,34 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "PosX"
               },
               "parameters": [
-                "DialogueStepnopal",
-                "=",
-                "1"
+                "Player",
+                "<",
+                "npc_nopal.X()"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Aku Noval Nur Fadhilah, 240533603476 adalah ID ku\""
+                "Player",
+                "Flippable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "npc_nopal",
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -30401,51 +31167,120 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "PosX"
               },
               "parameters": [
-                "DialogueStepnopal",
-                "=",
-                "2"
+                "Player",
+                ">",
+                "npc_nopal.X()"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "DialogText",
-                "Text",
-                "=",
-                "\"Selamat datang di toko nopal selamat belanja\""
+                "Player",
+                "Flippable",
+                "yes"
               ]
             },
             {
               "type": {
-                "value": "Show"
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "DialogBox",
+                "npc_nopal",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M86TVY107R5M94TKEV6KK11M",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "DialogueOpen",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "DialogNPC",
+            "=",
+            "\"nopal\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextJustPressed"
+          },
+          "parameters": [
+            "",
+            "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DialogAdvance\"",
+            ">",
+            "0.3"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AutoTypingFixed::AutoTyping::IsFinished"
+              },
+              "parameters": [
+                "DialogText",
+                "AutoTyping",
                 ""
               ]
             },
             {
               "type": {
-                "value": "Show"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "DialogName",
+                "DialogTextReady",
+                "False",
                 ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "Show"
+                "value": "AutoTypingFixed::AutoTyping::ShowFullText"
               },
               "parameters": [
                 "DialogText",
+                "AutoTyping",
                 ""
               ]
             },
@@ -30454,38 +31289,9 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "NopalShopReady",
+                "DialogTextReady",
                 "True",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "ShopOpenBtn",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "ShopOpenBtn",
-                "=",
-                "DialogBox.X() + DialogBox.Width() - 180"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "ShopOpenBtn",
-                "=",
-                "DialogBox.Y() + DialogBox.Height() - 60"
               ]
             },
             {
@@ -30494,76 +31300,23 @@
               },
               "parameters": [
                 "",
-                "\"ShopClick\""
+                "\"DialogAdvance\""
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueStepnopal",
-                ">=",
-                "3"
-              ]
-            }
-          ],
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
           "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogName"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "ShopOpenBtn"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "DialogueOpen",
-                "False",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "DialogueStepnopal",
-                "=",
-                "0"
+                "+",
+                "1"
               ]
             },
             {
@@ -30571,9 +31324,377 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "NopalShopReady",
+                "DialogTextReady",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DialogAdvance\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Kamu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Toko... di tempat berbahaya seperti ini? Kau tidak takut monster?\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Merchant Nopal\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Ha! Justru di sinilah ladang cuan! Aku Noval, pedagang paling nekat. Petualang sepertimu butuh ramuanku!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Darahmu terkuras? Coin yang kau kumpulkan bisa ditukar Healing Potion. Satu teguk... langsung segar kembali!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DialogBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "NopalShopReady",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn",
+                    "=",
+                    "DialogBox.X() + DialogBox.Width() - 180"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn",
+                    "=",
+                    "DialogBox.Y() + DialogBox.Height() - 60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShopClick\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Kamu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Baiklah, aku akan mampir lagi kalau butuh. Terima kasih, Nopal!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    "Text",
+                    "=",
+                    "\"Merchant Nopal\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    "Text",
+                    "=",
+                    "\"Sama-sama! Ingat... coin boleh habis, tapi nyawa jangan! Hati-hati di jalan, kostumer!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    ">=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DialogText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogueOpen",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueStepnopal",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "NopalShopReady",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogTextReady",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogAdvance\""
+                  ]
+                }
               ]
             }
           ]
@@ -41966,7 +43087,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "aiGeneratedEventId": "01M71J5C3HT0QTJMXYPSQYMQWD",
+          "aiGeneratedEventId": "01M86S0C1M5KB84Z6SWSYR8C3Y",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -41979,6 +43100,15 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DialogAdvance\""
+              ]
+            },
             {
               "type": {
                 "value": "Hide"
@@ -42117,7 +43247,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M71EDD9080FZB1Q1GA7Q0Z3Q",
+          "aiGeneratedEventId": "01M86QTA5EFS3J3P9KBMZPP3V6",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42137,7 +43267,7 @@
               "parameters": [
                 "DialogueStepnopal",
                 "=",
-                "2"
+                "3"
               ]
             },
             {
@@ -42185,7 +43315,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M71J37B2RF949MXMM70NZZGC",
+          "aiGeneratedEventId": "01M86QW5EKYE9EDAG1SWZNKH3X",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42212,7 +43342,7 @@
                   "parameters": [
                     "DialogueStepnopal",
                     "=",
-                    "2"
+                    "3"
                   ]
                 },
                 {
@@ -42251,7 +43381,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M7MR014QCJYT3WT47GXWVQ2Q",
+          "aiGeneratedEventId": "01M86QYZ0WGAYVVRZN0QR9CENE",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42272,7 +43402,7 @@
                 "DialogName",
                 "Text",
                 "=",
-                "\"Merchant\""
+                "\"Merchant Nopal\""
               ]
             },
             {
@@ -42431,7 +43561,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M71J3Y0DJ12BYPKEBY686QT8",
+          "aiGeneratedEventId": "01M86WNR4D57RYPJR84VK0K5C2",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42451,7 +43581,7 @@
               "parameters": [
                 "DialogueStepnopal",
                 "=",
-                "2"
+                "3"
               ]
             },
             {
@@ -42662,6 +43792,150 @@
               "parameters": [
                 "TooltipUse"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DialogBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DialogName"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DialogText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ShopOpenBtn"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "InteractPrompt"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Shop",
+                "=",
+                "320"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "ShopCloseBtn",
+                "=",
+                "325"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "BUY_button",
+                "=",
+                "325"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "ShopPriceText",
+                "=",
+                "326"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "ShopCoinText",
+                "=",
+                "326"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "ShopMsg",
+                "=",
+                "326"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "ShopMsg",
+                "=",
+                "Shop.CenterX() - 150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "ShopMsg",
+                "=",
+                "Shop.Y() + Shop.Height() - 90"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "ShopPriceText",
+                "=",
+                "Shop.CenterX() - 84",
+                "=",
+                "Shop.CenterY() - 87"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "BUY_button",
+                "=",
+                "Shop.CenterX() - 84",
+                "=",
+                "Shop.CenterY() - 60"
+              ]
             }
           ],
           "events": [
@@ -42698,7 +43972,19 @@
                   "parameters": [
                     "HealingPotion",
                     "=",
-                    "310"
+                    "330"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "HealingPotion",
+                    "=",
+                    "Shop.CenterX() - 84",
+                    "=",
+                    "Shop.CenterY() - 137"
                   ]
                 }
               ]
@@ -42706,7 +43992,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M6ZMWKZAWW2KEWHRY3YZ8NM1",
+          "aiGeneratedEventId": "01M86QY819C4DECNMVVWBTMTM3",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42838,6 +44124,90 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "DialogueOpen",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "npc_nopal",
+                    "250",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DialogBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DialogName",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DialogText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn",
+                    "=",
+                    "DialogBox.X() + DialogBox.Width() - 180"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ShopOpenBtn",
+                    "=",
+                    "DialogBox.Y() + DialogBox.Height() - 60"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "HealingPotion",
               "conditions": [
@@ -42867,7 +44237,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M71J3Y0DJ12BYPKEBY686QT8",
+          "aiGeneratedEventId": "01M86WNR4D57RYPJR84VK0K5C2",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42906,6 +44276,30 @@
             },
             {
               "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "ShopPriceText",
+                "=",
+                "Shop.CenterX() - 84",
+                "=",
+                "Shop.CenterY() - 87"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "BUY_button",
+                "=",
+                "Shop.CenterX() - 84",
+                "=",
+                "Shop.CenterY() - 60"
+              ]
+            },
+            {
+              "type": {
                 "value": "Show"
               },
               "parameters": [
@@ -42939,6 +44333,28 @@
                   "parameters": [
                     "HealingPotion",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "HealingPotion",
+                    "=",
+                    "330"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "HealingPotion",
+                    "=",
+                    "Shop.CenterX() - 84",
+                    "=",
+                    "Shop.CenterY() - 137"
                   ]
                 }
               ]
@@ -48367,6 +49783,210 @@
           ]
         }
       ]
+    },
+    {
+      "aiGeneratedEventId": "01M86PGW02RE1DNP2Q4MSV0XSX",
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Dialog safety - force close when walking away",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DialogueOpen",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "npc_ns.X() - 500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "npc_ns.X() + 500"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "npc_niko.X() - 500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "npc_niko.X() + 500"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "npc_nopal.X() - 500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "npc_nopal.X() + 500"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DialogBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DialogName"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DialogText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ShopOpenBtn"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "InteractPrompt"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "DialogueOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnuru",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueStepniko",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueStepnopal",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "NopalShopReady",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -48561,6 +50181,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
