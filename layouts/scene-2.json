@@ -27,7 +27,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "VictoryLocked",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -41,7 +47,55 @@
       "width": 1923,
       "x": -1,
       "y": -3,
-      "zOrder": 1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "VictorySub",
+      "persistentUuid": "f81c1685-e53b-43b9-8519-d347a8a2e569",
+      "width": 1920,
+      "x": 0,
+      "y": 640,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayAgainBtn",
+      "persistentUuid": "3e0aad81-8c3d-4108-aa35-57937e3df202",
+      "width": 1920,
+      "x": 0,
+      "y": 750,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MainMenuBtn",
+      "persistentUuid": "4a1780d5-5ebd-41b9-8638-6311639aee1b",
+      "width": 1920,
+      "x": 0,
+      "y": 860,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -108,6 +162,135 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "VictorySub",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Semua musuh telah dikalahkan!",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 48,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Semua musuh telah dikalahkan!",
+        "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 48,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PlayAgainBtn",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "PLAY AGAIN",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 72,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "PLAY AGAIN",
+        "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 72,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "MainMenuBtn",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "MAIN MENU",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 72,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "MAIN MENU",
+        "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 72,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -115,6 +298,15 @@
     "children": [
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "VictorySub"
+      },
+      {
+        "objectName": "PlayAgainBtn"
+      },
+      {
+        "objectName": "MainMenuBtn"
       }
     ]
   },
@@ -142,6 +334,308 @@
             "yes",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M88P6BANWGYDMZQW74HQHEXQ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "PlayAgainBtn",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "PlayAgainBtn",
+            "\"255;220;120\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "PlayAgainBtn",
+            "=",
+            "84"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M88P6BANWGYDMZQW74HQHEXQ",
+      "type": "BuiltinCommonInstructions::Else",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "PlayAgainBtn",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "PlayAgainBtn",
+            "=",
+            "72"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M88P6BANWGYDMZQW74HQHEXQ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MainMenuBtn",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "MainMenuBtn",
+            "\"255;220;120\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "MainMenuBtn",
+            "=",
+            "84"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M88P6BANWGYDMZQW74HQHEXQ",
+      "type": "BuiltinCommonInstructions::Else",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "MainMenuBtn",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "MainMenuBtn",
+            "=",
+            "72"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M88P6BANWGYDMZQW74HQHEXQ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "VictoryLocked",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "PlayAgainBtn",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "VictoryLocked",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "0",
+            "0",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "await": true,
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.45"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Scene\"",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01M88P6BANWGYDMZQW74HQHEXQ",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "VictoryLocked",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MainMenuBtn",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "VictoryLocked",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "0",
+            "0",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "await": true,
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.45"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Main Menu\"",
+            "no"
           ]
         }
       ]

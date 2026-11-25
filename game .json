@@ -17657,6 +17657,46 @@
         "const bursts = harness.getObjects('exp_drop_burst').length;",
         "harness.assert(coins+exps+bursts>0 || harness.getObjects('goblin').length<4, 'goblin dropped coins/exp (coins='+coins+' exp='+exps+' burst='+bursts+' goblins='+harness.getObjects('goblin').length+')');"
       ]
+    },
+    {
+      "description": "On the victory scene, PLAY AGAIN restarts the Game Scene and MAIN MENU returns to the Main Menu.",
+      "lastRunAt": 1795588687061,
+      "lastRunDurationMs": 16291,
+      "lastRunFramesExecuted": 84,
+      "lastRunStatus": "passed",
+      "name": "Victory scene buttons",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('scene 2');",
+        "await harness.stepFrames(10);",
+        "await harness.takeScreenshot('victory scene');",
+        "",
+        "const play = harness.getObjects('PlayAgainBtn')[0];",
+        "const menu = harness.getObjects('MainMenuBtn')[0];",
+        "harness.assert(!!play && !!menu, 'Victory buttons exist on scene 2');",
+        "",
+        "// hover PLAY AGAIN then click it",
+        "harness.setMousePosition(play.centerX, play.centerY);",
+        "await harness.stepFrames(3);",
+        "harness.setMouseButtonPressed(true);",
+        "await harness.stepFrames(3);",
+        "harness.setMouseButtonPressed(false);",
+        "await harness.stepUntil(() => harness.getSceneName() === 'Game Scene', { maxFrames: 30 });",
+        "harness.assert(harness.getSceneName() === 'Game Scene', 'PLAY AGAIN restarted the Game Scene (current: ' + harness.getSceneName() + ')');",
+        "",
+        "// main menu button",
+        "await harness.goToScene('scene 2');",
+        "await harness.stepFrames(10);",
+        "const menu2 = harness.getObjects('MainMenuBtn')[0];",
+        "harness.setMousePosition(menu2.centerX, menu2.centerY);",
+        "await harness.stepFrames(3);",
+        "await harness.takeScreenshot('hover main menu');",
+        "harness.setMouseButtonPressed(true);",
+        "await harness.stepFrames(3);",
+        "harness.setMouseButtonPressed(false);",
+        "await harness.stepUntil(() => harness.getSceneName() === 'Main Menu', { maxFrames: 30 });",
+        "harness.assert(harness.getSceneName() === 'Main Menu', 'MAIN MENU returned to the main menu (current: ' + harness.getSceneName() + ')');"
+      ]
     }
   ],
   "testsFolderStructure": {
@@ -17694,6 +17734,9 @@
       },
       {
         "itemName": "Goblin drops coins and exp"
+      },
+      {
+        "itemName": "Victory scene buttons"
       }
     ]
   },

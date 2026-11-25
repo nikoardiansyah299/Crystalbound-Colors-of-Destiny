@@ -31817,7 +31817,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M60PM7M5E681DXJAQD63HSMC",
+      "aiGeneratedEventId": "01M88MY4SQNW5Q4KNEJYSEHEJD",
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -31885,7 +31885,6 @@
           "actions": []
         },
         {
-          "aiGeneratedEventId": "01M60PNX78A8RKWM5CCX2HMBFD",
           "type": "BuiltinCommonInstructions::Else",
           "conditions": [
             {
@@ -31971,16 +31970,6 @@
                     "Flippable",
                     "yes"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "fireball",
-                    "Flippable",
-                    "yes"
-                  ]
                 }
               ]
             },
@@ -31997,21 +31986,10 @@
                     "Flippable",
                     "no"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "fireball",
-                    "Flippable",
-                    "no"
-                  ]
                 }
               ]
             },
             {
-              "aiGeneratedEventId": "01M60WWFZ8E8YKDKABBYRMZP93",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32067,13 +32045,22 @@
                     "400",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "fireball",
+                    "=",
+                    "fireball.AngleToObject(Player) + 180"
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "aiGeneratedEventId": "01M60WSA22K6JFP40Z6RJ0JD82",
           "type": "BuiltinCommonInstructions::Else",
           "conditions": [
             {
@@ -32149,54 +32136,46 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "CollisionNP"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "hurtbox",
-                    "demon",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "AttackStage",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"DemonHurt\"",
-                    ">",
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "demon",
-                    "Health",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "hurtbox",
+                "demon",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "AttackStage",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"DemonHurt\"",
+                ">",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "demon",
+                "Health",
+                ""
               ]
             }
           ],
@@ -32264,7 +32243,6 @@
           ],
           "events": [
             {
-              "aiGeneratedEventId": "01M6KDSAHHC37TT6DEW5ZE08KR",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32321,7 +32299,7 @@
                     "Coin",
                     "demon.CenterX() - 20",
                     "demon.CenterY()",
-                    "\"\""
+                    ""
                   ]
                 },
                 {
@@ -32333,7 +32311,7 @@
                     "Coin",
                     "demon.CenterX() + 20",
                     "demon.CenterY()",
-                    "\"\""
+                    ""
                   ]
                 },
                 {
@@ -32408,7 +32386,6 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M7MVH6PV8HAPTJ1E9Y80916K",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32523,7 +32500,6 @@
           ],
           "events": [
             {
-              "aiGeneratedEventId": "01M60Z4E57GTVNE7AHBHNCDBPA",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32546,7 +32522,7 @@
                     "Player",
                     "Animation",
                     "=",
-                    "\"death\""
+                    "\"hurt\""
                   ]
                 },
                 {
@@ -32573,7 +32549,6 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M7MVJPAAFEKSHZF4C13N6S5H",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32680,7 +32655,6 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M60WWFZ8E8YKDKABBYRMZP93",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
