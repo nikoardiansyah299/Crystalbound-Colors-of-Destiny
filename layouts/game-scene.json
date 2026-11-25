@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3325387091250936,
+    "zoomFactor": 0.25504554733544677,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -723,7 +723,7 @@
       "persistentUuid": "b37a2650-e351-42ef-9ba8-7175be26012c",
       "width": 137,
       "x": 5768,
-      "y": 539,
+      "y": 571,
       "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
@@ -943,8 +943,8 @@
       "name": "InteractPrompt",
       "persistentUuid": "d08c4637-a734-421f-8091-4fc511c5cb6d",
       "width": 0,
-      "x": 5807,
-      "y": 665,
+      "x": 5810,
+      "y": 697,
       "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
@@ -3353,7 +3353,7 @@
       "persistentUuid": "6b3116fd-37f9-4030-8935-6b2c4f6dec60",
       "width": 0,
       "x": 5563,
-      "y": -301,
+      "y": -298,
       "zOrder": 275,
       "numberProperties": [],
       "stringProperties": [
@@ -3483,6 +3483,28 @@
       "zOrder": 141,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 837,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tilemaplevel2",
+      "persistentUuid": "36a7e73f-1bb6-4850-a5ca-00427d156c46",
+      "width": 64,
+      "x": 2700,
+      "y": -939,
+      "zOrder": 280,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":1,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[5],[5],[6],[5],[5],[7],[6],[5],[6],[5],[5],[5]]}]}"
+        }
+      ],
       "initialVariables": []
     }
   ],
@@ -28066,6 +28088,7 @@
       "comment": "Level select: teleport the player to the start point chosen in the main menu for levels 2 and 3 (runs before CurrentArea is computed)"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -28177,6 +28200,7 @@
     },
     {
       "aiGeneratedEventId": "01M7HV64HJ1F4Q8880YAEFZMQZ",
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29329,27 +29353,18 @@
       "comment": "NPC Dialog ns"
     },
     {
-      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
-            ">",
-            "npc_ns.X() - 220"
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Player",
-            "<",
-            "npc_ns.X() + 220"
+            "npc_ns",
+            "220",
+            ""
           ]
         },
         {
@@ -29394,7 +29409,7 @@
       "actions": []
     },
     {
-      "aiGeneratedEventId": "01M86TFW7S5RZR86JYNBBD61X9",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29439,22 +29454,13 @@
         },
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
-            ">",
-            "npc_ns.X() - 220"
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Player",
-            "<",
-            "npc_ns.X() + 220"
+            "npc_ns",
+            "220",
+            ""
           ]
         }
       ],
@@ -29883,7 +29889,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Aku Nuru, penambang yang terjebak di sini. Para monster itu mengincar siapa pun yang lewat!\""
+                    "\"Aku Nuru Syahrirramadhan kode 240533605851, penambang yang terjebak di sini.!\""
                   ]
                 }
               ]
@@ -30147,27 +30153,18 @@
       "comment": "NPC Dialog na"
     },
     {
-      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
-            ">",
-            "npc_niko.X() - 220"
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Player",
-            "<",
-            "npc_niko.X() + 220"
+            "npc_niko",
+            "220",
+            ""
           ]
         },
         {
@@ -30212,7 +30209,7 @@
       "actions": []
     },
     {
-      "aiGeneratedEventId": "01M86TFW7S5RZR86JYNBBD61X9",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -30257,22 +30254,13 @@
         },
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
-            ">",
-            "npc_niko.X() - 220"
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Player",
-            "<",
-            "npc_niko.X() + 220"
+            "npc_niko",
+            "220",
+            ""
           ]
         }
       ],
@@ -30673,7 +30661,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Aku Niko, penyihir penjaga menara ini. Segel kerajaan telah pecah... kegelapan bocor ke dunia kita.\""
+                    "\"Aku Niko Ardiansyah kode 240533609358. Segel kerajaan telah pecah... kegelapan bocor ke dunia kita.\""
                   ]
                 }
               ]
@@ -30701,7 +30689,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Desamu jauh di balik gerbang terkutuk itu. Satu-satunya jalan pulang: kalahkan semua monster yang menghalangi!\""
+                    "\"Kumpulkan gem untuk membuka gerbang. Gem dengan warna yang cocok maka gerbang akan terbuka!\""
                   ]
                 }
               ]
@@ -30729,7 +30717,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Setiap kemenangan membuatmu lebih kuat. Kumpulkan exp, naikkan level, dan buka skill rahasiamu!\""
+                    "\"Cobalah crafting gem dengan menekan tombol TAB, kombinasikan warna berdasarkan Teori warna RGB!!\""
                   ]
                 }
               ]
@@ -30768,7 +30756,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Aku tidak akan lari. Demi desaku... aku akan bertarung!\""
+                    "\"Aku mengerti, aku akan mencobanya!\""
                   ]
                 }
               ]
@@ -30807,7 +30795,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Bagus... Itulah semangat ksatria! Maju, dan biarkan sihirmu mengguncang menara ini!\""
+                    "\"Bagus... Semakin sering kamu mencoba kombinasi warna, semakin dekat kamu dengan pintu akhir!\""
                   ]
                 }
               ]
@@ -30909,27 +30897,18 @@
       "comment": "NPC Dialog nn"
     },
     {
-      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
-            ">",
-            "npc_nopal.X() - 220"
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Player",
-            "<",
-            "npc_nopal.X() + 220"
+            "npc_nopal",
+            "220",
+            ""
           ]
         },
         {
@@ -30974,91 +30953,43 @@
       "actions": []
     },
     {
-      "aiGeneratedEventId": "01M86PCP80GPTXCMT3A1DSS51Q",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "inverted": true,
+            "value": "Distance"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Player",
-                "<",
-                "npc_ns.X() - 220"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Player",
-                ">",
-                "npc_ns.X() + 220"
-              ]
-            }
+          "parameters": [
+            "Player",
+            "npc_ns",
+            "220",
+            ""
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "inverted": true,
+            "value": "Distance"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Player",
-                "<",
-                "npc_niko.X() - 220"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Player",
-                ">",
-                "npc_niko.X() + 220"
-              ]
-            }
+          "parameters": [
+            "Player",
+            "npc_niko",
+            "220",
+            ""
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "inverted": true,
+            "value": "Distance"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Player",
-                "<",
-                "npc_nopal.X() - 220"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Player",
-                ">",
-                "npc_nopal.X() + 220"
-              ]
-            }
+          "parameters": [
+            "Player",
+            "npc_nopal",
+            "220",
+            ""
           ]
         }
       ],
@@ -31074,7 +31005,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M86TFW7S5RZR86JYNBBD61X9",
+      "aiGeneratedEventId": "01M88H1KND22G7CTSWTPEDH57W",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -31119,22 +31050,13 @@
         },
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
-            ">",
-            "npc_nopal.X() - 220"
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Player",
-            "<",
-            "npc_nopal.X() + 220"
+            "npc_nopal",
+            "220",
+            ""
           ]
         }
       ],
@@ -31535,7 +31457,7 @@
                     "DialogText",
                     "Text",
                     "=",
-                    "\"Ha! Justru di sinilah ladang cuan! Aku Noval, pedagang paling nekat. Petualang sepertimu butuh ramuanku!\""
+                    "\"Ha! Justru di sinilah ladang cuan! Aku Noval Nur Fadhilah kode 240533603476. Petualang sepertimu butuh ramuanku!\""
                   ]
                 }
               ]
@@ -49917,6 +49839,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "aiGeneratedEventId": "01M88H2HGT25TAS4NW1FB584XJ",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -49931,86 +49854,38 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": true,
+                "value": "Distance"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "<",
-                    "npc_ns.X() - 500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Player",
-                    ">",
-                    "npc_ns.X() + 500"
-                  ]
-                }
+              "parameters": [
+                "Player",
+                "npc_ns",
+                "500",
+                ""
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": true,
+                "value": "Distance"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "<",
-                    "npc_niko.X() - 500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Player",
-                    ">",
-                    "npc_niko.X() + 500"
-                  ]
-                }
+              "parameters": [
+                "Player",
+                "npc_niko",
+                "500",
+                ""
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": true,
+                "value": "Distance"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "<",
-                    "npc_nopal.X() - 500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Player",
-                    ">",
-                    "npc_nopal.X() + 500"
-                  ]
-                }
+              "parameters": [
+                "Player",
+                "npc_nopal",
+                "500",
+                ""
               ]
             }
           ],
