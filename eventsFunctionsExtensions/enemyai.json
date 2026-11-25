@@ -1932,7 +1932,7 @@
                       ]
                     },
                     {
-                      "aiGeneratedEventId": "01M7MYBD7KERZY5VZY9TMCEBGW",
+                      "aiGeneratedEventId": "01M7CD1BAQS53ZVF159GGW095T",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -1991,18 +1991,6 @@
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Target",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "BuiltinCommonInstructions::CompareNumbers"
@@ -2118,7 +2106,7 @@
                   ],
                   "events": [
                     {
-                      "aiGeneratedEventId": "01M7WK5EEGH0YH6S0R2J404BP5",
+                      "aiGeneratedEventId": "01M7J0GC61KF68BVR0EG6GGQN9",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2138,7 +2126,7 @@
                           "parameters": [
                             "abs(Target.CenterY() - Object.CenterY())",
                             "<",
-                            "100"
+                            "450"
                           ]
                         }
                       ],
@@ -2286,7 +2274,7 @@
                               ]
                             },
                             {
-                              "aiGeneratedEventId": "01M7WK5EEGH0YH6S0R2J404BP5",
+                              "aiGeneratedEventId": "01M7CAXWN85J1NAYBQ7P7QNMCX",
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -2297,16 +2285,6 @@
                                     "abs(Target.CenterX() - Object.CenterX())",
                                     "<",
                                     "AttackRange"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                                  },
-                                  "parameters": [
-                                    "abs(Target.CenterY() - Object.CenterY())",
-                                    "<",
-                                    "100"
                                   ]
                                 }
                               ],
@@ -2766,7 +2744,7 @@
                       ]
                     },
                     {
-                      "aiGeneratedEventId": "01M7WK5EEGH0YH6S0R2J404BP5",
+                      "aiGeneratedEventId": "01M7J0GC61KF68BVR0EG6GGQN9",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2786,7 +2764,7 @@
                           "parameters": [
                             "abs(Target.CenterY() - Object.CenterY())",
                             "<",
-                            "100"
+                            "450"
                           ]
                         }
                       ],

@@ -21,7 +21,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
+<<<<<<< HEAD
+    "zoomFactor": 0.2216924727500517,
+=======
     "zoomFactor": 0.31928945896901667,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,6 +34,11 @@
   "variables": [
     {
       "name": "MenuLocked",
+<<<<<<< HEAD
+      "persistentUuid": "a51caab7-e5c3-4916-97fe-47b5d6dfa821",
+      "type": "boolean",
+      "value": false
+=======
       "persistentUuid": "267f21a2-6da9-40f6-907a-d49441d9c741",
       "type": "boolean",
       "value": false
@@ -51,6 +60,7 @@
       "persistentUuid": "c78882b4-b164-4b45-aecd-0e8fa76afc3c",
       "type": "number",
       "value": 0
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
     }
   ],
   "instances": [
@@ -58,6 +68,33 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+<<<<<<< HEAD
+      "height": 1076,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SettingsBG",
+      "persistentUuid": "95afbe48-305a-4d76-9734-ba4f31b5ed30",
+      "width": 1927,
+      "x": -4,
+      "y": -6,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fade",
+      "persistentUuid": "be369228-842d-4111-9e22-5beba4dc7d55",
+      "width": 0,
+      "x": -1,
+      "y": -10,
+      "zOrder": 10,
+=======
       "height": 1112,
       "keepRatio": true,
       "layer": "",
@@ -67,6 +104,7 @@
       "x": -4,
       "y": -16,
       "zOrder": -1,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,6 +116,13 @@
       "keepRatio": true,
       "layer": "",
       "name": "SettingsTitle",
+<<<<<<< HEAD
+      "persistentUuid": "14a70a7e-35d3-4418-8c68-53625d4c8e60",
+      "width": 0,
+      "x": 760,
+      "y": 90,
+      "zOrder": 10,
+=======
       "persistentUuid": "e2328377-ebf3-4e12-b340-72bbce5a33f4",
       "width": 0,
       "x": 765,
@@ -101,6 +146,7 @@
       "x": -8,
       "y": -28,
       "zOrder": 18,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -112,11 +158,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "MusicLabel",
+<<<<<<< HEAD
+      "persistentUuid": "82db9a11-5b8f-4f20-8887-f2812cbb3a56",
+      "width": 0,
+      "x": 850,
+      "y": 260,
+      "zOrder": 10,
+=======
       "persistentUuid": "5ad7d835-d25b-4f80-814f-53626ae7b063",
       "width": 0,
       "x": 893,
       "y": 222,
       "zOrder": 5,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -128,11 +182,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "MusicMinus",
+<<<<<<< HEAD
+      "persistentUuid": "c5541886-95e4-4cb1-b99f-206e90b4ccf2",
+      "width": 0,
+      "x": 700,
+      "y": 350,
+      "zOrder": 10,
+=======
       "persistentUuid": "5cd4a1b9-352f-459a-967e-acd93ac06389",
       "width": 0,
       "x": 740,
       "y": 280,
       "zOrder": 6,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -144,11 +206,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "MusicValue",
+<<<<<<< HEAD
+      "persistentUuid": "6e8d4940-1b16-4e5b-a3ad-896e5d3fd97b",
+      "width": 0,
+      "x": 900,
+      "y": 360,
+      "zOrder": 10,
+=======
       "persistentUuid": "5b4b7d54-57ec-4082-aab6-43b2aaf23297",
       "width": 0,
       "x": 909,
       "y": 285,
       "zOrder": 7,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -160,11 +230,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "MusicPlus",
+<<<<<<< HEAD
+      "persistentUuid": "e4f0b7d2-9cff-49b1-9e40-f9ede81f768f",
+      "width": 0,
+      "x": 1100,
+      "y": 350,
+      "zOrder": 10,
+=======
       "persistentUuid": "c04561ca-f20b-475a-a2d0-c3300cfa5836",
       "width": 0,
       "x": 1151,
       "y": 276,
       "zOrder": 8,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -176,11 +254,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "SoundLabel",
+<<<<<<< HEAD
+      "persistentUuid": "61a1dc3b-760c-4472-a991-ba4d9b670a71",
+      "width": 0,
+      "x": 850,
+      "y": 480,
+      "zOrder": 10,
+=======
       "persistentUuid": "0c78fa4b-c6a8-4f73-8931-ac15d68a440d",
       "width": 0,
       "x": 782,
       "y": 401,
       "zOrder": 9,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -192,10 +278,17 @@
       "keepRatio": true,
       "layer": "",
       "name": "SoundMinus",
+<<<<<<< HEAD
+      "persistentUuid": "bc075d67-d6b2-4ced-895b-511ef420b4f3",
+      "width": 0,
+      "x": 700,
+      "y": 570,
+=======
       "persistentUuid": "82e8b7ae-5818-4faa-879e-3c8d3ab97ff2",
       "width": 0,
       "x": 744,
       "y": 466,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -208,11 +301,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "SoundValue",
+<<<<<<< HEAD
+      "persistentUuid": "8bfdfc47-dabc-4715-a485-55db7ebca635",
+      "width": 0,
+      "x": 880,
+      "y": 580,
+      "zOrder": 10,
+=======
       "persistentUuid": "37b5d862-c029-4d8e-bf26-e5d89b75f399",
       "width": 0,
       "x": 905,
       "y": 471,
       "zOrder": 11,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -224,11 +325,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "SoundPlus",
+<<<<<<< HEAD
+      "persistentUuid": "dd435231-57fe-4968-8990-351f04855c47",
+      "width": 0,
+      "x": 1100,
+      "y": 570,
+      "zOrder": 10,
+=======
       "persistentUuid": "a79ddaef-c5e4-432f-99f3-2a8c64999fab",
       "width": 0,
       "x": 1158,
       "y": 471,
       "zOrder": 12,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -240,11 +349,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "FullscreenLabel",
+<<<<<<< HEAD
+      "persistentUuid": "33cd9e29-8abb-4582-87d6-e9c5e9f3d8a1",
+      "width": 0,
+      "x": 760,
+      "y": 700,
+      "zOrder": 10,
+=======
       "persistentUuid": "d5aef594-e8a3-4484-bff1-809ef1c20030",
       "width": 0,
       "x": 822,
       "y": 620,
       "zOrder": 13,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -256,11 +373,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "FullscreenToggle",
+<<<<<<< HEAD
+      "persistentUuid": "76d87e6d-f127-4e7d-ac34-bb70dd345b8d",
+      "width": 0,
+      "x": 880,
+      "y": 780,
+      "zOrder": 10,
+=======
       "persistentUuid": "cfc73555-0de6-40cb-9ebe-9d69dff117d5",
       "width": 0,
       "x": 916,
       "y": 676,
       "zOrder": 14,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -272,11 +397,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "SettingsBack",
+<<<<<<< HEAD
+      "persistentUuid": "ae5dd63a-bf72-4860-9325-72bdf9669bb8",
+      "width": 0,
+      "x": 880,
+      "y": 900,
+      "zOrder": 10,
+=======
       "persistentUuid": "c00a107d-68b5-4618-b183-c5e14d3d3f5d",
       "width": 0,
       "x": 900,
       "y": 840,
       "zOrder": 15,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -288,11 +421,19 @@
       "keepRatio": true,
       "layer": "",
       "name": "SettingsHint",
+<<<<<<< HEAD
+      "persistentUuid": "6e70022d-709e-4cb5-b74e-d692bb68a612",
+      "width": 0,
+      "x": 600,
+      "y": 1000,
+      "zOrder": 10,
+=======
       "persistentUuid": "b8699cca-f53d-4327-bd38-603db8277462",
       "width": 0,
       "x": 663,
       "y": 1015,
       "zOrder": 16,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -300,6 +441,17 @@
     {
       "angle": 0,
       "customSize": true,
+<<<<<<< HEAD
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SettingsDim",
+      "opacity": 200,
+      "persistentUuid": "6e0366ec-3b8f-46c7-97f6-fbf3c48f29f1",
+      "width": 1920,
+      "x": 0,
+      "y": 4,
+=======
       "depth": 1,
       "height": 1127,
       "keepRatio": true,
@@ -310,6 +462,7 @@
       "width": 1953,
       "x": -11,
       "y": -32,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -321,7 +474,11 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SettingsBG",
+<<<<<<< HEAD
+      "persistentUuid": "30a3d94b-6c31-4792-91cd-5df3555dd769",
+=======
       "persistentUuid": "fb5478a3-e590-4cef-9371-d9b0b20f4062",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -382,7 +539,11 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "33454e7ebbe51f44913847d92c10e31219f1972174a74ae1d54d4662eb109d33",
       "name": "Fade",
+<<<<<<< HEAD
+      "persistentUuid": "5a2fad14-faee-4ecc-9482-344829b2aeb8",
+=======
       "persistentUuid": "da8da45e-d40f-4abb-b61f-18b79e974db1",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -450,7 +611,11 @@
       "bold": true,
       "italic": false,
       "name": "SettingsTitle",
+<<<<<<< HEAD
+      "persistentUuid": "87600111-2545-453e-aa3c-8ae7f4d98435",
+=======
       "persistentUuid": "d2ffd218-6ee5-425e-8f63-8670e53f0569",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -499,7 +664,11 @@
       "bold": true,
       "italic": false,
       "name": "MusicLabel",
+<<<<<<< HEAD
+      "persistentUuid": "fd6f0b6a-b359-4485-999e-e47f55feec36",
+=======
       "persistentUuid": "21174cb2-2e2c-4ff7-a3bf-eccbe86ae126",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -548,7 +717,11 @@
       "bold": true,
       "italic": false,
       "name": "MusicMinus",
+<<<<<<< HEAD
+      "persistentUuid": "74232206-9e5a-4dcc-8d7a-1071797b98a5",
+=======
       "persistentUuid": "0baa2203-8ae9-4bbb-a1c0-9c633e11225a",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -597,7 +770,11 @@
       "bold": true,
       "italic": false,
       "name": "MusicValue",
+<<<<<<< HEAD
+      "persistentUuid": "f12321de-d839-4c7a-8926-ef0b38d9f1d3",
+=======
       "persistentUuid": "0d40a1ec-1776-48a0-b127-6dbc29796898",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -646,7 +823,11 @@
       "bold": true,
       "italic": false,
       "name": "MusicPlus",
+<<<<<<< HEAD
+      "persistentUuid": "0bb9d5b9-14b0-4d2e-8bc8-71d8f134335d",
+=======
       "persistentUuid": "3fa288d7-9f6b-4ef3-8d90-ec6d763e51aa",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -695,7 +876,11 @@
       "bold": true,
       "italic": false,
       "name": "SoundLabel",
+<<<<<<< HEAD
+      "persistentUuid": "8116d76b-5fa8-4421-9299-9af0a8f28fed",
+=======
       "persistentUuid": "4bc122f6-14cd-43ff-97ae-eb39888a7783",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -744,7 +929,11 @@
       "bold": true,
       "italic": false,
       "name": "SoundMinus",
+<<<<<<< HEAD
+      "persistentUuid": "9b94e3ce-bff4-48f4-a63a-653e94ae5409",
+=======
       "persistentUuid": "4f5eed70-09e7-4e35-98a0-48155739677b",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -793,7 +982,11 @@
       "bold": true,
       "italic": false,
       "name": "SoundValue",
+<<<<<<< HEAD
+      "persistentUuid": "d847555e-ca6c-4160-ac60-b601b7d4234f",
+=======
       "persistentUuid": "e3125630-326b-47db-ac42-da95cd3406c6",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -842,7 +1035,11 @@
       "bold": true,
       "italic": false,
       "name": "SoundPlus",
+<<<<<<< HEAD
+      "persistentUuid": "f4a8017c-4e48-47a9-b028-96001c85adbd",
+=======
       "persistentUuid": "ed86c340-0089-4003-b870-a7b6a28d023c",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -891,7 +1088,11 @@
       "bold": true,
       "italic": false,
       "name": "FullscreenLabel",
+<<<<<<< HEAD
+      "persistentUuid": "957cc7f0-2a5a-4319-99bf-bfcb55accd70",
+=======
       "persistentUuid": "0e41b717-1bfe-4166-ac71-319a63977df1",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -940,7 +1141,11 @@
       "bold": true,
       "italic": false,
       "name": "FullscreenToggle",
+<<<<<<< HEAD
+      "persistentUuid": "df52cfb4-5891-4ce6-966a-abc00f2dd438",
+=======
       "persistentUuid": "79351e93-9077-4860-b3b3-6bafbbd9a0a6",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -989,7 +1194,11 @@
       "bold": true,
       "italic": false,
       "name": "SettingsBack",
+<<<<<<< HEAD
+      "persistentUuid": "cc14e1b0-f678-4f0d-8af4-9c92b52a2307",
+=======
       "persistentUuid": "b8406e70-2f33-4456-8b37-98e82e1bacfb",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1038,7 +1247,11 @@
       "bold": true,
       "italic": false,
       "name": "SettingsHint",
+<<<<<<< HEAD
+      "persistentUuid": "4ce128bf-26c4-4773-b30a-4f8a2bfe950f",
+=======
       "persistentUuid": "7c5e216c-f658-41f7-ac79-ae2c527f80ad",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1086,7 +1299,11 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "33454e7ebbe51f44913847d92c10e31219f1972174a74ae1d54d4662eb109d33",
       "name": "SettingsDim",
+<<<<<<< HEAD
+      "persistentUuid": "07fa644b-0b76-4a71-933e-9ef3f78055ef",
+=======
       "persistentUuid": "56034dbc-7823-4d00-8181-62f9ce2518f4",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1205,8 +1422,12 @@
   },
   "events": [
     {
+<<<<<<< HEAD
+      "aiGeneratedEventId": "01M86MV3E7MY1SKYF0V9H3D2YB",
+=======
       "aiGeneratedEventId": "01M846D0KRASNR5MB7MJFKDW3Q",
       "folded": true,
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1376,120 +1597,216 @@
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SettingsTitle",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "SettingsTitle",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicLabel",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "MusicLabel",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicMinus",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "MusicMinus",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicValue",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "MusicValue",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicPlus",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "MusicPlus",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SoundLabel",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "SoundLabel",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SoundMinus",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "SoundMinus",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SoundValue",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "SoundValue",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SoundPlus",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "SoundPlus",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FullscreenLabel",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "FullscreenLabel",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FullscreenToggle",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "FullscreenToggle",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
             },
             {
               "type": {
+<<<<<<< HEAD
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SettingsBack",
+                "Opacity",
+=======
                 "value": "Opacity"
               },
               "parameters": [
                 "SettingsBack",
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
                 "=",
                 "0"
               ]
@@ -2563,11 +2880,14 @@
           ]
         }
       ]
+<<<<<<< HEAD
+=======
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+>>>>>>> 129f237e1667afd616779d6596fa3dba9fe5c246
     }
   ],
   "layers": [

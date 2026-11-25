@@ -136,7 +136,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 84,
-        "lineHeight": 0,
+        "lineHeight": 44,
         "color": "255;255;255"
       }
     },
@@ -180,7 +180,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 36,
-        "lineHeight": 0,
+        "lineHeight": 30,
         "color": "220;220;230"
       }
     },
