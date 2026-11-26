@@ -16992,6 +16992,71 @@
         "name": "assets/idle.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/yellow_open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "yellow_open",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/yellow_open2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "yellow_open2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/yellow_open3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "yellow_open3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/yellow_open4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "yellow_open4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MochiyPopPOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },

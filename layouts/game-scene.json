@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25504554733544677,
+    "zoomFactor": 0.5843784410741265,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -874,8 +874,8 @@
       "name": "npc_nopal",
       "persistentUuid": "90566e6c-ec4e-4360-8450-6d31bbe31e95",
       "width": 0,
-      "x": 9307,
-      "y": 741,
+      "x": 9306,
+      "y": 758,
       "zOrder": 236,
       "numberProperties": [],
       "stringProperties": [],
@@ -921,14 +921,13 @@
       "customSize": true,
       "depth": 1,
       "height": 213,
-      "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "portal_blue2",
       "persistentUuid": "86aa1146-10e6-49ef-a591-86c607b1c598",
       "width": 182,
-      "x": 10844,
-      "y": 702,
+      "x": 10847,
+      "y": 723,
       "zOrder": 264,
       "numberProperties": [],
       "stringProperties": [],
@@ -1191,8 +1190,8 @@
       "name": "Player",
       "persistentUuid": "587a2596-0046-4489-bd30-e57659fd3507",
       "width": 0,
-      "x": -183,
-      "y": 835,
+      "x": -257,
+      "y": 866,
       "zOrder": 190,
       "numberProperties": [],
       "stringProperties": [],
@@ -2290,8 +2289,8 @@
       "name": "bg_far_sky_dusk",
       "persistentUuid": "165f2ee3-ad6c-45f2-8047-0dcccacc2fbf",
       "width": 3717,
-      "x": 7721,
-      "y": -316,
+      "x": 7323,
+      "y": -302,
       "zOrder": 179,
       "numberProperties": [],
       "stringProperties": [],
@@ -2341,8 +2340,8 @@
       "name": "bg_near_city_dusk",
       "persistentUuid": "567ca7fe-1bd0-4be1-8ce2-e582fb9d8ce8",
       "width": 3867,
-      "x": 7186,
-      "y": -52,
+      "x": 7298,
+      "y": -20,
       "zOrder": 182,
       "numberProperties": [],
       "stringProperties": [],
@@ -2358,8 +2357,8 @@
       "name": "ground_city_dusk",
       "persistentUuid": "c6742f2e-edf1-41b3-a908-59ea40a76814",
       "width": 3735,
-      "x": 7346,
-      "y": 913,
+      "x": 7343,
+      "y": 925,
       "zOrder": 183,
       "numberProperties": [],
       "stringProperties": [],
@@ -2552,15 +2551,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 968,
       "keepRatio": true,
       "layer": "",
       "name": "tile_dusk",
       "persistentUuid": "ef4f8838-749b-432e-8c91-7f051d33f02d",
-      "width": 0,
-      "x": 10770,
-      "y": -43,
+      "width": 64,
+      "x": 10773,
+      "y": -303,
       "zOrder": 203,
       "numberProperties": [],
       "stringProperties": [
@@ -2580,8 +2580,8 @@
       "name": "DoorBase",
       "persistentUuid": "15b2d556-86a1-4e9c-bf34-c4ddae508cae",
       "width": 0,
-      "x": 10772,
-      "y": 657,
+      "x": 10774,
+      "y": 667,
       "zOrder": 204,
       "numberProperties": [],
       "stringProperties": [],
@@ -2954,8 +2954,8 @@
       "name": "DoorHint",
       "persistentUuid": "cd82704c-688d-4521-b927-d7024129b4df",
       "width": 0,
-      "x": 10772,
-      "y": 658,
+      "x": 10774,
+      "y": 666,
       "zOrder": 232,
       "numberProperties": [],
       "stringProperties": [],
@@ -3497,6 +3497,46 @@
       "width": 64,
       "x": 2700,
       "y": -939,
+      "zOrder": 280,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":1,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[5],[5],[6],[5],[5],[7],[6],[5],[6],[5],[5],[5]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 47,
+      "hidden": true,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ColorText",
+      "persistentUuid": "9bca38f5-0e7c-42b2-ae5d-28de759ef153",
+      "width": 331,
+      "x": 787,
+      "y": 437,
+      "zOrder": 281,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 837,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tilemaplevel2",
+      "persistentUuid": "c47b945b-f647-447e-9039-9466d077e3f2",
+      "width": 64,
+      "x": -50,
+      "y": -946,
       "zOrder": 280,
       "numberProperties": [],
       "stringProperties": [
@@ -18786,7 +18826,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cyan_open9",
+                  "image": "yellow_open",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18822,7 +18862,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cyan_open10",
+                  "image": "yellow_open2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18858,7 +18898,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cyan_open11",
+                  "image": "yellow_open3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18894,7 +18934,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cyan_open12",
+                  "image": "yellow_open4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -25879,6 +25919,50 @@
         "tileSize": 64,
         "tilesWithHitBox": "16,32,48,64,49,65,50,66,51,67,4,20,36,52,68,5,21,37,53,69,6,22,38,54,70,7,23,39,55,71,8,24,40,56,72,9,25,41,57,73,10,26,42,58,74,11,27,43,59,75,12,28,44,60,76,13,29,45,61,77,14,30,46,62,78,15,31,47,63,79,0,1,2,3,17,18,19,33,35,34"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ColorText",
+      "persistentUuid": "2ced65e7-2039-4933-abaf-4cefc06a2d9b",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "warna",
+      "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 45,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "warna",
+        "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 45,
+        "lineHeight": 47,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -25940,6 +26024,9 @@
       },
       {
         "objectName": "TutorialText"
+      },
+      {
+        "objectName": "ColorText"
       },
       {
         "objectName": "InteractPrompt"
@@ -27954,17 +28041,6 @@
             "",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneInstancesCount"
-          },
-          "parameters": [
-            "",
-            "demon",
-            "=",
-            "0"
           ]
         }
       ],
@@ -30991,6 +31067,30 @@
             "220",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "portal_purple",
+            "220",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "portal_blue",
+            "220",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -32702,34 +32802,10 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Monsters & Portal",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "portal_blue2"
-              ]
-            }
-          ]
-        },
         {
           "aiGeneratedEventId": "01M6KDMEPC97CP76HHK56BY5WH",
           "type": "BuiltinCommonInstructions::Standard",
@@ -32744,33 +32820,6 @@
                 "Text",
                 "=",
                 "ToString(CoinCount)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneInstancesCount"
-              },
-              "parameters": [
-                "",
-                "demon",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "portal_blue2",
-                ""
               ]
             }
           ]
@@ -45463,6 +45512,154 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ActiveDoorId",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        "Text",
+                        "=",
+                        "\"oranye\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ActiveDoorId",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        "Text",
+                        "=",
+                        "\"ungu kebiruan\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ActiveDoorId",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        "Text",
+                        "=",
+                        "\"pink (putih kemerahan)\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ActiveDoorId",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        "Text",
+                        "=",
+                        "\"kuning kehijauan\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ColorText",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -45520,6 +45717,15 @@
                   },
                   "parameters": [
                     "DoorPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColorText",
+                    ""
                   ]
                 }
               ],
@@ -46082,6 +46288,15 @@
                   },
                   "parameters": [
                     "DoorPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColorText",
+                    ""
                   ]
                 }
               ],
@@ -49286,6 +49501,26 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
+                "DialogueOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DoorUIOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
                 "IsTransitioning",
                 "False",
                 ""
@@ -49293,14 +49528,180 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "Distance"
               },
               "parameters": [
                 "Player",
                 "portal_purple",
+                "220",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "InteractPrompt",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "InteractPrompt",
+                "=",
+                "portal_purple.X() + 130",
+                "=",
+                "portal_purple.Y() - 50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentArea",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DialogueOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DoorUIOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsTransitioning",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "portal_blue",
+                "220",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "InteractPrompt",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "InteractPrompt",
+                "=",
+                "portal_blue.X() + 130",
+                "=",
+                "portal_blue.Y() - 50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentArea",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsTransitioning",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DialogueOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DoorUIOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
                 "",
-                "",
-                "yes"
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "portal_purple",
+                "220",
+                ""
               ]
             }
           ],
@@ -49438,14 +49839,42 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DialogueOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DoorUIOpen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
               },
               "parameters": [
                 "Player",
                 "portal_blue",
-                "",
-                "",
-                "yes"
+                "220",
+                ""
               ]
             }
           ],
@@ -50096,7 +50525,7 @@
       "isLocked": false,
       "name": "HUD",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
